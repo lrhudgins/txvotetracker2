@@ -2565,24 +2565,24 @@
     "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
     "source_signature": "b50c9ccd20f12681831678919cfd90247a2552e99267e8542da1c13b09ed3536",
     "fingerprint": "417f0609119aa99485a670f0cb36238521a6a31fd08b6cb3199d2cc014df2967",
-    "fetched_at": "2026-10-20T16:25:40.290612+00:00",
-    "checked_at": "2026-10-20T16:55:22.380392+00:00",
+    "fetched_at": "2026-10-20T17:02:00.061067+00:00",
+    "checked_at": "2026-10-20T17:02:00.061067+00:00",
     "changed_at": "2026-10-20T16:21:26.766641+00:00",
-    "status": "stale",
+    "status": "partial",
     "ingestion_notes": [
       "Used corrected roster 10.05.2026 Ballot by Mail_UPDATED.xlsx instead of the original.",
       "Excluded 10.19.2026 Limited Ballot Roster.xlsx: limited-ballot roster has no VUID/district assignment and is not included in regular turnout.",
       "Travis dates are daily roster report dates, not independently verified individual vote timestamps.",
       "1 voter(s) appeared on different daily reports; counted once using the first report date."
     ],
-    "error": "ModuleNotFoundError: No module named 'openpyxl'"
+    "error": null
   },
   "brazos": {
     "source_id": "brazos",
     "county": "Brazos",
     "source_url": "https://elections.brazoscountytx.gov/roster/",
     "source_signature": "fa4686920a640706c19c3b2d0e334d670af93a59ac3bf16bbcd44e352bcfb004",
-    "checked_at": "2026-10-20T16:55:22.380392+00:00",
+    "checked_at": "2026-10-20T17:02:00.061067+00:00",
     "status": "stale",
     "error": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
   }
