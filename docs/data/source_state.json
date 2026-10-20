@@ -2565,8 +2565,8 @@
     "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
     "source_signature": "1d1fd419e55a45ce593a4894f046d8f626fdd7135932cf2424deecc32e88a5cd",
     "fingerprint": "b5b48613127df6f1fbc5ddde35eab87fe4386ff42157d1dfc4d8d332c208fd21",
-    "fetched_at": "2026-10-20T21:46:36.747046+00:00",
-    "checked_at": "2026-10-20T21:46:36.747046+00:00",
+    "fetched_at": "2026-10-20T21:46:55.622538+00:00",
+    "checked_at": "2026-10-20T21:46:55.622538+00:00",
     "changed_at": "2026-10-20T21:24:41.682568+00:00",
     "status": "partial",
     "ingestion_notes": [
