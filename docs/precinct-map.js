@@ -41,5 +41,6 @@ async function drawMap(rows){
   $('mapnote').textContent=`${geo.features.length} primary-reference precincts assigned to CD-10; ${matched} have populated average scores. Full reference outlines may differ from November boundaries. Scores average only matched early voters with populated scores; match coverage varies by precinct.`;
  }catch(e){$('mapnote').textContent='Precinct map unavailable. Copy docs/data/precincts.geojson from the update package.'}
  const waiting=(scores.diagnostics||[]).filter(r=>r.status==='waiting_for_roster').map(r=>r.county);
- $('scoreerrors').textContent=[...(scores.errors||[]),...(waiting.length?['Waiting for local rosters: '+waiting.join(', ')]:[])].join(' ');
+ const incomplete=(scores.diagnostics||[]).reduce((sum,r)=>sum+(r.incomplete_rows_ignored||0),0);
+ $('scoreerrors').textContent=[...(scores.errors||[]),...(waiting.length?['Waiting for local rosters: '+waiting.join(', ')]:[]),...(incomplete?[`${incomplete} truncated score row(s) skipped. Re-export incomplete input rows to include them.`]:[])].join(' ');
 }

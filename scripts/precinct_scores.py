@@ -1,5 +1,6 @@
 """Match supplied scores to eligible early voters locally; publish aggregates only."""
 import csv
+import io
 import json
 import math
 import re
@@ -13,8 +14,8 @@ POPULATION_VERSION = 'matched-early-voters-v1'
 
 NAME = re.compile(r'(?P<county>[a-z]+(?:-[a-z]+)*)__'
                   r'(?P<asof>\d{4}-\d{2}-\d{2})__'
-                  r'(?:precinct-(?P<precinct>[A-Za-z0-9.-]+)__)?scores'
-                  r'(?:__r(?P<revision>[1-9]\d*))?\.csv$')
+                  r'(?:precinct-(?P<precinct>[A-Za-z0-9.-]+)__)?(?:(?P<scale>dnc)-)?scores'
+                  r'(?:__r(?P<revision>[1-9]\d*))?\.(?:csv|tsv|txt)$')
 
 
 def pct(value):
@@ -26,16 +27,55 @@ def norm(value):
     return re.sub(r'[^a-z0-9]', '', str(value).lower())
 
 
+def open_score_text(path):
+    """VAN Standard Text is commonly UTF-16 TSV despite its .txt suffix."""
+    body = path.read_bytes()
+    if len(body) > 150 * 1024 * 1024:
+        raise ValueError('A score input exceeds the 150 MiB limit.')
+    if body.startswith((b'\xff\xfe', b'\xfe\xff')):
+        encoding = 'utf-16'
+    elif b'\x00' in body[:256]:
+        encoding = 'utf-16-be' if body[:256:2].count(b'\x00') > body[1:256:2].count(b'\x00') else 'utf-16-le'
+    else:
+        encoding = 'utf-8-sig'
+    try:
+        text = body.decode(encoding)
+    except UnicodeError:
+        if encoding != 'utf-8-sig':
+            raise ValueError('Score text encoding is invalid; export UTF-8 or UTF-16.') from None
+        try:
+            text = body.decode('cp1252')
+        except UnicodeError:
+            raise ValueError('Score text encoding is invalid; export UTF-8 or UTF-16.') from None
+    return io.StringIO(text, newline='')
+
+
 def read_file(path, info):
     groups, seen = defaultdict(list), {}
-    empty_rows, unassigned_rows, duplicates = 0, 0, 0
-    with path.open(newline='', encoding='utf-8-sig') as f:
-        reader = csv.DictReader(f)
+    empty_rows, unassigned_rows, duplicates, incomplete_rows = 0, 0, 0, 0
+    dnc = info.get('scale') == 'dnc'
+    with open_score_text(path) as f:
+        first_line = f.readline(); f.seek(0)
+        # Choose using the header, so commas inside street addresses cannot
+        # change the interpretation of an otherwise tab-delimited export.
+        delimiter = '\t' if '\t' in first_line else '|' if '|' in first_line else ';' if ';' in first_line and ',' not in first_line else ','
+        reader = csv.DictReader(f, delimiter=delimiter)
         headers = {norm(h): h for h in (reader.fieldnames or [])}
-        if 'score' not in headers:
-            raise ValueError('Score CSV needs a Score column.')
-        prec_col = next((headers[n] for n in ('prec', 'precinct', 'pct') if n in headers), None)
-        id_cols = [headers[n] for n in ('stid', 'vuid', 'voterid', 'vanid') if n in headers]
+        if len(headers) != len(reader.fieldnames or []):
+            raise ValueError('Score input has duplicate column names.')
+        dnc_fields = [headers[n] for n in ('26demsupport', 'dncdemsupport', 'dncdemocraticsupport', 'dncscore') if n in headers]
+        if dnc:
+            if len(dnc_fields) > 1:
+                raise ValueError('Multiple DNC support fields found; keep one authoritative support column.')
+            score_col = dnc_fields[0] if dnc_fields else headers.get('score')
+            if not score_col:
+                raise ValueError('DNC input needs 26:_Dem_Support, DNC Score, or Score. Turnout/GOTV/education fields are not support scores.')
+        else:
+            score_col = headers.get('score')
+            if not score_col:
+                raise ValueError('Score input needs a Score column. For VAN Democratic support on 0–100, use dnc-scores in the filename.')
+        prec_col = next((headers[n] for n in ('prec', 'precinct', 'pct', 'precinctname') if n in headers), None)
+        id_cols = [headers[n] for n in ('stid', 'vuid', 'voterid', 'vanid', 'voterfilevanid') if n in headers]
         name_cols = {key: next((headers[n] for n in aliases if n in headers), None)
                      for key, aliases in {
                          'first_name': ('first', 'firstname', 'givenname'),
@@ -43,13 +83,18 @@ def read_file(path, info):
                          # In this export, Name is the street name, not a voter.
                          'full_name': ('fullname', 'votername')}.items()}
         for row in reader:
+            if None in row:
+                raise ValueError('Score input has extra fields; check its delimiter and quoting.')
+            if any(v is None for v in row.values()):
+                incomplete_rows += 1
+                continue  # visibly report truncated rows; never fabricate values
             if not any(str(v or '').strip() for v in row.values()):
                 empty_rows += 1
                 continue
             precinct = pct(row.get(prec_col, '')) or info.get('precinct')
             if info.get('precinct') and precinct != info['precinct']:
                 raise ValueError('A Prec value disagrees with the precinct in its filename.')
-            raw = str(row.get(headers['score'], '') or '').strip()
+            raw = str(row.get(score_col, '') or '').strip()
             if not precinct:
                 if raw:
                     raise ValueError('A populated Score needs Prec/Precinct or a precinct in the filename.')
@@ -61,9 +106,12 @@ def read_file(path, info):
                     value = float(raw)
                 except ValueError:
                     raise ValueError('A Score value is not numeric.') from None
-                if not math.isfinite(value) or not -100 <= value <= 100:
-                    raise ValueError('Score values must be finite numbers between -100 and 100.')
-            identifier = next(((('van' if norm(col) == 'vanid' else 'state'), str(row.get(col, '') or '').strip())
+                lower = 0 if dnc else -100
+                if not math.isfinite(value) or not lower <= value <= 100:
+                    raise ValueError('DNC support must be finite and between 0 and 100.' if dnc else 'Score values must be finite numbers between -100 and 100.')
+                if dnc:
+                    value = 2 * value - 100
+            identifier = next(((('van' if norm(col) in {'vanid', 'voterfilevanid'} else 'state'), str(row.get(col, '') or '').strip())
                                for col in id_cols if str(row.get(col, '') or '').strip()), None)
             if identifier:
                 if identifier in seen:
@@ -84,7 +132,10 @@ def read_file(path, info):
     if info.get('precinct') and not groups:
         groups[info['precinct']] = []
     return groups, {'blank_rows_ignored': empty_rows, 'unassigned_blank_scores': unassigned_rows,
-                    'duplicate_rows_ignored': duplicates}
+                    'duplicate_rows_ignored': duplicates,
+                    'incomplete_rows_ignored': incomplete_rows,
+                    'input_scale': 'DNC 0–100' if dnc else 'Native -100–100',
+                    'score_conversion': '2 * score - 100' if dnc else 'none'}
 
 
 def collect(folder, settings):
@@ -92,14 +143,16 @@ def collect(folder, settings):
     allowed = {c.lower().replace(' ', '-'): c for c in settings['full_counties'] + settings['split_counties']}
     by_county = defaultdict(list)
     if folder.exists():
-        for path in sorted(folder.rglob('*.csv')):
+        for path in sorted(folder.rglob('*')):
+            if not path.is_file() or path.suffix.lower() not in {'.csv', '.tsv', '.txt'}:
+                continue
             if any(p.startswith('.') for p in path.relative_to(folder).parts):
                 continue
             if path.is_symlink():
                 raise ValueError('Symlinked score inputs are not supported.')
             match = NAME.fullmatch(path.name)
             if not match or match['county'] not in allowed:
-                raise ValueError('Rename score files: county__YYYY-MM-DD__[precinct-101__]scores[__r2].csv')
+                raise ValueError('Rename score inputs: county__YYYY-MM-DD__[precinct-101__]scores[__r2].csv or county__YYYY-MM-DD__[precinct-101__]dnc-scores[__r2].txt (CSV/TSV also supported).')
             info = match.groupdict()
             date.fromisoformat(info['asof'])
             info.update(county=allowed[info['county']], revision=int(info['revision'] or 1), path=path)
