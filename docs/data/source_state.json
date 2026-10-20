@@ -2565,8 +2565,8 @@
     "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
     "source_signature": "1d1fd419e55a45ce593a4894f046d8f626fdd7135932cf2424deecc32e88a5cd",
     "fingerprint": "b5b48613127df6f1fbc5ddde35eab87fe4386ff42157d1dfc4d8d332c208fd21",
-    "fetched_at": "2026-10-20T23:46:31.642159+00:00",
-    "checked_at": "2026-10-20T23:46:31.642159+00:00",
+    "fetched_at": "2026-10-20T23:51:15.350860+00:00",
+    "checked_at": "2026-10-20T23:51:15.350860+00:00",
     "changed_at": "2026-10-20T22:22:34.010520+00:00",
     "status": "partial",
     "ingestion_notes": [
@@ -3035,8 +3035,8 @@
     "source_url": "https://elections.brazoscountytx.gov/roster/",
     "source_signature": "6679425cad36ad3e5c72406d2f20ab8cc58e6445c4b09c0c56fc5e22a1320511",
     "fingerprint": "9acec359fb6fd0197475e4dee4357892e66c2dc982865b304f4ec251d2f4a3a5",
-    "fetched_at": "2026-10-20T23:46:31.642159+00:00",
-    "checked_at": "2026-10-20T23:46:31.642159+00:00",
+    "fetched_at": "2026-10-20T23:51:15.350860+00:00",
+    "checked_at": "2026-10-20T23:51:15.350860+00:00",
     "changed_at": "2026-10-20T22:29:05.209758+00:00",
     "status": "ok",
     "ingestion_notes": [
