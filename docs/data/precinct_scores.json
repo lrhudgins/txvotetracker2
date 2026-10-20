@@ -1,0 +1,12 @@
+{
+  "updated_at": "2026-10-20T20:49:55.622959+00:00",
+  "scale": [
+    -100,
+    100
+  ],
+  "status": "ok",
+  "population": "Rows supplied in score CSVs; not restricted to voters in the early-vote rosters.",
+  "rows": [],
+  "diagnostics": [],
+  "errors": []
+}
