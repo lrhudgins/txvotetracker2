@@ -19,6 +19,8 @@ def scan(folder, settings):
     counties = {c.lower().replace(' ', '-'): c for c in settings['full_counties'] + settings['split_counties']}
     result, keys = {}, set()
     for path in sorted(folder.rglob('*')):
+        if path.relative_to(folder).parts[0] == 'scores':
+            continue
         if not path.is_file() or any(p.startswith('.') for p in path.relative_to(folder).parts):
             continue
         if path.suffix.lower() not in EXTENSIONS:

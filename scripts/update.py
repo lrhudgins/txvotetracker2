@@ -201,13 +201,15 @@ def parse_document(body, name, source, daily_date=None, depth=0):
         import pdfplumber
         result = []
         with pdfplumber.open(io.BytesIO(body)) as pdf:
-            for page in pdf.pages:
+            for page_index, page in enumerate(pdf.pages):
                 text = page.extract_text() or ''
                 # This adapter is verified against the published Brazos layout:
                 # Selected Election | Name | Vuid | Precinct.
                 if source['adapter'] == 'brazos_index':
-                    if not re.search(r'Vuid\s+Precinct', text, re.I):
+                    if page_index == 0 and not re.search(r'Vuid\s+Precinct', text, re.I):
                         raise ValueError('Brazos PDF header changed or is unreadable; source withheld.')
+                    if not text.strip():
+                        raise ValueError('A Brazos PDF page has no readable text; source withheld.')
                     rows = [{'VUID': m.group(1), 'Precinct': m.group(2)} for m in re.finditer(r'\b(\d{10})\s+(\d+[A-Za-z]?)\s*$', text, re.M)]
                     candidates = len(re.findall(r'\b\d{10}\b', text))
                     if candidates != len(rows):
@@ -578,6 +580,11 @@ def run(root=ROOT, local_files=None, inbox=None):
         writer.writeheader()
         writer.writerows(aggregates)
     write_json(out / 'precinct_counts.json', aggregates)
+    from precinct_scores import publish as publish_scores
+    score_errors = publish_scores(root, inbox if inbox is not None else root / 'inbox', settings, timestamp)
+    for error in score_errors:
+        print('scores: ' + error, file=sys.stderr)
+    errors.extend(score_errors)
     if errors:
         print('One or more sources failed; last successful aggregates are preserved. See dashboard diagnostics.', file=sys.stderr)
         return 1
