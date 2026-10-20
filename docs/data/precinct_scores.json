@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-10-20T21:24:41.682568+00:00",
+  "updated_at": "2026-10-20T21:39:29.159774+00:00",
   "scale": [
     -100,
     100
   ],
-  "status": "ok",
+  "status": "error",
   "population": "Matched CD-10 early voters in the 2026 rosters; scores are supplied, not inferred.",
   "population_version": "matched-early-voters-v1",
   "rows": [],
   "diagnostics": [],
-  "errors": []
+  "errors": [
+    "Rename score files: county__YYYY-MM-DD__[precinct-101__]scores[__r2].csv"
+  ]
 }
