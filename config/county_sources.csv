@@ -1,0 +1,7 @@
+id,county,url,adapter,enabled,default_mode,columns_json,notes
+travis,Travis,https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip,roster,true,auto,{},User supplied archive; actual columns are checked on every run
+brazos,Brazos,https://elections.brazoscountytx.gov/roster/,brazos_index,true,auto,{},Discovers all dated PDF rosters within the 2026 General/Special Election section
+grimes,Grimes,https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D,reference,false,auto,{},Official current-election page; direct machine-readable roster not verified
+burleson,Burleson,https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting,reference,false,auto,{},Official current-election page; current roster download not found
+theo,,https://theoelections.com/early-vote,reference,false,auto,{},Reference only; no verified downloadable feed or district-resident hourly series
+

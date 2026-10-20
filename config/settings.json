@@ -1,0 +1,14 @@
+{
+  "election_date": "2026-11-03",
+  "early_start": "2026-10-19",
+  "early_end": "2026-10-30",
+  "mail_start": "2026-09-01",
+  "timezone": "America/Chicago",
+  "plan": "PLANC2333",
+  "district": 10,
+  "full_counties": ["Brazos", "Burleson", "Grimes", "Houston", "Lee", "Leon", "Madison", "Polk", "San Jacinto", "Trinity"],
+  "split_counties": ["Bastrop", "Travis", "Walker"],
+  "county_coverage_source": "https://data.capitol.texas.gov/dataset/748c952b-e926-4f44-8d01-a738884b3ec8/resource/375d12a2-fc87-43d8-8bc7-1e38a6804da7/download/planc2333_r211_election12g.pdf",
+  "reference_precincts_url": "https://data.capitol.texas.gov/dataset/d04c72b9-16c4-4ab2-8c6d-c666d41e04b7/resource/33ec5b30-ee4d-424f-9769-57b87cb5e311/download/precincts26p.zip",
+  "reference_precincts_vintage": "2026 primary; reference map only, not an authoritative November crosswalk"
+}
