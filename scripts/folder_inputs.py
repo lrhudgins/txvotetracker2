@@ -121,6 +121,9 @@ def read_county(files, source, parse_document, parse_travis_archive):
             for key in ('precinct', 'district', 'vote_date'):
                 if not old[key]:
                     old[key] = row[key]
+            for key in ('first_name', 'last_name', 'full_name'):
+                if not old.get(key):
+                    old[key] = row.get(key, '')
         else:
             unique[row['vuid']] = row
     if not unique:

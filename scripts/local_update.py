@@ -21,6 +21,8 @@ def publish_once(push=False, local=None, inbox=None):
     local = local or {}
     if push:
         git(ROOT, 'rev-parse', '--show-toplevel')
+        if git(ROOT, 'ls-files', '--', 'inbox'):
+            raise RuntimeError('Private inbox files are tracked by Git. Untrack inbox before publishing; .gitignore alone cannot protect already tracked files.')
         if git(ROOT, 'status', '--porcelain'):
             raise RuntimeError('Commit your existing changes before running --push. No files were changed.')
         branch = git(ROOT, 'branch', '--show-current')
@@ -70,7 +72,9 @@ def main():
             parser.error('--from-file requires SOURCE_ID=PATH')
         sid, path = spec.split('=', 1)
         local[sid] = str(Path(path).expanduser().resolve())
-    inbox = args.inbox if args.inbox is not None else Path('inbox') if args.watch else None
+    # Local runs default to the private folder. --from-file retains the legacy
+    # per-source override behavior; other enabled sources may still download.
+    inbox = args.inbox if args.inbox is not None else None if args.from_file else Path('inbox')
     if inbox is not None:
         inbox = (ROOT / inbox).resolve()
         inbox.mkdir(parents=True, exist_ok=True)

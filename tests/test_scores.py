@@ -17,6 +17,7 @@ import folder_inputs
 class ScoreTests(unittest.TestCase):
     def setUp(self):
         self.settings = json.loads((ROOT / 'config/settings.json').read_text())
+        self.voters = {'Travis': [{'vuid':f'100000000{i}', 'precinct':'102' if i == 4 else '101'} for i in range(1,5)]}
 
     def write(self, root, name, rows, headers=('Prec', 'STID', 'Score', 'First')):
         folder = Path(root) / 'inbox/scores'; folder.mkdir(parents=True, exist_ok=True)
@@ -24,7 +25,7 @@ class ScoreTests(unittest.TestCase):
             writer = csv.writer(f); writer.writerow(headers); writer.writerows(rows)
 
     def publish(self, root):
-        errors = scores.publish(Path(root), Path(root) / 'inbox', self.settings, '2026-10-20T12:00:00Z')
+        errors = scores.publish(Path(root), Path(root) / 'inbox', self.settings, '2026-10-20T12:00:00Z', self.voters)
         return errors, json.loads((Path(root) / 'docs/data/precinct_scores.json').read_text())
 
     def test_mean_excludes_blanks_preserves_zero_and_publishes_no_identifiers(self):
@@ -70,6 +71,7 @@ class ScoreTests(unittest.TestCase):
             self.assertEqual(data['rows'][0]['status'], 'missing')
 
     def test_new_countywide_snapshot_removes_old_precinct_and_county_keys_are_distinct(self):
+        self.voters = {'Travis':[{'vuid':'1000000002','precinct':'102'}], 'Brazos':[{'vuid':'1000000003','precinct':'102'}]}
         with tempfile.TemporaryDirectory() as temp:
             self.write(temp, 'travis__2026-10-19__scores.csv', [['101','1000000001','30','']])
             self.write(temp, 'travis__2026-10-20__scores.csv', [['102','1000000002','40','']])

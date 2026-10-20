@@ -21,6 +21,9 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 MAX_BYTES = 150 * 1024 * 1024
 ALIASES = {
+    'first_name': ['first name', 'firstname', 'first', 'given name'],
+    'last_name': ['last name', 'lastname', 'last', 'surname'],
+    'full_name': ['voter name', 'full name', 'name'],
     'vuid': ['vuid', 'voter unique identifier', 'voter id', 'voterid', 'certificate number', 'cert num', 'cert', 'registration number'],
     'precinct': ['precinct', 'prec', 'pct', 'precinct number', 'precinct no', 'voter precinct', 'registration precinct'],
     'district': ['congressional district', 'congressional', 'congress', 'cong', 'cd', 'us congress', 'us congressional district', 'planc2333'],
@@ -138,6 +141,8 @@ def standardize(rows, headers, source, context, fallback_date=None):
         else:
             district = None
         records.append({'vuid': uid, 'precinct': precinct(row.get(cols.get('precinct', ''), '')),
+                        **{k: str(row.get(cols.get(k, ''), '') or '').strip()
+                           for k in ('first_name', 'last_name', 'full_name')},
                         'district': district, 'mode': method,
                         'date_basis': 'vote_date' if row.get(cols.get('date', ''), '') else 'report_date' if fallback_date else 'unknown',
                         'vote_date': parse_date(row.get(cols.get('date', ''), '')) or fallback_date})
@@ -210,11 +215,22 @@ def parse_document(body, name, source, daily_date=None, depth=0):
                         raise ValueError('Brazos PDF header changed or is unreadable; source withheld.')
                     if not text.strip():
                         raise ValueError('A Brazos PDF page has no readable text; source withheld.')
-                    rows = [{'VUID': m.group(1), 'Precinct': m.group(2)} for m in re.finditer(r'\b(\d{10})\s+(\d+[A-Za-z]?)\s*$', text, re.M)]
+                    rows = []
+                    for line in text.splitlines():
+                        m = re.search(r'\b(\d{10})\s+(\d+[A-Za-z]?)\s*$', line)
+                        if not m:
+                            continue
+                        # Keep names in memory only. The verified election prefix
+                        # is separate from the Name column; unknown layouts keep
+                        # ID matching available without guessing a person's name.
+                        prefix = line[:m.start()].strip()
+                        name_match = re.fullmatch(r'2026\s+GENERAL/SPECIAL\s+(.+)', prefix, re.I)
+                        rows.append({'VUID': m.group(1), 'Precinct': m.group(2),
+                                     'Voter Name': name_match.group(1) if name_match else ''})
                     candidates = len(re.findall(r'\b\d{10}\b', text))
                     if candidates != len(rows):
                         raise ValueError('Brazos PDF row count does not reconcile to its VUIDs; source withheld.')
-                    result.extend(standardize(rows, ['VUID', 'Precinct'], source, name, daily_date))
+                    result.extend(standardize(rows, ['VUID', 'Precinct', 'Voter Name'], source, name, daily_date))
                 else:
                     matched = False
                     for table in page.extract_tables():
@@ -406,7 +422,7 @@ def load_crosswalk(path, election):
     return mapping
 
 
-def aggregate(records, source, settings, crosswalk, today):
+def aggregate(records, source, settings, crosswalk, today, eligible_records=None):
     unique = {}
     excluded_period = 0
     for row in records:
@@ -430,6 +446,9 @@ def aggregate(records, source, settings, crosswalk, today):
                     raise ValueError('Duplicate voter records conflict; resolve the roster overlap before publishing.')
                 if not old[field]:
                     old[field] = row[field]
+            for field in ('first_name', 'last_name', 'full_name'):
+                if not old.get(field):
+                    old[field] = row.get(field, '')
         else:
             unique[row['vuid']] = dict(row)
     counts, unknown, outside, provisional = Counter(), 0, 0, 0
@@ -450,6 +469,8 @@ def aggregate(records, source, settings, crosswalk, today):
         if district != settings['district']:
             outside += 1
             continue
+        if eligible_records is not None:
+            eligible_records.append(dict(row))
         counts[row['precinct'], row['mode'], row['vote_date'] or 'undated'] += 1
         if row['vote_date']:
             dates.append(row['vote_date'])
@@ -502,7 +523,7 @@ def run(root=ROOT, local_files=None, inbox=None):
     if len({s['county'] for s in active}) != len(active):
         raise ValueError('Use one active row per county. Join multiple roster URLs in that row with | to deduplicate them together.')
     crosswalk = load_crosswalk(root / 'config/precinct_crosswalk.csv', settings['election_date'])
-    state, errors = {}, []
+    state, errors, voted_by_county, failed_counties = {}, [], {}, set()
     for source in active:
         sid = source['id']
         if source['county'] not in allowed or source['adapter'] not in {'roster', 'brazos_index'}:
@@ -518,7 +539,9 @@ def run(root=ROOT, local_files=None, inbox=None):
             if local_files and sid in local_files:
                 ingest_source['_local_path'] = local_files[sid]
             records, fingerprint, ingestion_notes = get_records(ingest_source)
-            result = aggregate(records, source, settings, crosswalk, today)
+            eligible = []
+            result = aggregate(records, source, settings, crosswalk, today, eligible_records=eligible)
+            voted_by_county[source['county']] = eligible
             state[sid] = dict(result, source_id=sid, source_url=source['url'], source_signature=signature,
                              fingerprint=fingerprint, fetched_at=timestamp, checked_at=timestamp,
                              changed_at=old.get('changed_at', timestamp) if old.get('fingerprint') == fingerprint else timestamp,
@@ -526,6 +549,7 @@ def run(root=ROOT, local_files=None, inbox=None):
                              ingestion_notes=ingestion_notes, error=None)
             print(f"{sid}: {result['total']} assigned to CD-10; {result['unknown_district']} unresolved")
         except Exception as exc:
+            failed_counties.add(source['county'])
             # Exception messages are controlled diagnostics, not voter row dumps.
             error = f'{type(exc).__name__}: {exc}'
             errors.append(f'{sid}: {error}')
@@ -581,7 +605,8 @@ def run(root=ROOT, local_files=None, inbox=None):
         writer.writerows(aggregates)
     write_json(out / 'precinct_counts.json', aggregates)
     from precinct_scores import publish as publish_scores
-    score_errors = publish_scores(root, inbox if inbox is not None else root / 'inbox', settings, timestamp)
+    score_errors = publish_scores(root, inbox if inbox is not None else root / 'inbox', settings, timestamp,
+                                 voted_by_county=voted_by_county, failed_counties=failed_counties)
     for error in score_errors:
         print('scores: ' + error, file=sys.stderr)
     errors.extend(score_errors)

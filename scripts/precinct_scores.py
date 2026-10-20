@@ -1,4 +1,4 @@
-"""Aggregate supplied Score values; never infer scores or export voter-level data."""
+"""Match supplied scores to eligible early voters locally; publish aggregates only."""
 import csv
 import json
 import math
@@ -6,6 +6,10 @@ import re
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
+from voter_matching import match_precincts
+
+POPULATION = 'Matched CD-10 early voters in the 2026 rosters; scores are supplied, not inferred.'
+POPULATION_VERSION = 'matched-early-voters-v1'
 
 NAME = re.compile(r'(?P<county>[a-z]+(?:-[a-z]+)*)__'
                   r'(?P<asof>\d{4}-\d{2}-\d{2})__'
@@ -32,6 +36,12 @@ def read_file(path, info):
             raise ValueError('Score CSV needs a Score column.')
         prec_col = next((headers[n] for n in ('prec', 'precinct', 'pct') if n in headers), None)
         id_cols = [headers[n] for n in ('stid', 'vuid', 'voterid', 'vanid') if n in headers]
+        name_cols = {key: next((headers[n] for n in aliases if n in headers), None)
+                     for key, aliases in {
+                         'first_name': ('first', 'firstname', 'givenname'),
+                         'last_name': ('last', 'lastname', 'surname'),
+                         # In this export, Name is the street name, not a voter.
+                         'full_name': ('fullname', 'votername')}.items()}
         for row in reader:
             if not any(str(v or '').strip() for v in row.values()):
                 empty_rows += 1
@@ -62,7 +72,15 @@ def read_file(path, info):
                     duplicates += 1
                     continue
                 seen[identifier] = precinct, value
-            groups[precinct].append(value)
+            vuid = identifier[1] if identifier and identifier[0] == 'state' else ''
+            vuid = re.sub(r'\.0$', '', vuid)
+            if vuid and not re.fullmatch(r'\d{10}', vuid):
+                raise ValueError('STID/VUID must be a ten-digit Texas state voter ID; VanId is a separate identifier.')
+            person = {'precinct': precinct, 'score': value, 'vuid': vuid,
+                      **{k: str(row.get(col, '') or '').strip() for k, col in name_cols.items()}}
+            if value is not None and not (vuid or (person['first_name'] and person['last_name']) or person['full_name']):
+                raise ValueError('A populated Score needs STID/VUID or First and Last name columns.')
+            groups[precinct].append(person)
     if info.get('precinct') and not groups:
         groups[info['precinct']] = []
     return groups, {'blank_rows_ignored': empty_rows, 'unassigned_blank_scores': unassigned_rows,
@@ -91,9 +109,13 @@ def collect(folder, settings):
     return by_county
 
 
-def publish(root, inbox, settings, updated_at):
+def publish(root, inbox, settings, updated_at, voted_by_county=None, failed_counties=None):
     output = Path(root) / 'docs/data/precinct_scores.json'
     previous = json.loads(output.read_text()) if output.exists() else {'rows': []}
+    # Old all-uploaded-voter means must never masquerade as early-voter means.
+    prior_rows = previous.get('rows', []) if previous.get('population_version') == POPULATION_VERSION else []
+    voted_by_county = voted_by_county or {}
+    failed_counties = failed_counties or set()
     errors, results, reports = [], [], []
     try:
         by_county = collect(Path(inbox) / 'scores', settings)
@@ -101,10 +123,12 @@ def publish(root, inbox, settings, updated_at):
         by_county = None
         errors.append(str(exc))
     if by_county is None:
-        results = [dict(row, status='stale') for row in previous.get('rows', [])]
+        results = [dict(row, status='stale') for row in prior_rows]
     else:
         for county, files in by_county.items():
             try:
+                if county in failed_counties:
+                    raise ValueError('Roster import failed; matched scores cannot be refreshed.')
                 broad = [i for i in files if not i['precinct']]
                 baseline = max(broad, key=lambda i: (i['asof'], i['revision'])) if broad else None
                 if baseline and sum((i['asof'], i['revision']) == (baseline['asof'], baseline['revision']) for i in broad) > 1:
@@ -132,24 +156,44 @@ def publish(root, inbox, settings, updated_at):
                         if old and old[0] > version:
                             continue
                         selected[precinct] = version, values, info
-                    reports.append(dict(county=county, file=info['path'].name, **report))
-                for precinct, (version, values, info) in sorted(selected.items()):
+                    reports.append(dict(county=county, **report))
+                score_rows, seen_ids = [], {}
+                for version, values, info in selected.values():
+                    for person in values:
+                        uid = person['vuid']
+                        if uid and uid in seen_ids:
+                            old = seen_ids[uid]
+                            if (old['score'], old['precinct']) != (person['score'], person['precinct']):
+                                raise ValueError('A state voter ID appears in selected score files with conflicting precincts or scores.')
+                            continue
+                        score_rows.append(person)
+                        if uid:
+                            seen_ids[uid] = person
+                if county not in voted_by_county:
+                    reports.append({'county': county, 'status': 'waiting_for_roster', 'score_records': len(score_rows)})
+                    continue
+                matched = match_precincts(voted_by_county[county], score_rows)
+                for precinct, group in sorted(matched.items()):
+                    values = group.pop('values')
                     numeric = [v for v in values if v is not None]
+                    asof = selected[precinct][2]['asof'] if precinct in selected else max(i['asof'] for i in files)
                     results.append({'county': county, 'precinct': precinct,
                                     'mean_score': round(math.fsum(numeric) / len(numeric), 6) if numeric else None,
                                     'scored_count': len(numeric), 'missing_score_count': len(values) - len(numeric),
-                                    'as_of': info['asof'], 'status': 'ok' if numeric else 'missing'})
+                                    **group, 'as_of': asof, 'status': 'ok' if numeric else 'missing'})
             except (ValueError, OSError, csv.Error) as exc:
                 errors.append(f'{county}: {exc}')
-                results.extend(dict(row, status='stale') for row in previous.get('rows', []) if row['county'] == county)
+                results.extend(dict(row, status='stale') for row in prior_rows if row['county'] == county)
     payload = {'updated_at': updated_at, 'scale': [-100, 100], 'status': 'error' if errors else 'ok',
-               'population': 'Rows supplied in score CSVs; not restricted to voters in the early-vote rosters.',
+               'population': POPULATION, 'population_version': POPULATION_VERSION,
                'rows': results, 'diagnostics': reports, 'errors': errors}
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, indent=2, allow_nan=False) + '\n')
     csv_path = output.with_suffix('.csv')
     with csv_path.open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['county', 'precinct', 'mean_score', 'scored_count', 'missing_score_count', 'as_of', 'status'])
+        writer = csv.DictWriter(f, fieldnames=['county', 'precinct', 'mean_score', 'scored_count', 'missing_score_count',
+                                             'early_voter_count', 'matched_count', 'id_match_count', 'name_match_count',
+                                             'unmatched_count', 'ambiguous_count', 'identifier_conflict_count', 'as_of', 'status'])
         writer.writeheader()
         writer.writerows(results)
     return errors

@@ -34,11 +34,12 @@ async function drawMap(rows){
     const p=feature.properties,key=p.county+'|'+pct(p.precinct),s=scoreByKey.get(key),n=counts.get(key);
     if(s&&typeof s.mean_score==='number')matched++;
     const mean=s&&typeof s.mean_score==='number'?s.mean_score.toFixed(2):'Missing';
-    layer.bindPopup(`<strong>${escape(p.county)} · Precinct ${escape(p.precinct)}</strong><br>Average uploaded score: ${mean}<br>Rows with scores: ${fmt(s?.scored_count)}<br>Rows missing scores: ${fmt(s?.missing_score_count)}<br>Score as of: ${escape(s?.as_of||'Unavailable')}${s?.status==='stale'?'<br><strong>Score data is stale; check diagnostics.</strong>':''}<br>Reported early voters: ${fmt(n)}<br><small>Score averages use supplied CSV rows; they are not restricted to early voters.<br>2026 primary outline; November continuity is unverified.</small>`);
+    layer.bindPopup(`<strong>${escape(p.county)} · Precinct ${escape(p.precinct)}</strong><br>Average early-voter score: ${mean}<br>Matched early voters with scores: ${fmt(s?.scored_count)}<br>Matched early voters missing scores: ${fmt(s?.missing_score_count)}<br>Matched by ID: ${fmt(s?.id_match_count)} · by name: ${fmt(s?.name_match_count)}<br>Unmatched: ${fmt(s?.unmatched_count)} · ambiguous: ${fmt(s?.ambiguous_count)} · conflicting ID: ${fmt(s?.identifier_conflict_count)}<br>Score as of: ${escape(s?.as_of||'Unavailable')}${s?.status==='stale'?'<br><strong>Score data is stale; check diagnostics.</strong>':''}<br>Reported early voters: ${fmt(n)}<br><small>Scores describe matched early voters only. Unmatched voters are excluded, not assigned zero.<br>2026 primary outline; November continuity is unverified.</small>`);
    }
   }).addTo(precinctMap);
   precinctLayers.push(layer);if(border)border.bringToFront();
-  $('mapnote').textContent=`${geo.features.length} primary-reference precincts assigned to CD-10; ${matched} have populated average scores. Full reference outlines may differ from November boundaries. Score averages and early-vote counts describe different supplied data.`;
+  $('mapnote').textContent=`${geo.features.length} primary-reference precincts assigned to CD-10; ${matched} have populated average scores. Full reference outlines may differ from November boundaries. Scores average only matched early voters with populated scores; match coverage varies by precinct.`;
  }catch(e){$('mapnote').textContent='Precinct map unavailable. Copy docs/data/precincts.geojson from the update package.'}
- $('scoreerrors').textContent=(scores.errors||[]).length?'Score import error: '+scores.errors.join(' '):'';
+ const waiting=(scores.diagnostics||[]).filter(r=>r.status==='waiting_for_roster').map(r=>r.county);
+ $('scoreerrors').textContent=[...(scores.errors||[]),...(waiting.length?['Waiting for local rosters: '+waiting.join(', ')]:[])].join(' ');
 }
