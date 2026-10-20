@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-10-20T20:59:11.950966+00:00",
+  "updated_at": "2026-10-20T21:24:41.682568+00:00",
   "scale": [
     -100,
     100
   ],
   "status": "ok",
-  "population": "Rows supplied in score CSVs; not restricted to voters in the early-vote rosters.",
+  "population": "Matched CD-10 early voters in the 2026 rosters; scores are supplied, not inferred.",
+  "population_version": "matched-early-voters-v1",
   "rows": [],
   "diagnostics": [],
   "errors": []

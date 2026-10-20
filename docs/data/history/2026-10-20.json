@@ -2,12 +2,12 @@
   "election_date": "2026-11-03",
   "district": 10,
   "plan": "PLANC2333",
-  "provisional_assigned": 0,
-  "updated_at": "2026-10-20T20:59:11.950966+00:00",
+  "provisional_assigned": 11346,
+  "updated_at": "2026-10-20T21:24:41.682568+00:00",
   "snapshot_date": "2026-10-20",
   "complete": false,
-  "reported_subtotal": null,
-  "counties_reporting": 0,
+  "reported_subtotal": 11346,
+  "counties_reporting": 1,
   "counties_expected": 13,
   "counties": [
     {
@@ -200,19 +200,22 @@
     {
       "county": "Travis",
       "scope": "CD-10 residents only",
-      "total": null,
-      "in_person": null,
-      "mail": null,
-      "status": "missing",
+      "total": 11346,
+      "in_person": 10026,
+      "mail": 1320,
+      "status": "partial",
       "unknown_district": 0,
-      "latest_vote_date": null,
+      "latest_vote_date": "2026-10-19",
       "undated": 0,
-      "fetched_at": null,
-      "changed_at": null,
-      "source_url": null,
+      "fetched_at": "2026-10-20T21:24:41.682568+00:00",
+      "changed_at": "2026-10-20T21:24:41.682568+00:00",
+      "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
       "error": null,
-      "ingestion_notes": [],
-      "provisional_assigned": 0
+      "ingestion_notes": [
+        "1 repeated voter(s) counted once at their earliest daily report date.",
+        "Folder import: 17 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      ],
+      "provisional_assigned": 11346
     },
     {
       "county": "Walker",
@@ -238,15 +241,15 @@
       "county": "Travis",
       "url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
       "adapter": "roster",
-      "enabled": "FALSE",
-      "notes": "User supplied archive; actual columns are checked on every run"
+      "enabled": "true",
+      "notes": "Local folder import; automated county downloads are disabled in folder mode."
     },
     {
       "id": "brazos",
       "county": "Brazos",
       "url": "https://elections.brazoscountytx.gov/roster/",
       "adapter": "brazos_index",
-      "enabled": "FALSE",
+      "enabled": "false",
       "notes": "Discovers all dated PDF rosters within the 2026 General/Special Election section"
     },
     {
@@ -254,7 +257,7 @@
       "county": "Grimes",
       "url": "https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D",
       "adapter": "reference",
-      "enabled": "FALSE",
+      "enabled": "false",
       "notes": "Official current-election page; direct machine-readable roster not verified"
     },
     {
@@ -262,7 +265,7 @@
       "county": "Burleson",
       "url": "https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting",
       "adapter": "reference",
-      "enabled": "FALSE",
+      "enabled": "false",
       "notes": "Official current-election page; current roster download not found"
     },
     {
@@ -270,7 +273,7 @@
       "county": "",
       "url": "https://theoelections.com/early-vote",
       "adapter": "reference",
-      "enabled": "FALSE",
+      "enabled": "false",
       "notes": "Reference only; no verified downloadable feed or district-resident hourly series"
     }
   ],
