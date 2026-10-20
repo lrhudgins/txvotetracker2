@@ -55,6 +55,18 @@ class VanScoreTests(unittest.TestCase):
             p=self.write(temp,[['900001','Synthetic','One','140','50','88','77']])
             with self.assertRaisesRegex(ValueError,'dnc-scores'):scores.read_file(p,{'scale':None})
 
+    def test_one_unidentifiable_scored_row_does_not_reject_valid_van_rows(self):
+        with tempfile.TemporaryDirectory() as temp:
+            p=self.write(temp,[['900001','Synthetic','One','0069','91.61','88','77'],
+                               ['900002','','','0069','50','88','77'],
+                               ['900002','Synthetic','Two','0069','50','88','77']])
+            groups,report=scores.read_file(p,{'scale':'dnc'})
+            self.assertEqual(len(groups['69']),2)
+            self.assertAlmostEqual(groups['69'][0]['score'],83.22)
+            self.assertEqual(report['unidentifiable_rows_ignored'],1)
+            # VAN ID must not be mistaken for a state ID when names are absent.
+            self.assertEqual(groups['69'][0]['vuid'],'')
+
     def test_truncated_rows_are_skipped_reported_and_never_scored(self):
         with tempfile.TemporaryDirectory() as temp:
             p=self.write(temp,[['900001','Synthetic','One','140','75','88','77'],['900002','Synthetic','Two','140']])

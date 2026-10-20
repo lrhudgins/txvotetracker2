@@ -52,7 +52,7 @@ def open_score_text(path):
 
 def read_file(path, info):
     groups, seen = defaultdict(list), {}
-    empty_rows, unassigned_rows, duplicates, incomplete_rows = 0, 0, 0, 0
+    empty_rows, unassigned_rows, duplicates, incomplete_rows, unidentifiable_rows = 0, 0, 0, 0, 0
     dnc = info.get('scale') == 'dnc'
     with open_score_text(path) as f:
         first_line = f.readline(); f.seek(0)
@@ -82,6 +82,9 @@ def read_file(path, info):
                          'last_name': ('last', 'lastname', 'surname'),
                          # In this export, Name is the street name, not a voter.
                          'full_name': ('fullname', 'votername')}.items()}
+        if not (any(norm(c) not in {'vanid', 'voterfilevanid'} for c in id_cols)
+                or (name_cols['first_name'] and name_cols['last_name']) or name_cols['full_name']):
+            raise ValueError('Score input needs STID/VUID or FirstName and LastName columns; VAN ID alone cannot match county rosters.')
         for row in reader:
             if None in row:
                 raise ValueError('Score input has extra fields; check its delimiter and quoting.')
@@ -113,13 +116,6 @@ def read_file(path, info):
                     value = 2 * value - 100
             identifier = next(((('van' if norm(col) in {'vanid', 'voterfilevanid'} else 'state'), str(row.get(col, '') or '').strip())
                                for col in id_cols if str(row.get(col, '') or '').strip()), None)
-            if identifier:
-                if identifier in seen:
-                    if seen[identifier] != (precinct, value):
-                        raise ValueError('A duplicate voter identifier has conflicting precincts or scores.')
-                    duplicates += 1
-                    continue
-                seen[identifier] = precinct, value
             vuid = identifier[1] if identifier and identifier[0] == 'state' else ''
             vuid = re.sub(r'\.0$', '', vuid)
             if vuid and not re.fullmatch(r'\d{10}', vuid):
@@ -129,13 +125,22 @@ def read_file(path, info):
                                      if norm(col) in {'vanid', 'voterfilevanid'} and str(row.get(col, '') or '').strip()), ''),
                       **{k: str(row.get(col, '') or '').strip() for k, col in name_cols.items()}}
             if value is not None and not (vuid or (person['first_name'] and person['last_name']) or person['full_name']):
-                raise ValueError('A populated Score needs STID/VUID or First and Last name columns.')
+                unidentifiable_rows += 1
+                continue  # a VAN ID cannot substitute for a state voter ID
+            if identifier:
+                if identifier in seen:
+                    if seen[identifier] != (precinct, value):
+                        raise ValueError('A duplicate voter identifier has conflicting precincts or scores.')
+                    duplicates += 1
+                    continue
+                seen[identifier] = precinct, value
             groups[precinct].append(person)
     if info.get('precinct') and not groups:
         groups[info['precinct']] = []
     return groups, {'blank_rows_ignored': empty_rows, 'unassigned_blank_scores': unassigned_rows,
                     'duplicate_rows_ignored': duplicates,
                     'incomplete_rows_ignored': incomplete_rows,
+                    'unidentifiable_rows_ignored': unidentifiable_rows,
                     'input_scale': 'DNC 0–100' if dnc else 'Native -100–100',
                     'score_conversion': '2 * score - 100' if dnc else 'none'}
 

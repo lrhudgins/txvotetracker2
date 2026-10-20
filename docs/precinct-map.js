@@ -42,5 +42,6 @@ async function drawMap(rows){
  }catch(e){$('mapnote').textContent='Precinct map unavailable. Copy docs/data/precincts.geojson from the update package.'}
  const waiting=(scores.diagnostics||[]).filter(r=>r.status==='waiting_for_roster').map(r=>r.county);
  const incomplete=(scores.diagnostics||[]).reduce((sum,r)=>sum+(r.incomplete_rows_ignored||0),0);
- $('scoreerrors').textContent=[...(scores.errors||[]),...(waiting.length?['Waiting for local rosters: '+waiting.join(', ')]:[]),...(incomplete?[`${incomplete} truncated score row(s) skipped. Re-export incomplete input rows to include them.`]:[])].join(' ');
+ const unidentified=(scores.diagnostics||[]).reduce((sum,r)=>sum+(r.unidentifiable_rows_ignored||0),0);
+ $('scoreerrors').textContent=[...(scores.errors||[]),...(waiting.length?['Waiting for local rosters: '+waiting.join(', ')]:[]),...(incomplete?[`${incomplete} truncated score row(s) skipped. Re-export incomplete input rows to include them.`]:[]),...(unidentified?[`${unidentified} scored row(s) skipped: missing state voter ID and usable first/last names. VAN ID alone cannot match county rosters.`]:[])].join(' ');
 }

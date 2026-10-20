@@ -18,8 +18,8 @@
 <footer>Scores come from supplied voter lists; they do not reveal ballot choices. Public output contains aggregate counts and averages only. Local uploads refresh the aggregates; GitHub Pages publishes the dashboard.</footer>
 </main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="map-colors.js?v=van-scores-1"></script>
-<script src="precinct-map.js?v=van-scores-1"></script>
+<script src="map-colors.js?v=van-row-fix-1"></script>
+<script src="precinct-map.js?v=van-row-fix-1"></script>
 <script>
 const $=id=>document.getElementById(id), fmt=v=>v===null||v===undefined?'—':Number(v).toLocaleString('en-US');
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
