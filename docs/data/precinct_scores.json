@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-20T23:34:28.727734+00:00",
+  "updated_at": "2026-10-20T23:35:08.333401+00:00",
   "scale": [
     -100,
     100
   ],
-  "status": "error",
+  "status": "ok",
   "population": "Matched CD-10 early voters in the 2026 rosters; scores are supplied, not inferred.",
   "population_version": "matched-early-voters-v1",
   "rows": [
@@ -22,7 +22,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -38,7 +38,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -54,7 +54,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -70,7 +70,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -86,7 +86,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -102,7 +102,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -118,7 +118,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -134,7 +134,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -150,7 +150,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -166,7 +166,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -182,7 +182,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -198,7 +198,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -214,7 +214,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -230,7 +230,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -246,7 +246,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -262,7 +262,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -278,7 +278,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -294,7 +294,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -310,7 +310,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -326,7 +326,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -342,7 +342,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -358,7 +358,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -374,7 +374,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -390,7 +390,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -406,7 +406,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -422,7 +422,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -438,7 +438,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -454,7 +454,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -470,7 +470,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -486,7 +486,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -502,7 +502,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -518,7 +518,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -534,7 +534,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -550,7 +550,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -566,7 +566,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -582,7 +582,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -598,7 +598,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -614,7 +614,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -630,7 +630,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -646,7 +646,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -662,7 +662,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -678,7 +678,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -694,7 +694,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -710,7 +710,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -726,7 +726,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -742,7 +742,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -758,7 +758,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -774,7 +774,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -790,7 +790,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -806,7 +806,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -822,7 +822,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -838,7 +838,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -854,7 +854,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -870,7 +870,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -886,7 +886,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -902,7 +902,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -918,7 +918,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -934,7 +934,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -950,7 +950,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -966,7 +966,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -982,7 +982,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -998,7 +998,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -1014,7 +1014,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -1030,7 +1030,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -1046,7 +1046,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -1062,7 +1062,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -1078,7 +1078,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -1094,7 +1094,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -1110,7 +1110,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -1126,7 +1126,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "county": "Travis",
@@ -1142,7 +1142,7 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "missing"
     },
     {
       "county": "Travis",
@@ -1158,11 +1158,933 @@
       "ambiguous_count": 0,
       "identifier_conflict_count": 0,
       "as_of": "2026-10-19",
-      "status": "stale"
+      "status": "ok"
     }
   ],
-  "diagnostics": [],
-  "errors": [
-    "Rename score inputs: county__YYYY-MM-DD__[precinct-101__ or part-01__][dnc-]scores[__r2].csv (TXT/TSV also supported)."
-  ]
+  "diagnostics": [
+    {
+      "county": "Bastrop",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Bastrop",
+      "status": "waiting_for_roster",
+      "score_records": 1078
+    },
+    {
+      "county": "Burleson",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Burleson",
+      "status": "waiting_for_roster",
+      "score_records": 13739
+    },
+    {
+      "county": "Grimes",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Grimes",
+      "status": "waiting_for_roster",
+      "score_records": 21227
+    },
+    {
+      "county": "Houston",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Houston",
+      "status": "waiting_for_roster",
+      "score_records": 13409
+    },
+    {
+      "county": "Lee",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Lee",
+      "status": "waiting_for_roster",
+      "score_records": 11684
+    },
+    {
+      "county": "Leon",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Leon",
+      "status": "waiting_for_roster",
+      "score_records": 12120
+    },
+    {
+      "county": "Madison",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Madison",
+      "status": "waiting_for_roster",
+      "score_records": 8210
+    },
+    {
+      "county": "Polk",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Polk",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Polk",
+      "status": "waiting_for_roster",
+      "score_records": 42339
+    },
+    {
+      "county": "San Jacinto",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "San Jacinto",
+      "status": "waiting_for_roster",
+      "score_records": 20135
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Travis",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "Native -100\u2013100",
+      "score_conversion": "none"
+    },
+    {
+      "county": "Walker",
+      "blank_rows_ignored": 0,
+      "unassigned_blank_scores": 0,
+      "duplicate_rows_ignored": 0,
+      "incomplete_rows_ignored": 0,
+      "input_scale": "DNC 0\u2013100",
+      "score_conversion": "2 * score - 100"
+    },
+    {
+      "county": "Walker",
+      "status": "waiting_for_roster",
+      "score_records": 24354
+    }
+  ],
+  "errors": []
 }
