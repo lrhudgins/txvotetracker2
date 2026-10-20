@@ -3,28 +3,30 @@
   "district": 10,
   "plan": "PLANC2333",
   "provisional_assigned": 11346,
-  "updated_at": "2026-10-20T22:22:34.010520+00:00",
+  "updated_at": "2026-10-20T22:29:05.209758+00:00",
   "snapshot_date": "2026-10-20",
   "complete": false,
-  "reported_subtotal": 11346,
-  "counties_reporting": 1,
+  "reported_subtotal": 15907,
+  "counties_reporting": 2,
   "counties_expected": 13,
   "counties": [
     {
       "county": "Brazos",
       "scope": "whole county",
-      "total": null,
-      "in_person": null,
+      "total": 4561,
+      "in_person": 4561,
       "mail": null,
-      "status": "missing",
+      "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": null,
+      "latest_vote_date": "2026-10-19",
       "undated": 0,
-      "fetched_at": null,
-      "changed_at": null,
-      "source_url": null,
+      "fetched_at": "2026-10-20T22:29:05.209758+00:00",
+      "changed_at": "2026-10-20T22:29:05.209758+00:00",
+      "source_url": "https://elections.brazoscountytx.gov/roster/",
       "error": null,
-      "ingestion_notes": [],
+      "ingestion_notes": [
+        "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      ],
       "provisional_assigned": 0
     },
     {
@@ -207,7 +209,7 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-19",
       "undated": 0,
-      "fetched_at": "2026-10-20T22:22:34.010520+00:00",
+      "fetched_at": "2026-10-20T22:29:05.209758+00:00",
       "changed_at": "2026-10-20T22:22:34.010520+00:00",
       "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
       "error": null,
@@ -249,8 +251,8 @@
       "county": "Brazos",
       "url": "https://elections.brazoscountytx.gov/roster/",
       "adapter": "brazos_index",
-      "enabled": "false",
-      "notes": "Discovers all dated PDF rosters within the 2026 General/Special Election section"
+      "enabled": "true",
+      "notes": "Local folder import; automated county downloads are disabled in folder mode."
     },
     {
       "id": "grimes",

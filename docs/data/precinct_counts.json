@@ -1,5 +1,523 @@
 [
   {
+    "precinct": "1",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 69,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "10",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 122,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "100",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 73,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "102",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 30,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "103",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 43,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "105",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 5,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "106",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 5,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "107",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 27,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "11",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 61,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "115",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 34,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "12",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 150,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "13",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 60,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "14",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 97,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "15",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 98,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "16",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 41,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "17",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 111,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "18",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 26,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "2",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 62,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "20",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 154,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "21",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 60,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "24",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 49,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "26",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 234,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "27",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 139,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "28",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 38,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "29",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 30,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "3",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 30,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "30",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 84,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "31",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 64,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "32",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 36,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "33",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 90,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "34",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 36,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "35",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 99,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "36",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 139,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "37",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 5,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "38",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 23,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "39",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 58,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "4",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 127,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "40",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 153,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "41",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 71,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "43",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 18,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "44",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 7,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "45",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 4,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "47",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 25,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "48",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 7,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "49",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 18,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "5",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 101,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "53",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 2,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "54",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 26,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "55",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 69,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "56",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 15,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "57",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 8,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "58",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 26,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "6",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 53,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "60",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 7,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "61",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 4,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "62",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 22,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "63",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 164,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "64",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 132,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "66",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 43,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "69",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 155,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "7",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 76,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "70",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 93,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "72",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 9,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "73",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 129,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "75",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 62,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "76",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 95,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "77",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 17,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "78",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 10,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "8",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 42,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "80",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 113,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "82",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 10,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "83",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 2,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "88",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 128,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "9",
+    "mode": "in_person",
+    "vote_date": "2026-10-19",
+    "count": 36,
+    "county": "Brazos"
+  },
+  {
     "precinct": "146",
     "mode": "in_person",
     "vote_date": "2026-10-19",

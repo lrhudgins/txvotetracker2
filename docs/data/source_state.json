@@ -2565,13 +2565,482 @@
     "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
     "source_signature": "1d1fd419e55a45ce593a4894f046d8f626fdd7135932cf2424deecc32e88a5cd",
     "fingerprint": "b5b48613127df6f1fbc5ddde35eab87fe4386ff42157d1dfc4d8d332c208fd21",
-    "fetched_at": "2026-10-20T22:22:34.010520+00:00",
-    "checked_at": "2026-10-20T22:22:34.010520+00:00",
+    "fetched_at": "2026-10-20T22:29:05.209758+00:00",
+    "checked_at": "2026-10-20T22:29:05.209758+00:00",
     "changed_at": "2026-10-20T22:22:34.010520+00:00",
     "status": "partial",
     "ingestion_notes": [
       "1 repeated voter(s) counted once at their earliest daily report date.",
       "Folder import: 17 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "brazos": {
+    "county": "Brazos",
+    "total": 4561,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-19",
+    "unique_eligible_roster_records": 4561,
+    "counts": [
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 69
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 122
+      },
+      {
+        "precinct": "100",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 73
+      },
+      {
+        "precinct": "102",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 30
+      },
+      {
+        "precinct": "103",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 43
+      },
+      {
+        "precinct": "105",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 5
+      },
+      {
+        "precinct": "106",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 5
+      },
+      {
+        "precinct": "107",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 27
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 61
+      },
+      {
+        "precinct": "115",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 34
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 150
+      },
+      {
+        "precinct": "13",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 60
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 97
+      },
+      {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 98
+      },
+      {
+        "precinct": "16",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 41
+      },
+      {
+        "precinct": "17",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 111
+      },
+      {
+        "precinct": "18",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 26
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 62
+      },
+      {
+        "precinct": "20",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 154
+      },
+      {
+        "precinct": "21",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 60
+      },
+      {
+        "precinct": "24",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 49
+      },
+      {
+        "precinct": "26",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 234
+      },
+      {
+        "precinct": "27",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 139
+      },
+      {
+        "precinct": "28",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 38
+      },
+      {
+        "precinct": "29",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 30
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 30
+      },
+      {
+        "precinct": "30",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 84
+      },
+      {
+        "precinct": "31",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 64
+      },
+      {
+        "precinct": "32",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 36
+      },
+      {
+        "precinct": "33",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 90
+      },
+      {
+        "precinct": "34",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 36
+      },
+      {
+        "precinct": "35",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 99
+      },
+      {
+        "precinct": "36",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 139
+      },
+      {
+        "precinct": "37",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 5
+      },
+      {
+        "precinct": "38",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 23
+      },
+      {
+        "precinct": "39",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 58
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 127
+      },
+      {
+        "precinct": "40",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 153
+      },
+      {
+        "precinct": "41",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 71
+      },
+      {
+        "precinct": "43",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 18
+      },
+      {
+        "precinct": "44",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 7
+      },
+      {
+        "precinct": "45",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 4
+      },
+      {
+        "precinct": "47",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 25
+      },
+      {
+        "precinct": "48",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 7
+      },
+      {
+        "precinct": "49",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 18
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 101
+      },
+      {
+        "precinct": "53",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 2
+      },
+      {
+        "precinct": "54",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 26
+      },
+      {
+        "precinct": "55",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 69
+      },
+      {
+        "precinct": "56",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 15
+      },
+      {
+        "precinct": "57",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 8
+      },
+      {
+        "precinct": "58",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 26
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 53
+      },
+      {
+        "precinct": "60",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 7
+      },
+      {
+        "precinct": "61",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 4
+      },
+      {
+        "precinct": "62",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 22
+      },
+      {
+        "precinct": "63",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 164
+      },
+      {
+        "precinct": "64",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 132
+      },
+      {
+        "precinct": "66",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 43
+      },
+      {
+        "precinct": "69",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 155
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 76
+      },
+      {
+        "precinct": "70",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 93
+      },
+      {
+        "precinct": "72",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 9
+      },
+      {
+        "precinct": "73",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 129
+      },
+      {
+        "precinct": "75",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 62
+      },
+      {
+        "precinct": "76",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 95
+      },
+      {
+        "precinct": "77",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 17
+      },
+      {
+        "precinct": "78",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 10
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 42
+      },
+      {
+        "precinct": "80",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 113
+      },
+      {
+        "precinct": "82",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 10
+      },
+      {
+        "precinct": "83",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 2
+      },
+      {
+        "precinct": "88",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 128
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-19",
+        "count": 36
+      }
+    ],
+    "source_id": "brazos",
+    "source_url": "https://elections.brazoscountytx.gov/roster/",
+    "source_signature": "6679425cad36ad3e5c72406d2f20ab8cc58e6445c4b09c0c56fc5e22a1320511",
+    "fingerprint": "9acec359fb6fd0197475e4dee4357892e66c2dc982865b304f4ec251d2f4a3a5",
+    "fetched_at": "2026-10-20T22:29:05.209758+00:00",
+    "checked_at": "2026-10-20T22:29:05.209758+00:00",
+    "changed_at": "2026-10-20T22:29:05.209758+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   }
