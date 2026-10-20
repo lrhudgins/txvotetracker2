@@ -139,6 +139,7 @@ def standardize(rows, headers, source, context, fallback_date=None):
             district = None
         records.append({'vuid': uid, 'precinct': precinct(row.get(cols.get('precinct', ''), '')),
                         'district': district, 'mode': method,
+                        'date_basis': 'vote_date' if row.get(cols.get('date', ''), '') else 'report_date' if fallback_date else 'unknown',
                         'vote_date': parse_date(row.get(cols.get('date', ''), '')) or fallback_date})
     return records
 
@@ -346,6 +347,9 @@ def parse_travis_archive(body, source):
 
 
 def get_records(source):
+    if '_folder_files' in source:
+        from folder_inputs import read_county
+        return read_county(source['_folder_files'], source, parse_document, parse_travis_archive)
     records, hashes, notes = [], [], []
     visited = set()
     local = source.get('_local_path')
@@ -466,7 +470,7 @@ def write_json(path, value):
     path.write_text(json.dumps(value, indent=2, allow_nan=False) + '\n')
 
 
-def run(root=ROOT, local_files=None):
+def run(root=ROOT, local_files=None, inbox=None):
     settings = read_json(root / 'config/settings.json', {})
     now = datetime.now(timezone.utc)
     today = now.astimezone(ZoneInfo(settings['timezone'])).date().isoformat()
@@ -475,6 +479,20 @@ def run(root=ROOT, local_files=None):
     prior = read_json(out / 'source_state.json', {})
     with (root / 'config/county_sources.csv').open(newline='', encoding='utf-8-sig') as f:
         sources = list(csv.DictReader(f))
+    folder_files = None
+    if inbox is not None:
+        from folder_inputs import scan
+        folder_files = scan(inbox, settings)
+        sources = [dict(s, enabled='false') for s in sources]
+        for county in folder_files:
+            source = next((s for s in sources if s['county'] == county), None)
+            if source is None:
+                source = {'id': 'folder_' + county.lower().replace(' ', '-'), 'county': county, 'url': '',
+                          'adapter': 'roster', 'default_mode': 'auto', 'columns_json': '{}', 'notes': 'Local folder roster import'}
+                sources.append(source)
+            source['enabled'] = 'true'
+            source['adapter'] = 'brazos_index' if county == 'Brazos' else 'roster'
+            source['notes'] = 'Local folder import; automated county downloads are disabled in folder mode.'
     active = [s for s in sources if s['enabled'].strip().lower() == 'true']
     allowed = settings['full_counties'] + settings['split_counties']
     if len({s['id'] for s in sources}) != len(sources):
@@ -487,12 +505,14 @@ def run(root=ROOT, local_files=None):
         sid = source['id']
         if source['county'] not in allowed or source['adapter'] not in {'roster', 'brazos_index'}:
             raise ValueError('An active source has an unsupported county or adapter.')
-        signature = hashlib.sha256(json.dumps([source, settings, sorted((str(k), v) for k, v in crosswalk.items()), sorted(crosswalk.reference_keys)], sort_keys=True).encode()).hexdigest()
+        signature = hashlib.sha256(json.dumps([source, settings, 'folder' if inbox is not None else 'sources', sorted((str(k), v) for k, v in crosswalk.items()), sorted(crosswalk.reference_keys)], sort_keys=True).encode()).hexdigest()
         old = prior.get(sid, {})
         if old.get('source_signature') != signature:
             old = {}  # never reuse numbers after changing source scope or column mapping
         try:
             ingest_source = dict(source, _election_date=settings['election_date'])
+            if folder_files is not None:
+                ingest_source['_folder_files'] = folder_files[source['county']]
             if local_files and sid in local_files:
                 ingest_source['_local_path'] = local_files[sid]
             records, fingerprint, ingestion_notes = get_records(ingest_source)
@@ -500,7 +520,7 @@ def run(root=ROOT, local_files=None):
             state[sid] = dict(result, source_id=sid, source_url=source['url'], source_signature=signature,
                              fingerprint=fingerprint, fetched_at=timestamp, checked_at=timestamp,
                              changed_at=old.get('changed_at', timestamp) if old.get('fingerprint') == fingerprint else timestamp,
-                             status='ok' if not result['unknown_district'] and not result['provisional_assigned'] and not ingestion_notes else 'partial',
+                             status='ok' if not result['unknown_district'] and not result['provisional_assigned'] else 'partial',
                              ingestion_notes=ingestion_notes, error=None)
             print(f"{sid}: {result['total']} assigned to CD-10; {result['unknown_district']} unresolved")
         except Exception as exc:
@@ -568,6 +588,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--from-file', action='append', default=[], metavar='SOURCE_ID=PATH', help='Use a downloaded local roster for a configured source.')
+    parser.add_argument('--inbox', type=Path, help='Read only named local voter files; make no county download requests.')
     args = parser.parse_args()
     local_files = {}
     for value in args.from_file:
@@ -575,4 +596,6 @@ if __name__ == '__main__':
             parser.error('--from-file requires SOURCE_ID=PATH')
         sid, path = value.split('=', 1)
         local_files[sid] = str(Path(path).expanduser().resolve())
-    sys.exit(run(args.root.resolve(), local_files))
+    if args.inbox and local_files:
+        parser.error('Use --inbox or --from-file, not both.')
+    sys.exit(run(args.root.resolve(), local_files, args.inbox))

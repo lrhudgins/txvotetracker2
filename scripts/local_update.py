@@ -4,8 +4,10 @@ import os
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 from update import ROOT, run
+from folder_inputs import stamp
 
 
 def git(root, *args, capture=True):
@@ -15,18 +17,9 @@ def git(root, *args, capture=True):
     return (result.stdout or '').strip()
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--push', action='store_true', help='Commit and push generated docs/data using your existing Git credentials.')
-    parser.add_argument('--from-file', action='append', default=[], metavar='SOURCE_ID=PATH')
-    args = parser.parse_args()
-    local = {}
-    for spec in args.from_file:
-        if '=' not in spec:
-            parser.error('--from-file requires SOURCE_ID=PATH')
-        sid, path = spec.split('=', 1)
-        local[sid] = str(Path(path).expanduser().resolve())
-    if args.push:
+def publish_once(push=False, local=None, inbox=None):
+    local = local or {}
+    if push:
         git(ROOT, 'rev-parse', '--show-toplevel')
         if git(ROOT, 'status', '--porcelain'):
             raise RuntimeError('Commit your existing changes before running --push. No files were changed.')
@@ -45,8 +38,8 @@ def main():
         if match:
             os.environ['GITHUB_REPOSITORY'] = match[1]
             os.environ['GITHUB_REF_NAME'] = branch
-    result = run(ROOT, local)
-    if args.push:
+    result = run(ROOT, local, inbox) if inbox is not None else run(ROOT, local)
+    if push:
         # Explicit allowlist: never stage source rosters, config files, or code.
         git(ROOT, 'add', '--', 'docs/data')
         changed = git(ROOT, 'diff', '--cached', '--name-only')
@@ -61,9 +54,55 @@ def main():
     return result
 
 
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--push', action='store_true', help='Commit and push generated docs/data using your existing Git credentials.')
+    parser.add_argument('--from-file', action='append', default=[], metavar='SOURCE_ID=PATH')
+    parser.add_argument('--inbox', type=Path, help='Process only named local files from this folder, without county downloads.')
+    parser.add_argument('--watch', action='store_true', help='Keep watching the inbox and refresh after files settle.')
+    parser.add_argument('--interval', type=float, default=3, help='Watcher polling interval in seconds (minimum 1).')
+    args = parser.parse_args()
+    if (args.inbox is not None or args.watch) and args.from_file:
+        parser.error('Use folder mode or --from-file, not both.')
+    local = {}
+    for spec in args.from_file:
+        if '=' not in spec:
+            parser.error('--from-file requires SOURCE_ID=PATH')
+        sid, path = spec.split('=', 1)
+        local[sid] = str(Path(path).expanduser().resolve())
+    inbox = args.inbox if args.inbox is not None else Path('inbox') if args.watch else None
+    if inbox is not None:
+        inbox = (ROOT / inbox).resolve()
+        inbox.mkdir(parents=True, exist_ok=True)
+    if not args.watch:
+        return publish_once(args.push, local, inbox)
+    interval = max(1, args.interval)
+    last_processed, pending = None, None
+    print(f'Watching {inbox}. Files are processed after one quiet polling interval. Ctrl-C stops the watcher.', flush=True)
+    try:
+        while True:
+            try:
+                current = stamp(inbox)
+                if current == pending and current != last_processed:
+                    try:
+                        result = publish_once(args.push, local, inbox)
+                        if result:
+                            print('Some files failed; diagnostics were retained. Watching for the next change.', flush=True)
+                    except Exception as exc:
+                        print(f'Update failed: {type(exc).__name__}: {exc}', file=sys.stderr, flush=True)
+                    last_processed = current
+                pending = current
+            except OSError:
+                pass  # a browser/Finder may be replacing a file during this poll
+            time.sleep(interval)
+    except KeyboardInterrupt:
+        print('\nStopped watching.')
+        return 0
+
+
 if __name__ == '__main__':
     try:
         sys.exit(main())
-    except RuntimeError as exc:
+    except (RuntimeError, ValueError) as exc:
         print(str(exc), file=sys.stderr)
         sys.exit(2)
