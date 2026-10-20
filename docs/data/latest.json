@@ -3,7 +3,7 @@
   "district": 10,
   "plan": "PLANC2333",
   "provisional_assigned": 11346,
-  "updated_at": "2026-10-20T16:21:26.766641+00:00",
+  "updated_at": "2026-10-20T16:25:40.290612+00:00",
   "snapshot_date": "2026-10-20",
   "complete": false,
   "reported_subtotal": 11346,
@@ -16,7 +16,7 @@
       "total": null,
       "in_person": null,
       "mail": null,
-      "status": "error",
+      "status": "stale",
       "unknown_district": 0,
       "latest_vote_date": null,
       "undated": 0,
@@ -207,7 +207,7 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-19",
       "undated": 0,
-      "fetched_at": "2026-10-20T16:21:26.766641+00:00",
+      "fetched_at": "2026-10-20T16:25:40.290612+00:00",
       "changed_at": "2026-10-20T16:21:26.766641+00:00",
       "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
       "error": null,
@@ -285,5 +285,6 @@
     "Mail is counted only from received/voted rosters, never applications or ballots issued.",
     "Daily history records observations, not ballots necessarily cast that day.",
     "County mode counts are unknown when no records of that mode are present; zero coverage is not inferred."
-  ]
+  ],
+  "source_config_url": "https://github.com/lrhudgins/txvotetracker2/edit/main/config/county_sources.csv"
 }
