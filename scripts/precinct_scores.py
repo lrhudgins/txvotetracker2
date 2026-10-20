@@ -14,7 +14,7 @@ POPULATION_VERSION = 'matched-early-voters-v1'
 
 NAME = re.compile(r'(?P<county>[a-z]+(?:-[a-z]+)*)__'
                   r'(?P<asof>\d{4}-\d{2}-\d{2})__'
-                  r'(?:precinct-(?P<precinct>[A-Za-z0-9.-]+)__)?(?:(?P<scale>dnc)-)?scores'
+                  r'(?:(?:precinct-(?P<precinct>[A-Za-z0-9.-]+)|part-(?P<part>[a-z0-9]+(?:-[a-z0-9]+)*))__)?(?:(?P<scale>dnc)-)?scores'
                   r'(?:__r(?P<revision>[1-9]\d*))?\.(?:csv|tsv|txt)$')
 
 
@@ -125,6 +125,8 @@ def read_file(path, info):
             if vuid and not re.fullmatch(r'\d{10}', vuid):
                 raise ValueError('STID/VUID must be a ten-digit Texas state voter ID; VanId is a separate identifier.')
             person = {'precinct': precinct, 'score': value, 'vuid': vuid,
+                      'vanid': next((str(row.get(col, '') or '').strip() for col in id_cols
+                                     if norm(col) in {'vanid', 'voterfilevanid'} and str(row.get(col, '') or '').strip()), ''),
                       **{k: str(row.get(col, '') or '').strip() for k, col in name_cols.items()}}
             if value is not None and not (vuid or (person['first_name'] and person['last_name']) or person['full_name']):
                 raise ValueError('A populated Score needs STID/VUID or First and Last name columns.')
@@ -152,7 +154,7 @@ def collect(folder, settings):
                 raise ValueError('Symlinked score inputs are not supported.')
             match = NAME.fullmatch(path.name)
             if not match or match['county'] not in allowed:
-                raise ValueError('Rename score inputs: county__YYYY-MM-DD__[precinct-101__]scores[__r2].csv or county__YYYY-MM-DD__[precinct-101__]dnc-scores[__r2].txt (CSV/TSV also supported).')
+                raise ValueError('Rename score inputs: county__YYYY-MM-DD__[precinct-101__ or part-01__][dnc-]scores[__r2].csv (TXT/TSV also supported).')
             info = match.groupdict()
             date.fromisoformat(info['asof'])
             info.update(county=allowed[info['county']], revision=int(info['revision'] or 1), path=path)
@@ -183,9 +185,20 @@ def publish(root, inbox, settings, updated_at, voted_by_county=None, failed_coun
                 if county in failed_counties:
                     raise ValueError('Roster import failed; matched scores cannot be refreshed.')
                 broad = [i for i in files if not i['precinct']]
-                baseline = max(broad, key=lambda i: (i['asof'], i['revision'])) if broad else None
-                if baseline and sum((i['asof'], i['revision']) == (baseline['asof'], baseline['revision']) for i in broad) > 1:
-                    raise ValueError('Multiple countywide score snapshots have the same date/revision.')
+                batch_date = max(i['asof'] for i in broad) if broad else None
+                batch = [i for i in broad if i['asof'] == batch_date]
+                if any(i.get('part') for i in batch) and any(not i.get('part') for i in batch):
+                    raise ValueError('Do not mix complete countywide files and part files for the same snapshot date. Remove the superseded input.')
+                parts = {}
+                for info in batch:
+                    key = info.get('part') or '__complete__'
+                    old = parts.get(key)
+                    if old and old['revision'] == info['revision']:
+                        raise ValueError('Duplicate county part/date/revision or countywide snapshot. Use a distinct part label or __r2 for a correction.')
+                    if not old or info['revision'] > old['revision']:
+                        parts[key] = info
+                baselines = list(parts.values())
+                baseline = max(baselines, key=lambda i: (i['asof'], i['revision'])) if baselines else None
                 specific = {}
                 for info in files:
                     if not info['precinct']:
@@ -197,13 +210,18 @@ def publish(root, inbox, settings, updated_at, voted_by_county=None, failed_coun
                     if not old or version > (old['asof'], old['revision']):
                         specific[info['precinct']] = info
                 selected = {}
-                for info in ([baseline] if baseline else []) + list(specific.values()):
+                for info in baselines + list(specific.values()):
                     version = info['asof'], info['revision']
                     if baseline and info['precinct'] and version < (baseline['asof'], baseline['revision']):
                         continue
                     groups, report = read_file(info['path'], info)
                     for precinct, values in groups.items():
                         old = selected.get(precinct)
+                        if old and info.get('part') and old[2].get('part'):
+                            # Parts are chunks of one county snapshot. Sharing
+                            # a precinct is expected; combine its voter records.
+                            selected[precinct] = max(old[0], version), old[1] + values, info
+                            continue
                         if old and old[0] == version:
                             raise ValueError('Overlapping score files have the same date/revision; remove one or use __r2.')
                         if old and old[0] > version:
@@ -213,15 +231,21 @@ def publish(root, inbox, settings, updated_at, voted_by_county=None, failed_coun
                 score_rows, seen_ids = [], {}
                 for version, values, info in selected.values():
                     for person in values:
-                        uid = person['vuid']
-                        if uid and uid in seen_ids:
-                            old = seen_ids[uid]
-                            if (old['score'], old['precinct']) != (person['score'], person['precinct']):
-                                raise ValueError('A state voter ID appears in selected score files with conflicting precincts or scores.')
+                        identities = [(kind, person[field]) for kind, field in (('state', 'vuid'), ('van', 'vanid')) if person.get(field)]
+                        existing = [seen_ids[key] for key in identities if key in seen_ids]
+                        if existing:
+                            old = existing[0]
+                            if any(record is not old for record in existing) or (old['score'], old['precinct']) != (person['score'], person['precinct']) or any(old.get(field) and person.get(field) and old[field] != person[field] for field in ('vuid', 'vanid')):
+                                raise ValueError('A voter ID appears in selected score files with conflicting precincts, scores, or identifiers.')
+                            for key in identities:
+                                seen_ids[key] = old
+                            for field in ('vuid', 'vanid'):
+                                if not old.get(field):
+                                    old[field] = person.get(field, '')
                             continue
                         score_rows.append(person)
-                        if uid:
-                            seen_ids[uid] = person
+                        for key in identities:
+                            seen_ids[key] = person
                 if county not in voted_by_county:
                     reports.append({'county': county, 'status': 'waiting_for_roster', 'score_records': len(score_rows)})
                     continue
