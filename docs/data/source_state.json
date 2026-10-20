@@ -2565,8 +2565,8 @@
     "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
     "source_signature": "b50c9ccd20f12681831678919cfd90247a2552e99267e8542da1c13b09ed3536",
     "fingerprint": "417f0609119aa99485a670f0cb36238521a6a31fd08b6cb3199d2cc014df2967",
-    "fetched_at": "2026-10-20T17:02:00.061067+00:00",
-    "checked_at": "2026-10-20T17:02:00.061067+00:00",
+    "fetched_at": "2026-10-20T19:37:20.394088+00:00",
+    "checked_at": "2026-10-20T19:37:20.394088+00:00",
     "changed_at": "2026-10-20T16:21:26.766641+00:00",
     "status": "partial",
     "ingestion_notes": [
@@ -2582,7 +2582,7 @@
     "county": "Brazos",
     "source_url": "https://elections.brazoscountytx.gov/roster/",
     "source_signature": "fa4686920a640706c19c3b2d0e334d670af93a59ac3bf16bbcd44e352bcfb004",
-    "checked_at": "2026-10-20T17:02:00.061067+00:00",
+    "checked_at": "2026-10-20T19:37:20.394088+00:00",
     "status": "stale",
     "error": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
   }
