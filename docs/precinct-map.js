@@ -15,7 +15,7 @@ async function drawMap(rows){
  try{scores=await get('data/precinct_scores.json')}catch(e){}
  const scoreByKey=new Map(scores.rows.map(r=>[r.county+'|'+pct(r.precinct),r]));
  const legend=$('maplegend');
- legend.innerHTML=metric==='score'?'<div style="height:12px;border-radius:4px;background:linear-gradient(to right,#2563eb,#f8fafc,#f97316)"></div><div style="display:flex;justify-content:space-between;margin-top:5px"><span>−100</span><span>0</span><span>+100</span></div><div style="margin-top:6px">Gray: no populated score. Colors express numeric values; no party labels are inferred.</div>':'Early-vote counts: lighter green ≤250; medium green 251–1,000; dark green >1,000. Gray: no report.';
+ legend.innerHTML=metric==='score'?'<div style="height:12px;border-radius:4px;background:linear-gradient(to right,#ef4444,#f8fafc,#2563eb)"></div><div style="display:flex;justify-content:space-between;margin-top:5px"><span>Republican</span><span>0</span><span>Democrat</span></div><div style="margin-top:6px">Gray: no populated score. Party labels describe the supplied score scale, not a recorded ballot choice.</div>':'Early-vote counts: lighter green ≤250; medium green 251–1,000; dark green >1,000. Gray: no report.';
  let border;
  try{
   const geo=await get('data/district.geojson');
