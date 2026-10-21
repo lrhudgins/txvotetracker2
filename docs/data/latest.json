@@ -2,32 +2,32 @@
   "election_date": "2026-11-03",
   "district": 10,
   "plan": "PLANC2333",
-  "provisional_assigned": 12701,
-  "updated_at": "2026-10-21T00:18:10.108923+00:00",
+  "provisional_assigned": 12955,
+  "updated_at": "2026-10-21T00:21:35.493524+00:00",
   "snapshot_date": "2026-10-20",
   "complete": false,
-  "reported_subtotal": 22985,
+  "reported_subtotal": 23238,
   "counties_reporting": 13,
   "counties_expected": 13,
   "counties": [
     {
       "county": "Brazos",
       "scope": "whole county",
-      "total": 4565,
-      "in_person": 4564,
+      "total": 4564,
+      "in_person": 4563,
       "mail": 1,
       "status": "ok",
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
-      "changed_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
+      "changed_at": "2026-10-21T00:21:35.493524+00:00",
       "source_url": "https://elections.brazoscountytx.gov/roster/",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (1 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
-        "4560 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 2 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
@@ -41,11 +41,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -61,11 +62,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -81,11 +83,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -101,11 +104,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -121,11 +125,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -141,11 +146,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -161,11 +167,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -181,11 +188,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -201,11 +209,12 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -221,11 +230,12 @@
       "unknown_district": 1,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
@@ -234,22 +244,23 @@
     {
       "county": "Travis",
       "scope": "CD-10 residents only",
-      "total": 11346,
-      "in_person": 10026,
-      "mail": 1320,
-      "status": "stale",
-      "unknown_district": 0,
-      "latest_vote_date": "2026-10-19",
+      "total": 11600,
+      "in_person": 10024,
+      "mail": 1576,
+      "status": "partial",
+      "unknown_district": 12,
+      "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-20T23:51:15.350860+00:00",
-      "changed_at": "2026-10-20T22:22:34.010520+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
+      "changed_at": "2026-10-21T00:21:35.493524+00:00",
       "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
-      "error": "ValueError: Overlapping local rosters disagree on a voter precinct, district or method.",
+      "error": null,
       "ingestion_notes": [
-        "1 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 17 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (17 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
-      "provisional_assigned": 11346
+      "provisional_assigned": 11600
     },
     {
       "county": "Walker",
@@ -261,11 +272,12 @@
       "unknown_district": 1,
       "latest_vote_date": "2026-10-20",
       "undated": 0,
-      "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+      "fetched_at": "2026-10-21T00:21:35.493524+00:00",
       "changed_at": "2026-10-21T00:18:10.108923+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
+        "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
