@@ -80,6 +80,8 @@ def read_file(path, info):
                      for key, aliases in {
                          'first_name': ('first', 'firstname', 'givenname'),
                          'last_name': ('last', 'lastname', 'surname'),
+                         'middle_name': ('middle', 'middlename'),
+                         'suffix': ('suffix', 'namesuffix'),
                          # In this export, Name is the street name, not a voter.
                          'full_name': ('fullname', 'votername')}.items()}
         if not (any(norm(c) not in {'vanid', 'voterfilevanid'} for c in id_cols)

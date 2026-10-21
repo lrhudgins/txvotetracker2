@@ -27,6 +27,20 @@ def scan(folder, settings):
             continue  # readmes and browser temporary downloads are not rosters
         if path.is_symlink():
             raise ValueError('Symlinked voter files are not supported.')
+        from sos_rosters import identify as sos_identify, load as sos_load
+        sos_info = sos_identify(path.name, settings)
+        if sos_info:
+            county_records, fingerprint = sos_load(path, settings, sos_info['asof'])
+            for county, data in county_records.items():
+                item = dict(sos_info, county=county, path=str(path),
+                            _sos=True, _sos_records=data['records'],
+                            _sos_error=data['error'], _sos_fingerprint=fingerprint)
+                key = tuple(item[k] for k in ('county', 'asof', 'method', 'coverage', 'revision'))
+                if key in keys:
+                    raise ValueError('Duplicate statewide county/date/coverage/revision. Remove one export or name its correction __r2.')
+                keys.add(key)
+                result.setdefault(county, []).append(item)
+            continue
         match = PATTERN.fullmatch(path.name)
         if not match:
             raise ValueError(f'Rename {path.name}: COUNTY__ELECTION-DATE__REPORT-DATE__METHOD__COVERAGE[__r2].ext')
@@ -70,17 +84,28 @@ def read_county(files, source, parse_document, parse_travis_archive):
             if item['coverage'] != 'daily' or (baseline and item['asof'] <= baseline['asof']):
                 continue
             old = dailies.get(item['asof'])
-            if not old or item['revision'] > old['revision']:
-                dailies[item['asof']] = item
-        selected_by_method[method] = ([baseline] if baseline else []) + [dailies[k] for k in sorted(dailies)]
+            if not old or item['revision'] > old[0]['revision']:
+                dailies[item['asof']] = [item]
+            elif item['revision'] == old[0]['revision']:
+                old.append(item)  # county and statewide observations may overlap
+        selected_by_method[method] = ([baseline] if baseline else []) + [item for k in sorted(dailies) for item in dailies[k]]
     selected = {f['path']: f for group in selected_by_method.values() for f in group}
     cache, hashes = {}, []
     for path, item in sorted(selected.items()):
-        body = Path(path).read_bytes()
-        if len(body) > 150 * 1024 * 1024:
-            raise ValueError('A local roster exceeds the 150 MiB limit.')
-        hashes.append(Path(path).name + ':' + hashlib.sha256(body).hexdigest())
-        if source['county'] == 'Travis' and item['method'] == 'mixed':
+        if item.get('_sos'):
+            if item['_sos_error']:
+                raise ValueError(item['_sos_error'])
+            rows = item['_sos_records']
+            hashes.append(Path(path).name + ':' + item['_sos_fingerprint'])
+            notes.append('SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.')
+        else:
+            body = Path(path).read_bytes()
+            if len(body) > 150 * 1024 * 1024:
+                raise ValueError('A local roster exceeds the 150 MiB limit.')
+            hashes.append(Path(path).name + ':' + hashlib.sha256(body).hexdigest())
+        if item.get('_sos'):
+            pass
+        elif source['county'] == 'Travis' and item['method'] == 'mixed':
             rows, messages = parse_travis_archive(body, source)
             notes.extend(messages)
         else:

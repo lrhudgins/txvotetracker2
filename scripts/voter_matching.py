@@ -11,8 +11,17 @@ def name_text(value):
 def name_keys(row):
     first, last = row.get('first_name', ''), row.get('last_name', '')
     if first and last:
-        # Full first/given names: do not drop initials, suffixes or middle names.
-        return {('parts', name_text(first), name_text(last))} if name_text(first) and name_text(last) else set()
+        # Use explicitly supplied middle names/suffixes; never guess initials.
+        first, last = name_text(first), name_text(last)
+        if not first or not last:
+            return set()
+        given, family = {first}, {last}
+        middle, suffix = name_text(row.get('middle_name', '')), name_text(row.get('suffix', ''))
+        if middle and not first.endswith(' ' + middle):
+            given.add(first + ' ' + middle)
+        if suffix and not last.endswith(' ' + suffix):
+            family.add(last + ' ' + suffix)
+        return {('parts', f, l) for f in given for l in family}
     full = row.get('full_name', '')
     if full.count(',') == 1:
         last, first = full.split(',')

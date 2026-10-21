@@ -24,7 +24,7 @@ ALIASES = {
     'first_name': ['first name', 'firstname', 'first', 'given name'],
     'last_name': ['last name', 'lastname', 'last', 'surname'],
     'full_name': ['voter name', 'full name', 'name'],
-    'vuid': ['vuid', 'voter unique identifier', 'voter id', 'voterid', 'certificate number', 'cert num', 'cert', 'registration number'],
+    'vuid': ['vuid', 'id_voter', 'voter unique identifier', 'voter id', 'voterid', 'certificate number', 'cert num', 'cert', 'registration number'],
     'precinct': ['precinct', 'prec', 'pct', 'precinct number', 'precinct no', 'voter precinct', 'registration precinct'],
     'district': ['congressional district', 'congressional', 'congress', 'cong', 'cd', 'us congress', 'us congressional district', 'planc2333'],
     'date': ['vote date', 'voted date', 'date voted', 'voting date', 'voter date', 'ballot received date', 'date ballot returned', 'check in date', 'date'],
@@ -79,7 +79,7 @@ def mode(value):
     v = norm(value)
     if v in {'inperson', 'personalappearance', 'early', 'earlyvoting', 'ev', 'e', 'evip', 'ip', 'inpersonearlyvoting', 'earlyvotinginperson', 'votedbypersonalappearance'}:
         return 'in_person'
-    if v in {'mail', 'bymail', 'ballotbymail', 'bbm', 'absentee', 'absenteeballot', 'mailed', 'ab', 'm'}:
+    if v in {'mail', 'mailin', 'bymail', 'ballotbymail', 'bbm', 'absentee', 'absenteeballot', 'mailed', 'ab', 'm'}:
         return 'mail'
     if v in {'ed', 'electionday', 'electiondayinperson'}:
         return 'election_day'
