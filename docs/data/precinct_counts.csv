@@ -1,5 +1,6 @@
 county,precinct,mode,vote_date,count
 Brazos,1,in_person,2026-10-19,69
+Brazos,1,mail,2026-10-20,1
 Brazos,10,in_person,2026-10-19,122
 Brazos,100,in_person,2026-10-19,73
 Brazos,102,in_person,2026-10-19,30
@@ -19,6 +20,7 @@ Brazos,18,in_person,2026-10-19,26
 Brazos,2,in_person,2026-10-19,62
 Brazos,20,in_person,2026-10-19,154
 Brazos,21,in_person,2026-10-19,60
+Brazos,215,in_person,2026-10-20,1
 Brazos,24,in_person,2026-10-19,49
 Brazos,26,in_person,2026-10-19,234
 Brazos,27,in_person,2026-10-19,139
@@ -27,6 +29,7 @@ Brazos,29,in_person,2026-10-19,30
 Brazos,3,in_person,2026-10-19,30
 Brazos,30,in_person,2026-10-19,84
 Brazos,31,in_person,2026-10-19,64
+Brazos,3140,in_person,2026-10-20,1
 Brazos,32,in_person,2026-10-19,36
 Brazos,33,in_person,2026-10-19,90
 Brazos,34,in_person,2026-10-19,36
@@ -73,6 +76,143 @@ Brazos,82,in_person,2026-10-19,10
 Brazos,83,in_person,2026-10-19,2
 Brazos,88,in_person,2026-10-19,128
 Brazos,9,in_person,2026-10-19,36
+Brazos,94,in_person,2026-10-20,1
+Burleson,320,in_person,2026-10-20,1
+Grimes,1,in_person,2026-10-20,110
+Grimes,10,in_person,2026-10-20,84
+Grimes,12,in_person,2026-10-20,66
+Grimes,14,in_person,2026-10-20,69
+Grimes,15,in_person,2026-10-20,68
+Grimes,2,in_person,2026-10-20,40
+Grimes,3,in_person,2026-10-20,103
+Grimes,31,in_person,2026-10-20,1
+Grimes,4,in_person,2026-10-20,83
+Grimes,44,in_person,2026-10-20,1
+Grimes,5,in_person,2026-10-20,72
+Grimes,6,in_person,2026-10-20,123
+Grimes,7,in_person,2026-10-20,41
+Grimes,8,in_person,2026-10-20,25
+Grimes,9,in_person,2026-10-20,8
+Houston,1,in_person,2026-10-20,53
+Houston,10,in_person,2026-10-20,17
+Houston,11,in_person,2026-10-20,4
+Houston,12,in_person,2026-10-20,10
+Houston,14,in_person,2026-10-20,19
+Houston,15,in_person,2026-10-20,19
+Houston,16,in_person,2026-10-20,19
+Houston,17,in_person,2026-10-20,4
+Houston,18,in_person,2026-10-20,12
+Houston,19,in_person,2026-10-20,4
+Houston,2,in_person,2026-10-20,72
+Houston,20,in_person,2026-10-20,6
+Houston,21,in_person,2026-10-20,9
+Houston,22,in_person,2026-10-20,10
+Houston,3,in_person,2026-10-20,49
+Houston,3,mail,2026-10-20,1
+Houston,4,in_person,2026-10-20,91
+Houston,5,in_person,2026-10-20,67
+Houston,6,in_person,2026-10-20,32
+Houston,7,in_person,2026-10-20,24
+Houston,8,in_person,2026-10-20,10
+Houston,9,in_person,2026-10-20,15
+Lee,101,in_person,2026-10-20,98
+Lee,102,in_person,2026-10-20,16
+Lee,103,in_person,2026-10-20,11
+Lee,201,in_person,2026-10-20,23
+Lee,202,in_person,2026-10-20,110
+Lee,203,in_person,2026-10-20,21
+Lee,301,in_person,2026-10-20,15
+Lee,302,in_person,2026-10-20,56
+Lee,303,in_person,2026-10-20,44
+Lee,304,in_person,2026-10-20,16
+Lee,401,in_person,2026-10-20,37
+Lee,402,in_person,2026-10-20,14
+Lee,403,in_person,2026-10-20,15
+Lee,404,in_person,2026-10-20,30
+Lee,405,in_person,2026-10-20,71
+Leon,1,in_person,2026-10-20,116
+Leon,1,mail,2026-10-20,1
+Leon,10,in_person,2026-10-20,58
+Leon,10,mail,2026-10-20,1
+Leon,11,in_person,2026-10-20,11
+Leon,12,in_person,2026-10-20,30
+Leon,13,in_person,2026-10-20,51
+Leon,14,in_person,2026-10-20,20
+Leon,2,in_person,2026-10-20,18
+Leon,3,in_person,2026-10-20,39
+Leon,4,in_person,2026-10-20,13
+Leon,5,in_person,2026-10-20,24
+Leon,5,mail,2026-10-20,1
+Leon,6,in_person,2026-10-20,25
+Leon,6,mail,2026-10-20,1
+Leon,7,in_person,2026-10-20,34
+Leon,8,in_person,2026-10-20,71
+Leon,9,in_person,2026-10-20,24
+Madison,101,in_person,2026-10-20,70
+Madison,202,in_person,2026-10-20,86
+Madison,303,in_person,2026-10-20,88
+Madison,404,in_person,2026-10-20,85
+Polk,1,in_person,2026-10-20,9
+Polk,10,in_person,2026-10-20,95
+Polk,11,in_person,2026-10-20,18
+Polk,12,in_person,2026-10-20,5
+Polk,13 I,in_person,2026-10-20,10
+Polk,14,in_person,2026-10-20,92
+Polk,15,in_person,2026-10-20,107
+Polk,16,in_person,2026-10-20,114
+Polk,17,in_person,2026-10-20,112
+Polk,18,in_person,2026-10-20,40
+Polk,19,in_person,2026-10-20,37
+Polk,2 IL,in_person,2026-10-20,23
+Polk,20,in_person,2026-10-20,53
+Polk,21,in_person,2026-10-20,165
+Polk,22,in_person,2026-10-20,41
+Polk,22,mail,2026-10-20,1
+Polk,3,in_person,2026-10-20,36
+Polk,32,in_person,2026-10-20,1
+Polk,33,mail,2026-10-20,1
+Polk,3807,mail,2026-10-20,1
+Polk,4,in_person,2026-10-20,80
+Polk,5,in_person,2026-10-20,71
+Polk,5,mail,2026-10-20,1
+Polk,6,in_person,2026-10-20,290
+Polk,7 CL,in_person,2026-10-20,36
+Polk,8,in_person,2026-10-20,54
+Polk,9,in_person,2026-10-20,38
+San Jacinto,,mail,2026-10-20,1
+San Jacinto,1,in_person,2026-10-20,139
+San Jacinto,10,in_person,2026-10-20,9
+San Jacinto,11,in_person,2026-10-20,24
+San Jacinto,2,in_person,2026-10-20,109
+San Jacinto,3,in_person,2026-10-20,31
+San Jacinto,4,in_person,2026-10-20,29
+San Jacinto,5,in_person,2026-10-20,51
+San Jacinto,6,in_person,2026-10-20,152
+San Jacinto,7,in_person,2026-10-20,112
+San Jacinto,8,in_person,2026-10-20,44
+San Jacinto,9,in_person,2026-10-20,17
+Trinity,1,in_person,2026-10-20,34
+Trinity,10,in_person,2026-10-20,22
+Trinity,11,in_person,2026-10-20,169
+Trinity,12,in_person,2026-10-20,9
+Trinity,14,in_person,2026-10-20,24
+Trinity,14,mail,2026-10-20,1
+Trinity,15,in_person,2026-10-20,1
+Trinity,16,in_person,2026-10-20,25
+Trinity,17,in_person,2026-10-20,20
+Trinity,18,in_person,2026-10-20,4
+Trinity,19,in_person,2026-10-20,66
+Trinity,2,in_person,2026-10-20,58
+Trinity,20,in_person,2026-10-20,1
+Trinity,21,in_person,2026-10-20,30
+Trinity,3,in_person,2026-10-20,23
+Trinity,4,in_person,2026-10-20,14
+Trinity,5,in_person,2026-10-20,8
+Trinity,6,in_person,2026-10-20,10
+Trinity,7,in_person,2026-10-20,9
+Trinity,8,in_person,2026-10-20,20
+Trinity,9,in_person,2026-10-20,36
+Bastrop,4024,in_person,2026-10-20,68
 Travis,146,in_person,2026-10-19,10
 Travis,146,mail,2026-10-07,3
 Travis,146,mail,2026-10-09,2
@@ -498,3 +638,15 @@ Travis,400,mail,2026-10-07,6
 Travis,400,mail,2026-10-09,2
 Travis,400,mail,2026-10-13,1
 Travis,400,mail,2026-10-14,3
+Walker,101,in_person,2026-10-20,25
+Walker,102,in_person,2026-10-20,200
+Walker,103,in_person,2026-10-20,91
+Walker,104,in_person,2026-10-20,110
+Walker,201,in_person,2026-10-20,50
+Walker,203,in_person,2026-10-20,192
+Walker,204,in_person,2026-10-20,90
+Walker,205,in_person,2026-10-20,259
+Walker,206,in_person,2026-10-20,96
+Walker,303,in_person,2026-10-20,21
+Walker,304,in_person,2026-10-20,138
+Walker,406,in_person,2026-10-20,15

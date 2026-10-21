@@ -2566,31 +2566,37 @@
     "source_signature": "1d1fd419e55a45ce593a4894f046d8f626fdd7135932cf2424deecc32e88a5cd",
     "fingerprint": "b5b48613127df6f1fbc5ddde35eab87fe4386ff42157d1dfc4d8d332c208fd21",
     "fetched_at": "2026-10-20T23:51:15.350860+00:00",
-    "checked_at": "2026-10-20T23:51:15.350860+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
     "changed_at": "2026-10-20T22:22:34.010520+00:00",
-    "status": "partial",
+    "status": "stale",
     "ingestion_notes": [
       "1 repeated voter(s) counted once at their earliest daily report date.",
       "Folder import: 17 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
-    "error": null
+    "error": "ValueError: Overlapping local rosters disagree on a voter precinct, district or method."
   },
   "brazos": {
     "county": "Brazos",
-    "total": 4561,
+    "total": 4565,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-19",
-    "unique_eligible_roster_records": 4561,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 4565,
     "counts": [
       {
         "precinct": "1",
         "mode": "in_person",
         "vote_date": "2026-10-19",
         "count": 69
+      },
+      {
+        "precinct": "1",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
       },
       {
         "precinct": "10",
@@ -2707,6 +2713,12 @@
         "count": 60
       },
       {
+        "precinct": "215",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
         "precinct": "24",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -2753,6 +2765,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-19",
         "count": 64
+      },
+      {
+        "precinct": "3140",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
       },
       {
         "precinct": "32",
@@ -3029,17 +3047,1199 @@
         "mode": "in_person",
         "vote_date": "2026-10-19",
         "count": 36
+      },
+      {
+        "precinct": "94",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
       }
     ],
     "source_id": "brazos",
     "source_url": "https://elections.brazoscountytx.gov/roster/",
     "source_signature": "6679425cad36ad3e5c72406d2f20ab8cc58e6445c4b09c0c56fc5e22a1320511",
-    "fingerprint": "9acec359fb6fd0197475e4dee4357892e66c2dc982865b304f4ec251d2f4a3a5",
-    "fetched_at": "2026-10-20T23:51:15.350860+00:00",
-    "checked_at": "2026-10-20T23:51:15.350860+00:00",
-    "changed_at": "2026-10-20T22:29:05.209758+00:00",
+    "fingerprint": "5c9ffe478d4c88db02f43d171100841572f6a48f07fdd18d511c09b3b168b9dd",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
     "status": "ok",
     "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "4560 repeated voter(s) counted once at their earliest daily report date.",
+      "Folder import: 2 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "grimes": {
+    "county": "Grimes",
+    "total": 894,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 894,
+    "counts": [
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 110
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 84
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 66
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 69
+      },
+      {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 68
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 40
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 103
+      },
+      {
+        "precinct": "31",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 83
+      },
+      {
+        "precinct": "44",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 72
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 123
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 41
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 25
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 8
+      }
+    ],
+    "source_id": "grimes",
+    "source_url": "https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D",
+    "source_signature": "b18f4ffc18406b1af2b7b49dd334025080ff84c639de0ec44bb3f1a03dd02dd2",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "burleson": {
+    "county": "Burleson",
+    "total": 1,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 1,
+    "counts": [
+      {
+        "precinct": "320",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
+      }
+    ],
+    "source_id": "burleson",
+    "source_url": "https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting",
+    "source_signature": "e0f52c0d27c1395cd2cbb1a409803d787308d40b03f252baab2befe385b6c054",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_bastrop": {
+    "county": "Bastrop",
+    "total": 68,
+    "unknown_district": 1,
+    "provisional_assigned": 68,
+    "outside_district": 3080,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 3149,
+    "counts": [
+      {
+        "precinct": "4024",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 68
+      }
+    ],
+    "source_id": "folder_bastrop",
+    "source_url": "",
+    "source_signature": "92c5b7a56bc375c64edf64091bcabd680996e78e3a735912b1b6af72fcba17e1",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "partial",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_houston": {
+    "county": "Houston",
+    "total": 547,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 547,
+    "counts": [
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 53
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 17
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 4
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 10
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 19
+      },
+      {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 19
+      },
+      {
+        "precinct": "16",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 19
+      },
+      {
+        "precinct": "17",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 4
+      },
+      {
+        "precinct": "18",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 12
+      },
+      {
+        "precinct": "19",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 4
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 72
+      },
+      {
+        "precinct": "20",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 6
+      },
+      {
+        "precinct": "21",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 9
+      },
+      {
+        "precinct": "22",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 10
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 49
+      },
+      {
+        "precinct": "3",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 91
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 67
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 32
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 24
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 10
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 15
+      }
+    ],
+    "source_id": "folder_houston",
+    "source_url": "",
+    "source_signature": "3a86571c1868ac4d64092879709fab06ef00bc15c7e48b6d2b8dd35d1f7b72d5",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_lee": {
+    "county": "Lee",
+    "total": 577,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 577,
+    "counts": [
+      {
+        "precinct": "101",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 98
+      },
+      {
+        "precinct": "102",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 16
+      },
+      {
+        "precinct": "103",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 11
+      },
+      {
+        "precinct": "201",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 23
+      },
+      {
+        "precinct": "202",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 110
+      },
+      {
+        "precinct": "203",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 21
+      },
+      {
+        "precinct": "301",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 15
+      },
+      {
+        "precinct": "302",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 56
+      },
+      {
+        "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 44
+      },
+      {
+        "precinct": "304",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 16
+      },
+      {
+        "precinct": "401",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 37
+      },
+      {
+        "precinct": "402",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 14
+      },
+      {
+        "precinct": "403",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 15
+      },
+      {
+        "precinct": "404",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 30
+      },
+      {
+        "precinct": "405",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 71
+      }
+    ],
+    "source_id": "folder_lee",
+    "source_url": "",
+    "source_signature": "7dbec08d35cdb2838f035484539fd29584c99d80a6fbc977e482ba27868eee71",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_leon": {
+    "county": "Leon",
+    "total": 538,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 538,
+    "counts": [
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 116
+      },
+      {
+        "precinct": "1",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 58
+      },
+      {
+        "precinct": "10",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 11
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 30
+      },
+      {
+        "precinct": "13",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 51
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 20
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 18
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 39
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 13
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 24
+      },
+      {
+        "precinct": "5",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 25
+      },
+      {
+        "precinct": "6",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 34
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 71
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 24
+      }
+    ],
+    "source_id": "folder_leon",
+    "source_url": "",
+    "source_signature": "f5dfb1e501e007e4d34dde90d40f7e18f938fd998fe8987ceb1ec8fe387ca9fd",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_madison": {
+    "county": "Madison",
+    "total": 329,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 329,
+    "counts": [
+      {
+        "precinct": "101",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 70
+      },
+      {
+        "precinct": "202",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 86
+      },
+      {
+        "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 88
+      },
+      {
+        "precinct": "404",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 85
+      }
+    ],
+    "source_id": "folder_madison",
+    "source_url": "",
+    "source_signature": "88d2574e3a9c4cd7439f47c151b0e66b76df0f2bf91f3255d99d8fb068e7e684",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_polk": {
+    "county": "Polk",
+    "total": 1531,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 1531,
+    "counts": [
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 9
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 95
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 18
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 5
+      },
+      {
+        "precinct": "13 I",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 10
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 92
+      },
+      {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 107
+      },
+      {
+        "precinct": "16",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 114
+      },
+      {
+        "precinct": "17",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 112
+      },
+      {
+        "precinct": "18",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 40
+      },
+      {
+        "precinct": "19",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 37
+      },
+      {
+        "precinct": "2 IL",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 23
+      },
+      {
+        "precinct": "20",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 53
+      },
+      {
+        "precinct": "21",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 165
+      },
+      {
+        "precinct": "22",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 41
+      },
+      {
+        "precinct": "22",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 36
+      },
+      {
+        "precinct": "32",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "33",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "3807",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 80
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 71
+      },
+      {
+        "precinct": "5",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 290
+      },
+      {
+        "precinct": "7 CL",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 36
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 54
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 38
+      }
+    ],
+    "source_id": "folder_polk",
+    "source_url": "",
+    "source_signature": "51d770eb70783cc35a5984cec8a92259edf1b046857b6d85195e2965137dcc26",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_san-jacinto": {
+    "county": "San Jacinto",
+    "total": 718,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 718,
+    "counts": [
+      {
+        "precinct": "",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 139
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 9
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 24
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 109
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 31
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 29
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 51
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 152
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 112
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 44
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 17
+      }
+    ],
+    "source_id": "folder_san-jacinto",
+    "source_url": "",
+    "source_signature": "c0aa41b0b1cb1b3bbe8f59c5c21b6241548f700dedc78a89d6f0436032064fc9",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_trinity": {
+    "county": "Trinity",
+    "total": 584,
+    "unknown_district": 0,
+    "provisional_assigned": 0,
+    "outside_district": 0,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 584,
+    "counts": [
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 34
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 22
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 169
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 9
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 24
+      },
+      {
+        "precinct": "14",
+        "mode": "mail",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "16",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 25
+      },
+      {
+        "precinct": "17",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 20
+      },
+      {
+        "precinct": "18",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 4
+      },
+      {
+        "precinct": "19",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 66
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 58
+      },
+      {
+        "precinct": "20",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 1
+      },
+      {
+        "precinct": "21",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 30
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 23
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 14
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 8
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 10
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 9
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 20
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 36
+      }
+    ],
+    "source_id": "folder_trinity",
+    "source_url": "",
+    "source_signature": "e063a83a634d89203bf09122bef7f17897ca9f4cdabedf44730150851db9b8cf",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "ok",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+    ],
+    "error": null
+  },
+  "folder_walker": {
+    "county": "Walker",
+    "total": 1287,
+    "unknown_district": 1,
+    "provisional_assigned": 1287,
+    "outside_district": 452,
+    "excluded_period": 0,
+    "undated": 0,
+    "latest_vote_date": "2026-10-20",
+    "unique_eligible_roster_records": 1740,
+    "counts": [
+      {
+        "precinct": "101",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 25
+      },
+      {
+        "precinct": "102",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 200
+      },
+      {
+        "precinct": "103",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 91
+      },
+      {
+        "precinct": "104",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 110
+      },
+      {
+        "precinct": "201",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 50
+      },
+      {
+        "precinct": "203",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 192
+      },
+      {
+        "precinct": "204",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 90
+      },
+      {
+        "precinct": "205",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 259
+      },
+      {
+        "precinct": "206",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 96
+      },
+      {
+        "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 21
+      },
+      {
+        "precinct": "304",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 138
+      },
+      {
+        "precinct": "406",
+        "mode": "in_person",
+        "vote_date": "2026-10-20",
+        "count": 15
+      }
+    ],
+    "source_id": "folder_walker",
+    "source_url": "",
+    "source_signature": "12e77ead00161571c1bbef834e48c68b516c8a8e4a0124e0cafb91178e8829c2",
+    "fingerprint": "dcf0d55334573b3098abb8cf5df3b5de1d3efb1b2aa2c1c85e03b5009d52d8a9",
+    "fetched_at": "2026-10-21T00:18:10.108923+00:00",
+    "checked_at": "2026-10-21T00:18:10.108923+00:00",
+    "changed_at": "2026-10-21T00:18:10.108923+00:00",
+    "status": "partial",
+    "ingestion_notes": [
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "Folder import: 1 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
