@@ -20,7 +20,7 @@ class LocalPublisherTests(unittest.TestCase):
         call('init', '-b', 'main', str(root))
         call('-C', str(root), 'config', 'user.name', 'Local test')
         call('-C', str(root), 'config', 'user.email', 'local-test@example.invalid')
-        (root / '.gitignore').write_text('inbox/\n')
+        (root / '.gitignore').write_text('inbox/\n.cache/\n')
         (root / 'README.md').write_text('Synthetic repository\n')
         call('-C', str(root), 'add', '.')
         call('-C', str(root), 'commit', '-m', 'Initial test')

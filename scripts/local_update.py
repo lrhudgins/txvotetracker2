@@ -1,10 +1,12 @@
 """Download/process locally, then commit and optionally push only generated aggregates."""
 import argparse
+import fcntl
 import os
 import re
 import subprocess
 import sys
 import time
+from contextlib import contextmanager
 from pathlib import Path
 from update import ROOT, run
 from folder_inputs import stamp
@@ -17,7 +19,28 @@ def git(root, *args, capture=True):
     return (result.stdout or '').strip()
 
 
+@contextmanager
+def update_lock(root, name='publish', blocking=True):
+    folder = Path(root) / '.cache'
+    folder.mkdir(mode=0o700, parents=True, exist_ok=True)
+    descriptor = os.open(str(folder / (name + '.lock')), os.O_CREAT | os.O_RDWR, 0o600)
+    with os.fdopen(descriptor, 'a') as handle:
+        try:
+            fcntl.flock(handle, fcntl.LOCK_EX | (0 if blocking else fcntl.LOCK_NB))
+        except BlockingIOError:
+            raise RuntimeError('Another scheduled statewide refresh is already running.') from None
+        try:
+            yield
+        finally:
+            fcntl.flock(handle, fcntl.LOCK_UN)
+
+
 def publish_once(push=False, local=None, inbox=None):
+    with update_lock(ROOT):
+        return _publish_once(push, local, inbox)
+
+
+def _publish_once(push=False, local=None, inbox=None):
     local = local or {}
     if push:
         git(ROOT, 'rev-parse', '--show-toplevel')
