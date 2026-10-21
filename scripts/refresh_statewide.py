@@ -1,5 +1,6 @@
 """Download SOS reports locally, validate before replacement, then publish aggregates."""
 import argparse
+import csv
 import hashlib
 import json
 import os
@@ -14,6 +15,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 import local_update
 import sos_rosters
+import sos_download_payload
 from update import ROOT
 
 ENDPOINT='https://goelect.txelections.civixapps.com/api-ivis-system/api/v1/getFile'
@@ -57,7 +59,7 @@ def download(report_date, inbox, settings):
     os.close(descriptor);temporary=Path(temp_name)
     try:
         try:
-            response=subprocess.run([curl,'--fail','--location','--silent','--show-error',
+            response=subprocess.run([curl,'--fail','--location','--silent','--show-error','--compressed',
                 '--proto','=https','--proto-redir','=https','--connect-timeout','20',
                 '--max-time','300','--max-filesize',str(MAX_BYTES),'--output',str(temporary),
                 '--write-out','%{http_code}',report_url(report_date)],capture_output=True,text=True,timeout=330)
@@ -69,18 +71,12 @@ def download(report_date, inbox, settings):
             raise RuntimeError(f'Statewide download failed (HTTP {status if status.isdigit() else "unknown"}, curl exit {response.returncode}); existing report retained.')
         if not temporary.stat().st_size or temporary.stat().st_size>MAX_BYTES:
             raise ValueError('Downloaded report is empty or too large; existing report retained.')
-        if zipfile.is_zipfile(temporary):
-            with zipfile.ZipFile(temporary) as archive:
-                entries=[i for i in archive.infolist() if not i.is_dir() and i.filename.lower().endswith('.csv') and not i.filename.startswith('__MACOSX/')]
-                if len(entries)!=1 or entries[0].file_size>MAX_BYTES:
-                    raise ValueError('Download ZIP must contain exactly one supported statewide CSV.')
-                body=archive.read(entries[0])
-            temporary.write_bytes(body)
         try:
+            temporary.write_bytes(sos_download_payload.decode(temporary.read_bytes()))
             counties,_=sos_rosters.load(temporary,settings,report_date.isoformat())
             if not counties or any(c['error'] for c in counties.values()) or not any(c['records'] for c in counties.values()):
                 raise ValueError('No valid complete target-county records.')
-        except (ValueError,UnicodeError,zipfile.BadZipFile):
+        except (ValueError,UnicodeError,csv.Error,zipfile.BadZipFile):
             raise ValueError('Downloaded content did not validate as an SOS voter CSV; existing report retained. No response contents were logged.') from None
         if destination.exists() and checksum(destination)==checksum(temporary):return 'unchanged'
         os.chmod(temporary,0o600)

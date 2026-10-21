@@ -46,7 +46,10 @@ def load(path, settings, asof):
     raw, errors = {}, {}
     with path.open(encoding=encoding, newline='') as f:
         reader = csv.DictReader(f)
-        headers = {norm(h): h for h in reader.fieldnames or []}
+        try:
+            headers = {norm(h): h for h in reader.fieldnames or []}
+        except csv.Error:
+            raise ValueError('SOS CSV header could not be read; download the original CSV export.') from None
         required = ('county', 'votername', 'idvoter', 'votingmethod', 'precinct')
         if len(headers) != len(reader.fieldnames or []) or not all(k in headers for k in required):
             raise ValueError('SOS export needs unique COUNTY, VOTER_NAME, ID_VOTER, VOTING_METHOD, and PRECINCT columns.')
