@@ -71,6 +71,11 @@ def scan(folder, settings):
 def read_county(files, source, parse_document, parse_travis_archive):
     """Latest snapshots replace older ones; only later daily files supplement them."""
     selected_by_method, notes = {}, []
+    statewide = [item for item in files if item.get('_sos')]
+    if statewide:
+        ignored = len(files) - len(statewide)
+        files = statewide
+        notes.append(f'SOS statewide-first mode: county-specific rosters are ignored for this county ({ignored} file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.')
     for method in ('in-person', 'mail'):
         candidates = [f for f in files if f['method'] in {method, 'mixed'}]
         snapshots = [f for f in candidates if f['coverage'] != 'daily']

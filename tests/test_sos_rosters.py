@@ -63,16 +63,29 @@ class SosRosterTests(unittest.TestCase):
             public=''.join(p.read_text() for p in (root/'docs').rglob('*') if p.is_file())
             for private in ('1000000001','1000000002','SYNTHETIC'):self.assertNotIn(private,public)
 
-    def test_daily_county_and_statewide_sources_merge_without_double_counting(self):
+    def test_statewide_default_ignores_conflicting_county_rosters(self):
         with tempfile.TemporaryDirectory() as temp:
             folder=Path(temp)
             self.write(folder,[['BRAZOS','SYNTHETIC, ONE','1000000001','IN-PERSON','69'],
                                ['BRAZOS','SYNTHETIC, TWO','1000000002','IN-PERSON','69']])
-            (folder/'brazos__2026-11-03__2026-10-20__in-person__daily.csv').write_text('VUID,Precinct\n1000000001,69\n1000000003,69\n')
+            (folder/'brazos__2026-11-03__2026-10-20__in-person__daily.csv').write_text('VUID,Precinct\n1000000001,70\n1000000003,69\n')
             files=folders.scan(folder,self.settings)
             source={'county':'Brazos','adapter':'brazos_index','columns_json':'{}'}
-            rows,_,_=folders.read_county(files['Brazos'],source,u.parse_document,u.parse_travis_archive)
-            self.assertEqual(len(rows),3)
+            rows,_,notes=folders.read_county(files['Brazos'],source,u.parse_document,u.parse_travis_archive)
+            self.assertEqual(len(rows),2)
+            self.assertEqual({r['precinct'] for r in rows},{'69'})
+            self.assertTrue(any('statewide-first' in n for n in notes))
+
+    def test_statewide_travis_does_not_parse_legacy_travis_archive(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder=Path(temp)
+            self.write(folder,[['TRAVIS','SYNTHETIC, ONE','1000000001','IN-PERSON','101']])
+            (folder/'travis__2026-11-03__2026-10-19__mixed__archive.zip').write_bytes(b'invalid archive must never be read')
+            files=folders.scan(folder,self.settings)
+            source={'county':'Travis','adapter':'roster','columns_json':'{}'}
+            with patch.object(u,'parse_travis_archive',side_effect=AssertionError('County archive must be ignored')):
+                rows,_,_=folders.read_county(files['Travis'],source,u.parse_document,u.parse_travis_archive)
+            self.assertEqual(len(rows),1)
 
     def test_revision_and_explicit_cumulative_replace_superseded_rows(self):
         with tempfile.TemporaryDirectory() as temp:
