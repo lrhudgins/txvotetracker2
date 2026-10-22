@@ -1862,6 +1862,13 @@
     "county": "Lee"
   },
   {
+    "precinct": "401",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 1,
+    "county": "Lee"
+  },
+  {
     "precinct": "402",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -1915,6 +1922,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 41,
+    "county": "Lee"
+  },
+  {
+    "precinct": "405",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 2,
     "county": "Lee"
   },
   {
@@ -4406,7 +4420,7 @@
     "precinct": "320",
     "mode": "mail",
     "vote_date": "2026-10-22",
-    "count": 10,
+    "count": 11,
     "county": "Travis"
   },
   {
@@ -4861,7 +4875,7 @@
     "precinct": "354",
     "mode": "mail",
     "vote_date": "2026-10-22",
-    "count": 21,
+    "count": 20,
     "county": "Travis"
   },
   {
@@ -5358,7 +5372,7 @@
     "precinct": "374",
     "mode": "mail",
     "vote_date": "2026-10-22",
-    "count": 17,
+    "count": 18,
     "county": "Travis"
   },
   {

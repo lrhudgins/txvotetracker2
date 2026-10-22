@@ -2,11 +2,11 @@
   "election_date": "2026-11-03",
   "district": 10,
   "plan": "PLANC2333",
-  "provisional_assigned": 24526,
-  "updated_at": "2026-10-22T20:08:47.179790+00:00",
+  "provisional_assigned": 24527,
+  "updated_at": "2026-10-22T21:35:15.264802+00:00",
   "snapshot_date": "2026-10-22",
   "complete": false,
-  "reported_subtotal": 44629,
+  "reported_subtotal": 44633,
   "counties_reporting": 13,
   "counties_expected": 13,
   "counties": [
@@ -20,8 +20,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "https://elections.brazoscountytx.gov/roster/",
       "error": null,
       "ingestion_notes": [
@@ -44,8 +44,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting",
       "error": null,
       "ingestion_notes": [
@@ -68,8 +68,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D",
       "error": null,
       "ingestion_notes": [
@@ -93,8 +93,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -110,15 +110,15 @@
     {
       "county": "Lee",
       "scope": "whole county",
-      "total": 1030,
-      "in_person": 1030,
+      "total": 1033,
+      "in_person": 1033,
       "mail": null,
       "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": "2026-10-21",
+      "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -126,8 +126,9 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "577 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 3 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
@@ -141,8 +142,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -165,8 +166,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -189,8 +190,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -213,8 +214,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -237,8 +238,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -261,8 +262,8 @@
       "unknown_district": 2,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -279,15 +280,15 @@
     {
       "county": "Travis",
       "scope": "CD-10 residents only",
-      "total": 22025,
+      "total": 22026,
       "in_person": 19641,
-      "mail": 2384,
+      "mail": 2385,
       "status": "partial",
       "unknown_district": 21,
       "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
       "error": null,
       "ingestion_notes": [
@@ -299,7 +300,7 @@
         "46052 repeated voter(s) counted once at their earliest daily report date.",
         "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
-      "provisional_assigned": 22025
+      "provisional_assigned": 22026
     },
     {
       "county": "Walker",
@@ -311,8 +312,8 @@
       "unknown_district": 1,
       "latest_vote_date": "2026-10-21",
       "undated": 0,
-      "fetched_at": "2026-10-22T20:08:47.179790+00:00",
-      "changed_at": "2026-10-22T20:08:47.179790+00:00",
+      "fetched_at": "2026-10-22T21:35:15.264802+00:00",
+      "changed_at": "2026-10-22T21:35:15.264802+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
