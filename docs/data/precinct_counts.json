@@ -581,6 +581,13 @@
     "county": "Brazos"
   },
   {
+    "precinct": "403",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 1,
+    "county": "Brazos"
+  },
+  {
     "precinct": "41",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -1379,6 +1386,13 @@
     "county": "Grimes"
   },
   {
+    "precinct": "6",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 1,
+    "county": "Grimes"
+  },
+  {
     "precinct": "7",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -1942,7 +1956,7 @@
     "precinct": "405",
     "mode": "in_person",
     "vote_date": "2026-10-22",
-    "count": 2,
+    "count": 3,
     "county": "Lee"
   },
   {
@@ -2534,6 +2548,13 @@
     "county": "Polk"
   },
   {
+    "precinct": "6",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 2,
+    "county": "Polk"
+  },
+  {
     "precinct": "7 CL",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2751,6 +2772,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "1",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 17,
+    "county": "Trinity"
+  },
+  {
     "precinct": "10",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2762,6 +2790,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 14,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "10",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 20,
     "county": "Trinity"
   },
   {
@@ -2779,6 +2814,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "11",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 72,
+    "county": "Trinity"
+  },
+  {
     "precinct": "12",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2790,6 +2832,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 9,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "12",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 3,
     "county": "Trinity"
   },
   {
@@ -2804,6 +2853,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 36,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "14",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 27,
     "county": "Trinity"
   },
   {
@@ -2828,6 +2884,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "15",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 4,
+    "county": "Trinity"
+  },
+  {
     "precinct": "16",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2838,6 +2901,13 @@
     "precinct": "16",
     "mode": "in_person",
     "vote_date": "2026-10-21",
+    "count": 21,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "16",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
     "count": 21,
     "county": "Trinity"
   },
@@ -2856,6 +2926,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "17",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 12,
+    "county": "Trinity"
+  },
+  {
     "precinct": "18",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2867,6 +2944,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 4,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "18",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 2,
     "county": "Trinity"
   },
   {
@@ -2884,6 +2968,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "19",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 69,
+    "county": "Trinity"
+  },
+  {
     "precinct": "2",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2895,6 +2986,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 33,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "2",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 35,
     "county": "Trinity"
   },
   {
@@ -2912,6 +3010,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "20",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 1,
+    "county": "Trinity"
+  },
+  {
     "precinct": "21",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2923,6 +3028,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 24,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "21",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 19,
     "county": "Trinity"
   },
   {
@@ -2940,6 +3052,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "3",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 15,
+    "county": "Trinity"
+  },
+  {
     "precinct": "4",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2951,6 +3070,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 5,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "4",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 4,
     "county": "Trinity"
   },
   {
@@ -2968,6 +3094,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "5",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 7,
+    "county": "Trinity"
+  },
+  {
     "precinct": "6",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2979,6 +3112,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 9,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "6",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 11,
     "county": "Trinity"
   },
   {
@@ -2996,6 +3136,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "7",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 6,
+    "county": "Trinity"
+  },
+  {
     "precinct": "8",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3010,6 +3157,13 @@
     "county": "Trinity"
   },
   {
+    "precinct": "8",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 15,
+    "county": "Trinity"
+  },
+  {
     "precinct": "9",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3021,6 +3175,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 25,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "9",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 21,
     "county": "Trinity"
   },
   {
@@ -3049,6 +3210,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 21,
+    "county": "Travis"
+  },
+  {
+    "precinct": "146",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 9,
     "county": "Travis"
   },
   {
@@ -3095,6 +3263,13 @@
   },
   {
     "precinct": "148",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 2,
+    "county": "Travis"
+  },
+  {
+    "precinct": "148",
     "mode": "mail",
     "vote_date": "2026-10-22",
     "count": 1,
@@ -3115,6 +3290,13 @@
     "county": "Travis"
   },
   {
+    "precinct": "149",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 3,
+    "county": "Travis"
+  },
+  {
     "precinct": "158",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3126,6 +3308,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 11,
+    "county": "Travis"
+  },
+  {
+    "precinct": "158",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 1,
     "county": "Travis"
   },
   {
@@ -3154,6 +3343,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 59,
+    "county": "Travis"
+  },
+  {
+    "precinct": "181",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 15,
     "county": "Travis"
   },
   {
@@ -3193,6 +3389,13 @@
   },
   {
     "precinct": "182",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 14,
+    "county": "Travis"
+  },
+  {
+    "precinct": "182",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 12,
@@ -3217,6 +3420,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 118,
+    "county": "Travis"
+  },
+  {
+    "precinct": "184",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 25,
     "county": "Travis"
   },
   {
@@ -3263,6 +3473,13 @@
   },
   {
     "precinct": "185",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 17,
+    "county": "Travis"
+  },
+  {
+    "precinct": "185",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 15,
@@ -3298,6 +3515,13 @@
   },
   {
     "precinct": "190",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 9,
+    "county": "Travis"
+  },
+  {
+    "precinct": "190",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 5,
@@ -3329,6 +3553,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 20,
+    "county": "Travis"
+  },
+  {
+    "precinct": "196",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 5,
     "county": "Travis"
   },
   {
@@ -3375,6 +3606,13 @@
   },
   {
     "precinct": "200",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 33,
+    "county": "Travis"
+  },
+  {
+    "precinct": "200",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 15,
@@ -3413,6 +3651,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 181,
+    "county": "Travis"
+  },
+  {
+    "precinct": "230",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 34,
     "county": "Travis"
   },
   {
@@ -3459,6 +3704,13 @@
   },
   {
     "precinct": "231",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 46,
+    "county": "Travis"
+  },
+  {
+    "precinct": "231",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 44,
@@ -3501,6 +3753,13 @@
   },
   {
     "precinct": "252",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 11,
+    "county": "Travis"
+  },
+  {
+    "precinct": "252",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 11,
@@ -3532,6 +3791,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 112,
+    "county": "Travis"
+  },
+  {
+    "precinct": "253",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 43,
     "county": "Travis"
   },
   {
@@ -3578,6 +3844,13 @@
   },
   {
     "precinct": "256",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 42,
+    "county": "Travis"
+  },
+  {
+    "precinct": "256",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 15,
@@ -3620,6 +3893,13 @@
   },
   {
     "precinct": "262",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 25,
+    "county": "Travis"
+  },
+  {
+    "precinct": "262",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 15,
@@ -3658,6 +3938,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 160,
+    "county": "Travis"
+  },
+  {
+    "precinct": "267",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 34,
     "county": "Travis"
   },
   {
@@ -3704,6 +3991,13 @@
   },
   {
     "precinct": "268",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 27,
+    "county": "Travis"
+  },
+  {
+    "precinct": "268",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 8,
@@ -3742,6 +4036,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 174,
+    "county": "Travis"
+  },
+  {
+    "precinct": "270",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 46,
     "county": "Travis"
   },
   {
@@ -3788,6 +4089,13 @@
   },
   {
     "precinct": "271",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 43,
+    "county": "Travis"
+  },
+  {
+    "precinct": "271",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 16,
@@ -3830,6 +4138,13 @@
   },
   {
     "precinct": "272",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 50,
+    "county": "Travis"
+  },
+  {
+    "precinct": "272",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 32,
@@ -3867,7 +4182,14 @@
     "precinct": "273",
     "mode": "in_person",
     "vote_date": "2026-10-21",
-    "count": 147,
+    "count": 148,
+    "county": "Travis"
+  },
+  {
+    "precinct": "273",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 38,
     "county": "Travis"
   },
   {
@@ -3903,6 +4225,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 181,
+    "county": "Travis"
+  },
+  {
+    "precinct": "274",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 35,
     "county": "Travis"
   },
   {
@@ -3949,6 +4278,13 @@
   },
   {
     "precinct": "275",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 28,
+    "county": "Travis"
+  },
+  {
+    "precinct": "275",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 12,
@@ -3987,6 +4323,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 269,
+    "county": "Travis"
+  },
+  {
+    "precinct": "280",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 66,
     "county": "Travis"
   },
   {
@@ -4033,6 +4376,13 @@
   },
   {
     "precinct": "281",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 55,
+    "county": "Travis"
+  },
+  {
+    "precinct": "281",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 24,
@@ -4071,6 +4421,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 183,
+    "county": "Travis"
+  },
+  {
+    "precinct": "282",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 28,
     "county": "Travis"
   },
   {
@@ -4117,6 +4474,13 @@
   },
   {
     "precinct": "290",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 54,
+    "county": "Travis"
+  },
+  {
+    "precinct": "290",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 33,
@@ -4159,6 +4523,13 @@
   },
   {
     "precinct": "291",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 12,
+    "county": "Travis"
+  },
+  {
+    "precinct": "291",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 2,
@@ -4190,6 +4561,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 167,
+    "county": "Travis"
+  },
+  {
+    "precinct": "292",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 49,
     "county": "Travis"
   },
   {
@@ -4236,6 +4614,13 @@
   },
   {
     "precinct": "293",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 46,
+    "county": "Travis"
+  },
+  {
+    "precinct": "293",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 24,
@@ -4274,6 +4659,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 123,
+    "county": "Travis"
+  },
+  {
+    "precinct": "294",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 22,
     "county": "Travis"
   },
   {
@@ -4320,6 +4712,13 @@
   },
   {
     "precinct": "300",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 50,
+    "county": "Travis"
+  },
+  {
+    "precinct": "300",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 19,
@@ -4362,6 +4761,13 @@
   },
   {
     "precinct": "301",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 13,
+    "county": "Travis"
+  },
+  {
+    "precinct": "301",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 9,
@@ -4396,6 +4802,13 @@
     "county": "Travis"
   },
   {
+    "precinct": "303",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 3,
+    "county": "Travis"
+  },
+  {
     "precinct": "320",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4407,6 +4820,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 185,
+    "county": "Travis"
+  },
+  {
+    "precinct": "320",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 47,
     "county": "Travis"
   },
   {
@@ -4453,6 +4873,13 @@
   },
   {
     "precinct": "321",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 39,
+    "county": "Travis"
+  },
+  {
+    "precinct": "321",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 21,
@@ -4495,6 +4922,13 @@
   },
   {
     "precinct": "322",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 42,
+    "county": "Travis"
+  },
+  {
+    "precinct": "322",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 43,
@@ -4518,7 +4952,7 @@
     "precinct": "322",
     "mode": "mail",
     "vote_date": "2026-10-22",
-    "count": 7,
+    "count": 6,
     "county": "Travis"
   },
   {
@@ -4533,6 +4967,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 156,
+    "county": "Travis"
+  },
+  {
+    "precinct": "323",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 41,
     "county": "Travis"
   },
   {
@@ -4579,6 +5020,13 @@
   },
   {
     "precinct": "324",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 31,
+    "county": "Travis"
+  },
+  {
+    "precinct": "324",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 31,
@@ -4621,6 +5069,13 @@
   },
   {
     "precinct": "325",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 15,
+    "county": "Travis"
+  },
+  {
+    "precinct": "325",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 7,
@@ -4659,6 +5114,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 127,
+    "county": "Travis"
+  },
+  {
+    "precinct": "326",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 32,
     "county": "Travis"
   },
   {
@@ -4705,6 +5167,13 @@
   },
   {
     "precinct": "327",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 33,
+    "county": "Travis"
+  },
+  {
+    "precinct": "327",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 25,
@@ -4743,6 +5212,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 134,
+    "county": "Travis"
+  },
+  {
+    "precinct": "351",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 39,
     "county": "Travis"
   },
   {
@@ -4789,6 +5265,13 @@
   },
   {
     "precinct": "352",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 21,
+    "county": "Travis"
+  },
+  {
+    "precinct": "352",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 28,
@@ -4824,6 +5307,13 @@
   },
   {
     "precinct": "353",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 43,
+    "county": "Travis"
+  },
+  {
+    "precinct": "353",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 57,
@@ -4847,7 +5337,7 @@
     "precinct": "353",
     "mode": "mail",
     "vote_date": "2026-10-22",
-    "count": 16,
+    "count": 15,
     "county": "Travis"
   },
   {
@@ -4862,6 +5352,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 235,
+    "county": "Travis"
+  },
+  {
+    "precinct": "354",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 63,
     "county": "Travis"
   },
   {
@@ -4908,6 +5405,13 @@
   },
   {
     "precinct": "355",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 7,
+    "county": "Travis"
+  },
+  {
+    "precinct": "355",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 12,
@@ -4939,6 +5443,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 68,
+    "county": "Travis"
+  },
+  {
+    "precinct": "361",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 13,
     "county": "Travis"
   },
   {
@@ -4985,6 +5496,13 @@
   },
   {
     "precinct": "362",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 48,
+    "county": "Travis"
+  },
+  {
+    "precinct": "362",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 19,
@@ -5023,6 +5541,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 196,
+    "county": "Travis"
+  },
+  {
+    "precinct": "363",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 34,
     "county": "Travis"
   },
   {
@@ -5069,6 +5594,13 @@
   },
   {
     "precinct": "364",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 31,
+    "county": "Travis"
+  },
+  {
+    "precinct": "364",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 23,
@@ -5107,6 +5639,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 191,
+    "county": "Travis"
+  },
+  {
+    "precinct": "365",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 37,
     "county": "Travis"
   },
   {
@@ -5153,6 +5692,13 @@
   },
   {
     "precinct": "366",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 49,
+    "county": "Travis"
+  },
+  {
+    "precinct": "366",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 20,
@@ -5191,6 +5737,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 149,
+    "county": "Travis"
+  },
+  {
+    "precinct": "367",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 42,
     "county": "Travis"
   },
   {
@@ -5237,6 +5790,13 @@
   },
   {
     "precinct": "370",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 45,
+    "county": "Travis"
+  },
+  {
+    "precinct": "370",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 28,
@@ -5275,6 +5835,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 138,
+    "county": "Travis"
+  },
+  {
+    "precinct": "371",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 31,
     "county": "Travis"
   },
   {
@@ -5321,6 +5888,13 @@
   },
   {
     "precinct": "372",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 2,
+    "county": "Travis"
+  },
+  {
+    "precinct": "372",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 4,
@@ -5359,6 +5933,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 289,
+    "county": "Travis"
+  },
+  {
+    "precinct": "374",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 84,
     "county": "Travis"
   },
   {
@@ -5405,6 +5986,13 @@
   },
   {
     "precinct": "375",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 49,
+    "county": "Travis"
+  },
+  {
+    "precinct": "375",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 38,
@@ -5443,6 +6031,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 249,
+    "county": "Travis"
+  },
+  {
+    "precinct": "376",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 54,
     "county": "Travis"
   },
   {
@@ -5489,6 +6084,13 @@
   },
   {
     "precinct": "377",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 25,
+    "county": "Travis"
+  },
+  {
+    "precinct": "377",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 14,
@@ -5531,6 +6133,13 @@
   },
   {
     "precinct": "378",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 7,
+    "county": "Travis"
+  },
+  {
+    "precinct": "378",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 4,
@@ -5562,6 +6171,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 192,
+    "county": "Travis"
+  },
+  {
+    "precinct": "380",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 36,
     "county": "Travis"
   },
   {
@@ -5608,6 +6224,13 @@
   },
   {
     "precinct": "381",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 17,
+    "county": "Travis"
+  },
+  {
+    "precinct": "381",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 7,
@@ -5639,6 +6262,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 158,
+    "county": "Travis"
+  },
+  {
+    "precinct": "382",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 33,
     "county": "Travis"
   },
   {
@@ -5685,6 +6315,13 @@
   },
   {
     "precinct": "392",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 23,
+    "county": "Travis"
+  },
+  {
+    "precinct": "392",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 12,
@@ -5701,7 +6338,7 @@
     "precinct": "392",
     "mode": "mail",
     "vote_date": "2026-10-22",
-    "count": 4,
+    "count": 3,
     "county": "Travis"
   },
   {
@@ -5716,6 +6353,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 118,
+    "county": "Travis"
+  },
+  {
+    "precinct": "394",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 31,
     "county": "Travis"
   },
   {
@@ -5762,6 +6406,13 @@
   },
   {
     "precinct": "395",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 24,
+    "county": "Travis"
+  },
+  {
+    "precinct": "395",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 13,
@@ -5804,6 +6455,13 @@
   },
   {
     "precinct": "398",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 10,
+    "county": "Travis"
+  },
+  {
+    "precinct": "398",
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 2,
@@ -5835,6 +6493,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 108,
+    "county": "Travis"
+  },
+  {
+    "precinct": "400",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 18,
     "county": "Travis"
   },
   {
@@ -5880,6 +6545,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "101",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 18,
+    "county": "Walker"
+  },
+  {
     "precinct": "102",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5891,6 +6563,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 149,
+    "county": "Walker"
+  },
+  {
+    "precinct": "102",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 140,
     "county": "Walker"
   },
   {
@@ -5908,6 +6587,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "103",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 78,
+    "county": "Walker"
+  },
+  {
     "precinct": "104",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5919,6 +6605,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 102,
+    "county": "Walker"
+  },
+  {
+    "precinct": "104",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 99,
     "county": "Walker"
   },
   {
@@ -5936,6 +6629,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "201",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 33,
+    "county": "Walker"
+  },
+  {
     "precinct": "203",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5947,6 +6647,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 147,
+    "county": "Walker"
+  },
+  {
+    "precinct": "203",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 137,
     "county": "Walker"
   },
   {
@@ -5964,6 +6671,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "204",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 72,
+    "county": "Walker"
+  },
+  {
     "precinct": "205",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5975,6 +6689,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 215,
+    "county": "Walker"
+  },
+  {
+    "precinct": "205",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 176,
     "county": "Walker"
   },
   {
@@ -5992,6 +6713,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "206",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 68,
+    "county": "Walker"
+  },
+  {
     "precinct": "303",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -6002,6 +6730,13 @@
     "precinct": "303",
     "mode": "in_person",
     "vote_date": "2026-10-21",
+    "count": 26,
+    "county": "Walker"
+  },
+  {
+    "precinct": "303",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
     "count": 26,
     "county": "Walker"
   },
@@ -6020,6 +6755,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "304",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 132,
+    "county": "Walker"
+  },
+  {
     "precinct": "406",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -6031,6 +6773,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 3,
+    "county": "Walker"
+  },
+  {
+    "precinct": "406",
+    "mode": "in_person",
+    "vote_date": "2026-10-22",
+    "count": 9,
     "county": "Walker"
   }
 ]
