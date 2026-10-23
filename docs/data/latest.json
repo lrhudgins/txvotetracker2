@@ -2,26 +2,26 @@
   "election_date": "2026-11-03",
   "district": 10,
   "plan": "PLANC2333",
-  "provisional_assigned": 27742,
-  "updated_at": "2026-10-23T04:25:02.497130+00:00",
-  "snapshot_date": "2026-10-22",
+  "provisional_assigned": 34974,
+  "updated_at": "2026-10-23T16:26:34.166060+00:00",
+  "snapshot_date": "2026-10-23",
   "complete": false,
-  "reported_subtotal": 48236,
+  "reported_subtotal": 63380,
   "counties_reporting": 13,
   "counties_expected": 13,
   "counties": [
     {
       "county": "Brazos",
       "scope": "whole county",
-      "total": 9243,
-      "in_person": 9242,
+      "total": 13936,
+      "in_person": 13935,
       "mail": 1,
       "status": "ok",
       "unknown_district": 0,
       "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "https://elections.brazoscountytx.gov/roster/",
       "error": null,
       "ingestion_notes": [
@@ -38,15 +38,15 @@
     {
       "county": "Burleson",
       "scope": "whole county",
-      "total": 488,
-      "in_person": 488,
+      "total": 926,
+      "in_person": 926,
       "mail": null,
       "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": "2026-10-21",
+      "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting",
       "error": null,
       "ingestion_notes": [
@@ -54,8 +54,9 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "1 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 3 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
@@ -69,8 +70,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D",
       "error": null,
       "ingestion_notes": [
@@ -87,15 +88,15 @@
     {
       "county": "Houston",
       "scope": "whole county",
-      "total": 1028,
-      "in_person": 1027,
-      "mail": 1,
+      "total": 1456,
+      "in_person": 1454,
+      "mail": 2,
       "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": "2026-10-21",
+      "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -103,23 +104,24 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "547 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 3 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
     {
       "county": "Lee",
       "scope": "whole county",
-      "total": 1034,
-      "in_person": 1034,
+      "total": 1036,
+      "in_person": 1036,
       "mail": null,
       "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": "2026-10-22",
+      "latest_vote_date": "2026-10-23",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -128,23 +130,24 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "577 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
     {
       "county": "Leon",
       "scope": "whole county",
-      "total": 985,
-      "in_person": 981,
+      "total": 1342,
+      "in_person": 1338,
       "mail": 4,
       "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": "2026-10-21",
+      "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -152,23 +155,24 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "538 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 3 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
     {
       "county": "Madison",
       "scope": "whole county",
-      "total": 554,
-      "in_person": 554,
+      "total": 825,
+      "in_person": 825,
       "mail": null,
       "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": "2026-10-21",
+      "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -176,23 +180,24 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "329 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 3 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
     {
       "county": "Polk",
       "scope": "whole county",
-      "total": 2799,
-      "in_person": 2795,
+      "total": 3859,
+      "in_person": 3855,
       "mail": 4,
       "status": "ok",
       "unknown_district": 0,
       "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -209,15 +214,15 @@
     {
       "county": "San Jacinto",
       "scope": "whole county",
-      "total": 1394,
-      "in_person": 1393,
+      "total": 2057,
+      "in_person": 2056,
       "mail": 1,
       "status": "ok",
       "unknown_district": 0,
-      "latest_vote_date": "2026-10-21",
+      "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -225,8 +230,9 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "718 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 3 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
       "provisional_assigned": 0
     },
@@ -240,8 +246,8 @@
       "unknown_district": 0,
       "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -258,15 +264,15 @@
     {
       "county": "Bastrop",
       "scope": "CD-10 residents only",
-      "total": 114,
-      "in_person": 114,
+      "total": 159,
+      "in_person": 159,
       "mail": null,
       "status": "partial",
       "unknown_district": 2,
-      "latest_vote_date": "2026-10-21",
+      "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -275,23 +281,24 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "3143 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
-      "provisional_assigned": 114
+      "provisional_assigned": 159
     },
     {
       "county": "Travis",
       "scope": "CD-10 residents only",
-      "total": 24253,
-      "in_person": 21871,
-      "mail": 2382,
+      "total": 31441,
+      "in_person": 28990,
+      "mail": 2451,
       "status": "partial",
-      "unknown_district": 21,
-      "latest_vote_date": "2026-10-22",
+      "unknown_district": 24,
+      "latest_vote_date": "2026-10-23",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
       "error": null,
       "ingestion_notes": [
@@ -300,23 +307,24 @@
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+        "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
         "46052 repeated voter(s) counted once at their earliest daily report date.",
-        "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+        "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
-      "provisional_assigned": 24253
+      "provisional_assigned": 31441
     },
     {
       "county": "Walker",
       "scope": "CD-10 residents only",
-      "total": 3375,
-      "in_person": 3375,
+      "total": 3374,
+      "in_person": 3374,
       "mail": null,
       "status": "partial",
       "unknown_district": 2,
       "latest_vote_date": "2026-10-22",
       "undated": 0,
-      "fetched_at": "2026-10-23T04:25:02.497130+00:00",
-      "changed_at": "2026-10-23T03:20:33.145117+00:00",
+      "fetched_at": "2026-10-23T16:26:34.166060+00:00",
+      "changed_at": "2026-10-23T16:26:34.166060+00:00",
       "source_url": "",
       "error": null,
       "ingestion_notes": [
@@ -328,7 +336,7 @@
         "1740 repeated voter(s) counted once at their earliest daily report date.",
         "Folder import: 4 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
       ],
-      "provisional_assigned": 3375
+      "provisional_assigned": 3374
     }
   ],
   "sources": [
