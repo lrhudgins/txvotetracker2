@@ -301,6 +301,13 @@
     "county": "Brazos"
   },
   {
+    "precinct": "2148",
+    "mode": "in_person",
+    "vote_date": "2026-10-21",
+    "count": 1,
+    "county": "Brazos"
+  },
+  {
     "precinct": "215",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -872,6 +879,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-21",
     "count": 49,
+    "county": "Brazos"
+  },
+  {
+    "precinct": "668",
+    "mode": "in_person",
+    "vote_date": "2026-10-21",
+    "count": 1,
     "county": "Brazos"
   },
   {

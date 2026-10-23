@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T21:35:15.264802+00:00",
+  "updated_at": "2026-10-23T00:53:44.923542+00:00",
   "scale": [
     -100,
     100
@@ -375,6 +375,22 @@
       "identifier_conflict_count": 0,
       "as_of": "2026-10-20",
       "status": "ok"
+    },
+    {
+      "county": "Brazos",
+      "precinct": "2148",
+      "mean_score": null,
+      "scored_count": 0,
+      "missing_score_count": 0,
+      "early_voter_count": 1,
+      "matched_count": 0,
+      "id_match_count": 0,
+      "name_match_count": 0,
+      "unmatched_count": 1,
+      "ambiguous_count": 0,
+      "identifier_conflict_count": 0,
+      "as_of": "2026-10-20",
+      "status": "missing"
     },
     {
       "county": "Brazos",
@@ -1063,6 +1079,22 @@
       "identifier_conflict_count": 0,
       "as_of": "2026-10-20",
       "status": "ok"
+    },
+    {
+      "county": "Brazos",
+      "precinct": "668",
+      "mean_score": null,
+      "scored_count": 0,
+      "missing_score_count": 0,
+      "early_voter_count": 1,
+      "matched_count": 0,
+      "id_match_count": 0,
+      "name_match_count": 0,
+      "unmatched_count": 1,
+      "ambiguous_count": 0,
+      "identifier_conflict_count": 0,
+      "as_of": "2026-10-20",
+      "status": "missing"
     },
     {
       "county": "Brazos",
