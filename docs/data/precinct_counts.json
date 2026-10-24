@@ -2226,6 +2226,20 @@
     "county": "Burleson"
   },
   {
+    "precinct": "113",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Burleson"
+  },
+  {
+    "precinct": "113",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Burleson"
+  },
+  {
     "precinct": "114",
     "mode": "in_person",
     "vote_date": "2026-10-21",
@@ -2244,6 +2258,20 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 57,
+    "county": "Burleson"
+  },
+  {
+    "precinct": "114",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Burleson"
+  },
+  {
+    "precinct": "114",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
     "county": "Burleson"
   },
   {
@@ -2268,6 +2296,13 @@
     "county": "Burleson"
   },
   {
+    "precinct": "203",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Burleson"
+  },
+  {
     "precinct": "204",
     "mode": "in_person",
     "vote_date": "2026-10-21",
@@ -2286,6 +2321,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 25,
+    "county": "Burleson"
+  },
+  {
+    "precinct": "204",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 4,
     "county": "Burleson"
   },
   {
@@ -2310,6 +2352,13 @@
     "county": "Burleson"
   },
   {
+    "precinct": "207",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Burleson"
+  },
+  {
     "precinct": "211",
     "mode": "in_person",
     "vote_date": "2026-10-21",
@@ -2328,6 +2377,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 30,
+    "county": "Burleson"
+  },
+  {
+    "precinct": "211",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 5,
     "county": "Burleson"
   },
   {
@@ -2373,6 +2429,13 @@
     "county": "Burleson"
   },
   {
+    "precinct": "301",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 3,
+    "county": "Burleson"
+  },
+  {
     "precinct": "305",
     "mode": "in_person",
     "vote_date": "2026-10-21",
@@ -2394,6 +2457,13 @@
     "county": "Burleson"
   },
   {
+    "precinct": "305",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Burleson"
+  },
+  {
     "precinct": "308",
     "mode": "in_person",
     "vote_date": "2026-10-21",
@@ -2412,6 +2482,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 21,
+    "county": "Burleson"
+  },
+  {
+    "precinct": "308",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
     "county": "Burleson"
   },
   {
@@ -2464,6 +2541,13 @@
     "county": "Burleson"
   },
   {
+    "precinct": "406",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 4,
+    "county": "Burleson"
+  },
+  {
     "precinct": "410",
     "mode": "in_person",
     "vote_date": "2026-10-21",
@@ -2482,6 +2566,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 69,
+    "county": "Burleson"
+  },
+  {
+    "precinct": "410",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 7,
     "county": "Burleson"
   },
   {
@@ -2506,6 +2597,20 @@
     "county": "Grimes"
   },
   {
+    "precinct": "1",
+    "mode": "in_person",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Grimes"
+  },
+  {
+    "precinct": "1",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Grimes"
+  },
+  {
     "precinct": "10",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2527,6 +2632,20 @@
     "county": "Grimes"
   },
   {
+    "precinct": "10",
+    "mode": "in_person",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Grimes"
+  },
+  {
+    "precinct": "10",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 4,
+    "county": "Grimes"
+  },
+  {
     "precinct": "12",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2545,6 +2664,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 52,
+    "county": "Grimes"
+  },
+  {
+    "precinct": "12",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
     "county": "Grimes"
   },
   {
@@ -2653,6 +2779,20 @@
     "county": "Grimes"
   },
   {
+    "precinct": "3",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Grimes"
+  },
+  {
+    "precinct": "3",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Grimes"
+  },
+  {
     "precinct": "31",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2716,6 +2856,13 @@
     "county": "Grimes"
   },
   {
+    "precinct": "5",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Grimes"
+  },
+  {
     "precinct": "6",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -2762,6 +2909,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 24,
+    "county": "Grimes"
+  },
+  {
+    "precinct": "7",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
     "county": "Grimes"
   },
   {
@@ -2919,6 +3073,13 @@
     "county": "Houston"
   },
   {
+    "precinct": "12",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Houston"
+  },
+  {
     "precinct": "14",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3031,6 +3192,13 @@
     "county": "Houston"
   },
   {
+    "precinct": "17",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Houston"
+  },
+  {
     "precinct": "18",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3056,6 +3224,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 8,
+    "county": "Houston"
+  },
+  {
+    "precinct": "18",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
     "county": "Houston"
   },
   {
@@ -3115,6 +3290,13 @@
     "county": "Houston"
   },
   {
+    "precinct": "2",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Houston"
+  },
+  {
     "precinct": "20",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3168,6 +3350,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 15,
+    "county": "Houston"
+  },
+  {
+    "precinct": "21",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
     "county": "Houston"
   },
   {
@@ -3241,6 +3430,13 @@
     "county": "Houston"
   },
   {
+    "precinct": "3",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Houston"
+  },
+  {
     "precinct": "4",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3269,6 +3465,13 @@
     "county": "Houston"
   },
   {
+    "precinct": "4",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Houston"
+  },
+  {
     "precinct": "5",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3294,6 +3497,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 40,
+    "county": "Houston"
+  },
+  {
+    "precinct": "5",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
     "county": "Houston"
   },
   {
@@ -3350,6 +3560,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 22,
+    "county": "Houston"
+  },
+  {
+    "precinct": "7",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
     "county": "Houston"
   },
   {
@@ -3878,6 +4095,20 @@
     "county": "Leon"
   },
   {
+    "precinct": "1",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Leon"
+  },
+  {
+    "precinct": "1",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 3,
+    "county": "Leon"
+  },
+  {
     "precinct": "10",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3910,6 +4141,13 @@
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 1,
+    "county": "Leon"
+  },
+  {
+    "precinct": "10",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
     "county": "Leon"
   },
   {
@@ -3969,6 +4207,13 @@
     "county": "Leon"
   },
   {
+    "precinct": "12",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Leon"
+  },
+  {
     "precinct": "13",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -3994,6 +4239,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 40,
+    "county": "Leon"
+  },
+  {
+    "precinct": "13",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
     "county": "Leon"
   },
   {
@@ -4144,6 +4396,13 @@
     "county": "Leon"
   },
   {
+    "precinct": "5",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Leon"
+  },
+  {
     "precinct": "6",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4179,6 +4438,13 @@
     "county": "Leon"
   },
   {
+    "precinct": "6",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Leon"
+  },
+  {
     "precinct": "7",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4204,6 +4470,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 22,
+    "county": "Leon"
+  },
+  {
+    "precinct": "7",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
     "county": "Leon"
   },
   {
@@ -4235,6 +4508,13 @@
     "county": "Leon"
   },
   {
+    "precinct": "8",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Leon"
+  },
+  {
     "precinct": "9",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4263,6 +4543,13 @@
     "county": "Leon"
   },
   {
+    "precinct": "9",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Leon"
+  },
+  {
     "precinct": "101",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4288,6 +4575,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 53,
+    "county": "Madison"
+  },
+  {
+    "precinct": "101",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
     "county": "Madison"
   },
   {
@@ -4347,6 +4641,13 @@
     "county": "Madison"
   },
   {
+    "precinct": "303",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Madison"
+  },
+  {
     "precinct": "404",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4403,6 +4704,13 @@
     "county": "Polk"
   },
   {
+    "precinct": "1",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
     "precinct": "10",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4428,6 +4736,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 76,
+    "county": "Polk"
+  },
+  {
+    "precinct": "10",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
     "county": "Polk"
   },
   {
@@ -4459,6 +4774,20 @@
     "county": "Polk"
   },
   {
+    "precinct": "11",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Polk"
+  },
+  {
+    "precinct": "11",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
     "precinct": "12",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4483,6 +4812,13 @@
     "precinct": "120",
     "mode": "in_person",
     "vote_date": "2026-10-21",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
+    "precinct": "13",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
     "count": 1,
     "county": "Polk"
   },
@@ -4578,6 +4914,20 @@
     "county": "Polk"
   },
   {
+    "precinct": "15",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "Polk"
+  },
+  {
+    "precinct": "15",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
+    "county": "Polk"
+  },
+  {
     "precinct": "16",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4603,6 +4953,20 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 107,
+    "county": "Polk"
+  },
+  {
+    "precinct": "16",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 4,
+    "county": "Polk"
+  },
+  {
+    "precinct": "16",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
     "county": "Polk"
   },
   {
@@ -4634,6 +4998,20 @@
     "county": "Polk"
   },
   {
+    "precinct": "17",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
+    "precinct": "17",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
     "precinct": "18",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4662,6 +5040,13 @@
     "county": "Polk"
   },
   {
+    "precinct": "18",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 4,
+    "county": "Polk"
+  },
+  {
     "precinct": "19",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4687,6 +5072,27 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 19,
+    "county": "Polk"
+  },
+  {
+    "precinct": "19",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 33,
+    "county": "Polk"
+  },
+  {
+    "precinct": "19",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 18,
+    "county": "Polk"
+  },
+  {
+    "precinct": "2",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
     "county": "Polk"
   },
   {
@@ -4746,6 +5152,20 @@
     "county": "Polk"
   },
   {
+    "precinct": "20",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 30,
+    "county": "Polk"
+  },
+  {
+    "precinct": "20",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 22,
+    "county": "Polk"
+  },
+  {
     "precinct": "21",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4771,6 +5191,20 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 98,
+    "county": "Polk"
+  },
+  {
+    "precinct": "21",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
+    "precinct": "21",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
     "county": "Polk"
   },
   {
@@ -4806,6 +5240,20 @@
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 1,
+    "county": "Polk"
+  },
+  {
+    "precinct": "22",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 52,
+    "county": "Polk"
+  },
+  {
+    "precinct": "22",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 37,
     "county": "Polk"
   },
   {
@@ -4935,6 +5383,20 @@
     "county": "Polk"
   },
   {
+    "precinct": "5",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 6,
+    "county": "Polk"
+  },
+  {
+    "precinct": "5",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 3,
+    "county": "Polk"
+  },
+  {
     "precinct": "6",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -4960,6 +5422,27 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 184,
+    "county": "Polk"
+  },
+  {
+    "precinct": "6",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "Polk"
+  },
+  {
+    "precinct": "6",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 7,
+    "county": "Polk"
+  },
+  {
+    "precinct": "7",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
     "county": "Polk"
   },
   {
@@ -5019,6 +5502,20 @@
     "county": "Polk"
   },
   {
+    "precinct": "8",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
+    "precinct": "8",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Polk"
+  },
+  {
     "precinct": "9",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5044,6 +5541,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 21,
+    "county": "Polk"
+  },
+  {
+    "precinct": "9",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
     "county": "Polk"
   },
   {
@@ -10276,6 +10780,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "101",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Walker"
+  },
+  {
     "precinct": "102",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -10301,6 +10812,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 146,
+    "county": "Walker"
+  },
+  {
+    "precinct": "102",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
     "county": "Walker"
   },
   {
@@ -10332,6 +10850,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "103",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Walker"
+  },
+  {
     "precinct": "104",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -10357,6 +10882,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 110,
+    "county": "Walker"
+  },
+  {
+    "precinct": "104",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
     "county": "Walker"
   },
   {
@@ -10388,6 +10920,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "201",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "Walker"
+  },
+  {
     "precinct": "203",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -10413,6 +10952,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 168,
+    "county": "Walker"
+  },
+  {
+    "precinct": "203",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 6,
     "county": "Walker"
   },
   {
@@ -10444,6 +10990,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "204",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 3,
+    "county": "Walker"
+  },
+  {
     "precinct": "205",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -10469,6 +11022,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 162,
+    "county": "Walker"
+  },
+  {
+    "precinct": "205",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 9,
     "county": "Walker"
   },
   {
@@ -10500,6 +11060,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "206",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
+    "county": "Walker"
+  },
+  {
     "precinct": "303",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -10528,6 +11095,13 @@
     "county": "Walker"
   },
   {
+    "precinct": "303",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
+    "county": "Walker"
+  },
+  {
     "precinct": "304",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -10553,6 +11127,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 142,
+    "county": "Walker"
+  },
+  {
+    "precinct": "304",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 8,
     "county": "Walker"
   },
   {
