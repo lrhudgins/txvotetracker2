@@ -2544,7 +2544,7 @@
     "precinct": "406",
     "mode": "mail",
     "vote_date": "2026-10-24",
-    "count": 4,
+    "count": 6,
     "county": "Burleson"
   },
   {
@@ -2699,6 +2699,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 60,
+    "county": "Grimes"
+  },
+  {
+    "precinct": "14",
+    "mode": "in_person",
+    "vote_date": "2026-10-24",
+    "count": 1,
     "county": "Grimes"
   },
   {
@@ -5586,6 +5593,20 @@
     "county": "San Jacinto"
   },
   {
+    "precinct": "1",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "1",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "San Jacinto"
+  },
+  {
     "precinct": "10",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5611,6 +5632,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 26,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "10",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
     "county": "San Jacinto"
   },
   {
@@ -5642,6 +5670,20 @@
     "county": "San Jacinto"
   },
   {
+    "precinct": "11",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "11",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
+    "county": "San Jacinto"
+  },
+  {
     "precinct": "2",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5667,6 +5709,20 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 105,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "2",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "2",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 1,
     "county": "San Jacinto"
   },
   {
@@ -5754,6 +5810,13 @@
     "county": "San Jacinto"
   },
   {
+    "precinct": "5",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 3,
+    "county": "San Jacinto"
+  },
+  {
     "precinct": "6",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5779,6 +5842,13 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 77,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "6",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 6,
     "county": "San Jacinto"
   },
   {
@@ -5810,6 +5880,20 @@
     "county": "San Jacinto"
   },
   {
+    "precinct": "7",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "7",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 4,
+    "county": "San Jacinto"
+  },
+  {
     "precinct": "8",
     "mode": "in_person",
     "vote_date": "2026-10-19",
@@ -5835,6 +5919,20 @@
     "mode": "in_person",
     "vote_date": "2026-10-23",
     "count": 34,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "8",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 2,
+    "county": "San Jacinto"
+  },
+  {
+    "precinct": "8",
+    "mode": "mail",
+    "vote_date": "2026-10-24",
+    "count": 2,
     "county": "San Jacinto"
   },
   {
@@ -6010,6 +6108,13 @@
     "mode": "mail",
     "vote_date": "2026-10-19",
     "count": 1,
+    "county": "Trinity"
+  },
+  {
+    "precinct": "14",
+    "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 3,
     "county": "Trinity"
   },
   {
@@ -10957,6 +11062,13 @@
   {
     "precinct": "203",
     "mode": "mail",
+    "vote_date": "2026-10-23",
+    "count": 1,
+    "county": "Walker"
+  },
+  {
+    "precinct": "203",
+    "mode": "mail",
     "vote_date": "2026-10-24",
     "count": 6,
     "county": "Walker"
@@ -11063,7 +11175,7 @@
     "precinct": "206",
     "mode": "mail",
     "vote_date": "2026-10-24",
-    "count": 2,
+    "count": 3,
     "county": "Walker"
   },
   {

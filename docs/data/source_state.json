@@ -2,13 +2,13 @@
   "travis": {
     "county": "Travis",
     "total": 41682,
-    "unknown_district": 51,
+    "unknown_district": 53,
     "provisional_assigned": 41682,
     "outside_district": 127543,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 169276,
+    "unique_eligible_roster_records": 169278,
     "counts": [
       {
         "precinct": "146",
@@ -3692,10 +3692,10 @@
     "source_id": "travis",
     "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
     "source_signature": "1d1fd419e55a45ce593a4894f046d8f626fdd7135932cf2424deecc32e88a5cd",
-    "fingerprint": "0ba9bfa6f97227a4c450f257bb59ae7888785245d3544524ad234a6b6412fae5",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "partial",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (17 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -5614,10 +5614,10 @@
     "source_id": "brazos",
     "source_url": "https://elections.brazoscountytx.gov/roster/",
     "source_signature": "6679425cad36ad3e5c72406d2f20ab8cc58e6445c4b09c0c56fc5e22a1320511",
-    "fingerprint": "0ba9bfa6f97227a4c450f257bb59ae7888785245d3544524ad234a6b6412fae5",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (1 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -5633,14 +5633,14 @@
   },
   "grimes": {
     "county": "Grimes",
-    "total": 2215,
+    "total": 2216,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 2215,
+    "unique_eligible_roster_records": 2216,
     "counts": [
       {
         "precinct": "1",
@@ -5749,6 +5749,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 60
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "15",
@@ -5976,10 +5982,10 @@
     "source_id": "grimes",
     "source_url": "https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D",
     "source_signature": "b18f4ffc18406b1af2b7b49dd334025080ff84c639de0ec44bb3f1a03dd02dd2",
-    "fingerprint": "dca60e9629864039f7add72cb39ac3db717da964453ebf38b667b5e519692f5a",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -5996,14 +6002,14 @@
   },
   "burleson": {
     "county": "Burleson",
-    "total": 1389,
+    "total": 1391,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 1389,
+    "unique_eligible_roster_records": 1391,
     "counts": [
       {
         "precinct": "113",
@@ -6297,7 +6303,7 @@
         "precinct": "406",
         "mode": "mail",
         "vote_date": "2026-10-24",
-        "count": 4
+        "count": 6
       },
       {
         "precinct": "410",
@@ -6327,10 +6333,10 @@
     "source_id": "burleson",
     "source_url": "https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting",
     "source_signature": "e0f52c0d27c1395cd2cbb1a409803d787308d40b03f252baab2befe385b6c054",
-    "fingerprint": "dca60e9629864039f7add72cb39ac3db717da964453ebf38b667b5e519692f5a",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -6350,11 +6356,11 @@
     "total": 203,
     "unknown_district": 5,
     "provisional_assigned": 203,
-    "outside_district": 10374,
+    "outside_district": 10378,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 10582,
+    "unique_eligible_roster_records": 10586,
     "counts": [
       {
         "precinct": "4024",
@@ -6384,10 +6390,10 @@
     "source_id": "folder_bastrop",
     "source_url": "",
     "source_signature": "92c5b7a56bc375c64edf64091bcabd680996e78e3a735912b1b6af72fcba17e1",
-    "fingerprint": "dca60e9629864039f7add72cb39ac3db717da964453ebf38b667b5e519692f5a",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "partial",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -6987,10 +6993,10 @@
     "source_id": "folder_houston",
     "source_url": "",
     "source_signature": "3a86571c1868ac4d64092879709fab06ef00bc15c7e48b6d2b8dd35d1f7b72d5",
-    "fingerprint": "0ba9bfa6f97227a4c450f257bb59ae7888785245d3544524ad234a6b6412fae5",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -7391,10 +7397,10 @@
     "source_id": "folder_lee",
     "source_url": "",
     "source_signature": "7dbec08d35cdb2838f035484539fd29584c99d80a6fbc977e482ba27868eee71",
-    "fingerprint": "0ba9bfa6f97227a4c450f257bb59ae7888785245d3544524ad234a6b6412fae5",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -7843,10 +7849,10 @@
     "source_id": "folder_leon",
     "source_url": "",
     "source_signature": "f5dfb1e501e007e4d34dde90d40f7e18f938fd998fe8987ceb1ec8fe387ca9fd",
-    "fingerprint": "dca60e9629864039f7add72cb39ac3db717da964453ebf38b667b5e519692f5a",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -7984,10 +7990,10 @@
     "source_id": "folder_madison",
     "source_url": "",
     "source_signature": "88d2574e3a9c4cd7439f47c151b0e66b76df0f2bf91f3255d99d8fb068e7e684",
-    "fingerprint": "0ba9bfa6f97227a4c450f257bb59ae7888785245d3544524ad234a6b6412fae5",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -8766,10 +8772,10 @@
     "source_id": "folder_polk",
     "source_url": "",
     "source_signature": "51d770eb70783cc35a5984cec8a92259edf1b046857b6d85195e2965137dcc26",
-    "fingerprint": "dca60e9629864039f7add72cb39ac3db717da964453ebf38b667b5e519692f5a",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -8786,14 +8792,14 @@
   },
   "folder_san-jacinto": {
     "county": "San Jacinto",
-    "total": 2686,
+    "total": 2716,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 2686,
+    "latest_vote_date": "2026-10-24",
+    "unique_eligible_roster_records": 2716,
     "counts": [
       {
         "precinct": "",
@@ -8826,6 +8832,18 @@
         "count": 145
       },
       {
+        "precinct": "1",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 2
+      },
+      {
+        "precinct": "1",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "10",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -8848,6 +8866,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 26
+      },
+      {
+        "precinct": "10",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 2
       },
       {
         "precinct": "11",
@@ -8874,6 +8898,18 @@
         "count": 22
       },
       {
+        "precinct": "11",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 1
+      },
+      {
+        "precinct": "11",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "2",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -8896,6 +8932,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 105
+      },
+      {
+        "precinct": "2",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 2
+      },
+      {
+        "precinct": "2",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "3",
@@ -8970,6 +9018,12 @@
         "count": 63
       },
       {
+        "precinct": "5",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 3
+      },
+      {
         "precinct": "6",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -8992,6 +9046,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 77
+      },
+      {
+        "precinct": "6",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 6
       },
       {
         "precinct": "7",
@@ -9018,6 +9078,18 @@
         "count": 80
       },
       {
+        "precinct": "7",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 3
+      },
+      {
+        "precinct": "7",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 4
+      },
+      {
         "precinct": "8",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9040,6 +9112,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 34
+      },
+      {
+        "precinct": "8",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 2
+      },
+      {
+        "precinct": "8",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 2
       },
       {
         "precinct": "9",
@@ -9069,10 +9153,10 @@
     "source_id": "folder_san-jacinto",
     "source_url": "",
     "source_signature": "c0aa41b0b1cb1b3bbe8f59c5c21b6241548f700dedc78a89d6f0436032064fc9",
-    "fingerprint": "0ba9bfa6f97227a4c450f257bb59ae7888785245d3544524ad234a6b6412fae5",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -9081,21 +9165,22 @@
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "718 repeated voter(s) counted once at their earliest daily report date.",
-      "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      "Folder import: 6 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   },
   "folder_trinity": {
     "county": "Trinity",
-    "total": 1743,
+    "total": 1746,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 1743,
+    "unique_eligible_roster_records": 1746,
     "counts": [
       {
         "precinct": "1",
@@ -9222,6 +9307,12 @@
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 1
+      },
+      {
+        "precinct": "14",
+        "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 3
       },
       {
         "precinct": "15",
@@ -9587,10 +9678,10 @@
     "source_id": "folder_trinity",
     "source_url": "",
     "source_signature": "e063a83a634d89203bf09122bef7f17897ca9f4cdabedf44730150851db9b8cf",
-    "fingerprint": "0ba9bfa6f97227a4c450f257bb59ae7888785245d3544524ad234a6b6412fae5",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -9606,14 +9697,14 @@
   },
   "folder_walker": {
     "county": "Walker",
-    "total": 4468,
-    "unknown_district": 3,
-    "provisional_assigned": 4468,
-    "outside_district": 1765,
+    "total": 4470,
+    "unknown_district": 4,
+    "provisional_assigned": 4470,
+    "outside_district": 1766,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 6236,
+    "unique_eligible_roster_records": 6240,
     "counts": [
       {
         "precinct": "101",
@@ -9792,6 +9883,12 @@
       {
         "precinct": "203",
         "mode": "mail",
+        "vote_date": "2026-10-23",
+        "count": 1
+      },
+      {
+        "precinct": "203",
+        "mode": "mail",
         "vote_date": "2026-10-24",
         "count": 6
       },
@@ -9883,7 +9980,7 @@
         "precinct": "206",
         "mode": "mail",
         "vote_date": "2026-10-24",
-        "count": 2
+        "count": 3
       },
       {
         "precinct": "303",
@@ -9973,10 +10070,10 @@
     "source_id": "folder_walker",
     "source_url": "",
     "source_signature": "12e77ead00161571c1bbef834e48c68b516c8a8e4a0124e0cafb91178e8829c2",
-    "fingerprint": "dca60e9629864039f7add72cb39ac3db717da964453ebf38b667b5e519692f5a",
-    "fetched_at": "2026-10-25T00:02:08.222706+00:00",
-    "checked_at": "2026-10-25T00:02:08.222706+00:00",
-    "changed_at": "2026-10-24T22:46:50.968410+00:00",
+    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
+    "fetched_at": "2026-10-25T00:55:22.491727+00:00",
+    "checked_at": "2026-10-25T00:55:22.491727+00:00",
+    "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "partial",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",

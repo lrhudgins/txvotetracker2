@@ -362,7 +362,7 @@ Burleson,320,in_person,2026-10-19,1
 Burleson,406,in_person,2026-10-21,26
 Burleson,406,in_person,2026-10-22,24
 Burleson,406,in_person,2026-10-23,26
-Burleson,406,mail,2026-10-24,4
+Burleson,406,mail,2026-10-24,6
 Burleson,410,in_person,2026-10-21,121
 Burleson,410,in_person,2026-10-22,67
 Burleson,410,in_person,2026-10-23,69
@@ -385,6 +385,7 @@ Grimes,14,in_person,2026-10-19,69
 Grimes,14,in_person,2026-10-21,38
 Grimes,14,in_person,2026-10-22,1
 Grimes,14,in_person,2026-10-23,60
+Grimes,14,in_person,2026-10-24,1
 Grimes,15,in_person,2026-10-19,67
 Grimes,15,in_person,2026-10-20,1
 Grimes,15,in_person,2026-10-21,48
@@ -797,18 +798,25 @@ San Jacinto,1,in_person,2026-10-19,139
 San Jacinto,1,in_person,2026-10-21,131
 San Jacinto,1,in_person,2026-10-22,135
 San Jacinto,1,in_person,2026-10-23,145
+San Jacinto,1,mail,2026-10-23,2
+San Jacinto,1,mail,2026-10-24,1
 San Jacinto,10,in_person,2026-10-19,9
 San Jacinto,10,in_person,2026-10-21,19
 San Jacinto,10,in_person,2026-10-22,16
 San Jacinto,10,in_person,2026-10-23,26
+San Jacinto,10,mail,2026-10-23,2
 San Jacinto,11,in_person,2026-10-19,24
 San Jacinto,11,in_person,2026-10-21,33
 San Jacinto,11,in_person,2026-10-22,24
 San Jacinto,11,in_person,2026-10-23,22
+San Jacinto,11,mail,2026-10-23,1
+San Jacinto,11,mail,2026-10-24,1
 San Jacinto,2,in_person,2026-10-19,109
 San Jacinto,2,in_person,2026-10-21,87
 San Jacinto,2,in_person,2026-10-22,102
 San Jacinto,2,in_person,2026-10-23,105
+San Jacinto,2,mail,2026-10-23,2
+San Jacinto,2,mail,2026-10-24,1
 San Jacinto,3,in_person,2026-10-19,31
 San Jacinto,3,in_person,2026-10-21,36
 San Jacinto,3,in_person,2026-10-22,37
@@ -821,18 +829,24 @@ San Jacinto,5,in_person,2026-10-19,51
 San Jacinto,5,in_person,2026-10-21,63
 San Jacinto,5,in_person,2026-10-22,56
 San Jacinto,5,in_person,2026-10-23,63
+San Jacinto,5,mail,2026-10-24,3
 San Jacinto,6,in_person,2026-10-19,152
 San Jacinto,6,in_person,2026-10-21,141
 San Jacinto,6,in_person,2026-10-22,105
 San Jacinto,6,in_person,2026-10-23,77
+San Jacinto,6,mail,2026-10-23,6
 San Jacinto,7,in_person,2026-10-19,112
 San Jacinto,7,in_person,2026-10-21,89
 San Jacinto,7,in_person,2026-10-22,98
 San Jacinto,7,in_person,2026-10-23,80
+San Jacinto,7,mail,2026-10-23,3
+San Jacinto,7,mail,2026-10-24,4
 San Jacinto,8,in_person,2026-10-19,44
 San Jacinto,8,in_person,2026-10-21,29
 San Jacinto,8,in_person,2026-10-22,33
 San Jacinto,8,in_person,2026-10-23,34
+San Jacinto,8,mail,2026-10-23,2
+San Jacinto,8,mail,2026-10-24,2
 San Jacinto,9,in_person,2026-10-19,17
 San Jacinto,9,in_person,2026-10-21,16
 San Jacinto,9,in_person,2026-10-22,20
@@ -858,6 +872,7 @@ Trinity,14,in_person,2026-10-21,36
 Trinity,14,in_person,2026-10-22,27
 Trinity,14,in_person,2026-10-23,24
 Trinity,14,mail,2026-10-19,1
+Trinity,14,mail,2026-10-23,3
 Trinity,15,in_person,2026-10-19,1
 Trinity,15,in_person,2026-10-21,4
 Trinity,15,in_person,2026-10-22,4
@@ -1564,6 +1579,7 @@ Walker,203,in_person,2026-10-19,192
 Walker,203,in_person,2026-10-21,147
 Walker,203,in_person,2026-10-22,137
 Walker,203,in_person,2026-10-23,168
+Walker,203,mail,2026-10-23,1
 Walker,203,mail,2026-10-24,6
 Walker,204,in_person,2026-10-19,90
 Walker,204,in_person,2026-10-21,62
@@ -1579,7 +1595,7 @@ Walker,206,in_person,2026-10-19,96
 Walker,206,in_person,2026-10-21,89
 Walker,206,in_person,2026-10-22,68
 Walker,206,in_person,2026-10-23,83
-Walker,206,mail,2026-10-24,2
+Walker,206,mail,2026-10-24,3
 Walker,303,in_person,2026-10-19,21
 Walker,303,in_person,2026-10-21,26
 Walker,303,in_person,2026-10-22,26
