@@ -1,14 +1,14 @@
 {
   "travis": {
     "county": "Travis",
-    "total": 41682,
-    "unknown_district": 53,
-    "provisional_assigned": 41682,
-    "outside_district": 127543,
+    "total": 47553,
+    "unknown_district": 85,
+    "provisional_assigned": 47553,
+    "outside_district": 146236,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 169278,
+    "latest_vote_date": "2026-10-24",
+    "unique_eligible_roster_records": 193874,
     "counts": [
       {
         "precinct": "146",
@@ -33,6 +33,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 12
+      },
+      {
+        "precinct": "146",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 15
       },
       {
         "precinct": "146",
@@ -90,6 +96,12 @@
       },
       {
         "precinct": "148",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 4
+      },
+      {
+        "precinct": "148",
         "mode": "mail",
         "vote_date": "2026-10-22",
         "count": 1
@@ -119,6 +131,12 @@
         "count": 8
       },
       {
+        "precinct": "149",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "158",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -141,6 +159,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 6
+      },
+      {
+        "precinct": "158",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 5
       },
       {
         "precinct": "158",
@@ -177,6 +201,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 76
+      },
+      {
+        "precinct": "181",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 38
       },
       {
         "precinct": "181",
@@ -228,6 +258,12 @@
       },
       {
         "precinct": "182",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 49
+      },
+      {
+        "precinct": "182",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 12
@@ -267,6 +303,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 125
+      },
+      {
+        "precinct": "184",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 90
       },
       {
         "precinct": "184",
@@ -324,6 +366,12 @@
       },
       {
         "precinct": "185",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 68
+      },
+      {
+        "precinct": "185",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 15
@@ -372,6 +420,12 @@
       },
       {
         "precinct": "190",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 32
+      },
+      {
+        "precinct": "190",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 5
@@ -417,6 +471,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 35
+      },
+      {
+        "precinct": "196",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 16
       },
       {
         "precinct": "196",
@@ -474,6 +534,12 @@
       },
       {
         "precinct": "200",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 57
+      },
+      {
+        "precinct": "200",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 15
@@ -525,6 +591,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 198
+      },
+      {
+        "precinct": "230",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 99
       },
       {
         "precinct": "230",
@@ -582,6 +654,12 @@
       },
       {
         "precinct": "231",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 124
+      },
+      {
+        "precinct": "231",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 44
@@ -636,6 +714,12 @@
       },
       {
         "precinct": "252",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 55
+      },
+      {
+        "precinct": "252",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 11
@@ -681,6 +765,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 184
+      },
+      {
+        "precinct": "253",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 102
       },
       {
         "precinct": "253",
@@ -738,6 +828,12 @@
       },
       {
         "precinct": "256",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 134
+      },
+      {
+        "precinct": "256",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 15
@@ -789,6 +885,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 135
+      },
+      {
+        "precinct": "262",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 96
       },
       {
         "precinct": "262",
@@ -846,6 +948,12 @@
       },
       {
         "precinct": "267",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 70
+      },
+      {
+        "precinct": "267",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 30
@@ -897,6 +1005,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 137
+      },
+      {
+        "precinct": "268",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 86
       },
       {
         "precinct": "268",
@@ -954,6 +1068,12 @@
       },
       {
         "precinct": "270",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 113
+      },
+      {
+        "precinct": "270",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 40
@@ -1005,6 +1125,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 145
+      },
+      {
+        "precinct": "271",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 104
       },
       {
         "precinct": "271",
@@ -1062,6 +1188,12 @@
       },
       {
         "precinct": "272",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 227
+      },
+      {
+        "precinct": "272",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 32
@@ -1116,6 +1248,12 @@
       },
       {
         "precinct": "273",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 132
+      },
+      {
+        "precinct": "273",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 7
@@ -1161,6 +1299,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 155
+      },
+      {
+        "precinct": "274",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 156
       },
       {
         "precinct": "274",
@@ -1215,6 +1359,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 80
+      },
+      {
+        "precinct": "275",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 75
       },
       {
         "precinct": "275",
@@ -1272,6 +1422,12 @@
       },
       {
         "precinct": "280",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 82
+      },
+      {
+        "precinct": "280",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 42
@@ -1323,6 +1479,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 250
+      },
+      {
+        "precinct": "281",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 103
       },
       {
         "precinct": "281",
@@ -1380,6 +1542,12 @@
       },
       {
         "precinct": "282",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 68
+      },
+      {
+        "precinct": "282",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 18
@@ -1431,6 +1599,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 219
+      },
+      {
+        "precinct": "290",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 157
       },
       {
         "precinct": "290",
@@ -1488,6 +1662,12 @@
       },
       {
         "precinct": "291",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 29
+      },
+      {
+        "precinct": "291",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 2
@@ -1533,6 +1713,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 183
+      },
+      {
+        "precinct": "292",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 95
       },
       {
         "precinct": "292",
@@ -1590,6 +1776,12 @@
       },
       {
         "precinct": "293",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 125
+      },
+      {
+        "precinct": "293",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 24
@@ -1641,6 +1833,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 113
+      },
+      {
+        "precinct": "294",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 65
       },
       {
         "precinct": "294",
@@ -1698,6 +1896,12 @@
       },
       {
         "precinct": "300",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 96
+      },
+      {
+        "precinct": "300",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 19
@@ -1752,6 +1956,12 @@
       },
       {
         "precinct": "301",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 33
+      },
+      {
+        "precinct": "301",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 9
@@ -1799,6 +2009,12 @@
         "count": 9
       },
       {
+        "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 6
+      },
+      {
         "precinct": "320",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -1821,6 +2037,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 222
+      },
+      {
+        "precinct": "320",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 165
       },
       {
         "precinct": "320",
@@ -1878,6 +2100,12 @@
       },
       {
         "precinct": "321",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 105
+      },
+      {
+        "precinct": "321",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 21
@@ -1929,6 +2157,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 190
+      },
+      {
+        "precinct": "322",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 143
       },
       {
         "precinct": "322",
@@ -1986,6 +2220,12 @@
       },
       {
         "precinct": "323",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 90
+      },
+      {
+        "precinct": "323",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 10
@@ -2037,6 +2277,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 118
+      },
+      {
+        "precinct": "324",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 100
       },
       {
         "precinct": "324",
@@ -2094,6 +2340,12 @@
       },
       {
         "precinct": "325",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 50
+      },
+      {
+        "precinct": "325",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 7
@@ -2139,6 +2391,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 176
+      },
+      {
+        "precinct": "326",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 99
       },
       {
         "precinct": "326",
@@ -2193,6 +2451,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 136
+      },
+      {
+        "precinct": "327",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 123
       },
       {
         "precinct": "327",
@@ -2250,6 +2514,12 @@
       },
       {
         "precinct": "351",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 106
+      },
+      {
+        "precinct": "351",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 17
@@ -2304,6 +2574,12 @@
       },
       {
         "precinct": "352",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 57
+      },
+      {
+        "precinct": "352",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 28
@@ -2349,6 +2625,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 179
+      },
+      {
+        "precinct": "353",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 118
       },
       {
         "precinct": "353",
@@ -2406,6 +2688,12 @@
       },
       {
         "precinct": "354",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 118
+      },
+      {
+        "precinct": "354",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 29
@@ -2460,6 +2748,12 @@
       },
       {
         "precinct": "355",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 11
+      },
+      {
+        "precinct": "355",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 12
@@ -2505,6 +2799,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 59
+      },
+      {
+        "precinct": "361",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 41
       },
       {
         "precinct": "361",
@@ -2562,6 +2862,12 @@
       },
       {
         "precinct": "362",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 112
+      },
+      {
+        "precinct": "362",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 19
@@ -2613,6 +2919,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 177
+      },
+      {
+        "precinct": "363",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 100
       },
       {
         "precinct": "363",
@@ -2670,6 +2982,12 @@
       },
       {
         "precinct": "364",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 74
+      },
+      {
+        "precinct": "364",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 23
@@ -2721,6 +3039,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 183
+      },
+      {
+        "precinct": "365",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 86
       },
       {
         "precinct": "365",
@@ -2778,6 +3102,12 @@
       },
       {
         "precinct": "366",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 86
+      },
+      {
+        "precinct": "366",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 20
@@ -2829,6 +3159,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 138
+      },
+      {
+        "precinct": "367",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 65
       },
       {
         "precinct": "367",
@@ -2886,6 +3222,12 @@
       },
       {
         "precinct": "370",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 101
+      },
+      {
+        "precinct": "370",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 28
@@ -2940,6 +3282,12 @@
       },
       {
         "precinct": "371",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 76
+      },
+      {
+        "precinct": "371",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 36
@@ -2991,6 +3339,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 35
+      },
+      {
+        "precinct": "372",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 30
       },
       {
         "precinct": "372",
@@ -3048,6 +3402,12 @@
       },
       {
         "precinct": "374",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 122
+      },
+      {
+        "precinct": "374",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 48
@@ -3099,6 +3459,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 253
+      },
+      {
+        "precinct": "375",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 122
       },
       {
         "precinct": "375",
@@ -3156,6 +3522,12 @@
       },
       {
         "precinct": "376",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 79
+      },
+      {
+        "precinct": "376",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 55
@@ -3207,6 +3579,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 102
+      },
+      {
+        "precinct": "377",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 55
       },
       {
         "precinct": "377",
@@ -3264,6 +3642,12 @@
       },
       {
         "precinct": "378",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 41
+      },
+      {
+        "precinct": "378",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 4
@@ -3303,6 +3687,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 171
+      },
+      {
+        "precinct": "380",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 122
       },
       {
         "precinct": "380",
@@ -3360,6 +3750,12 @@
       },
       {
         "precinct": "381",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 71
+      },
+      {
+        "precinct": "381",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 7
@@ -3405,6 +3801,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 164
+      },
+      {
+        "precinct": "382",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 78
       },
       {
         "precinct": "382",
@@ -3462,6 +3864,12 @@
       },
       {
         "precinct": "392",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 56
+      },
+      {
+        "precinct": "392",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 12
@@ -3510,6 +3918,12 @@
       },
       {
         "precinct": "394",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 123
+      },
+      {
+        "precinct": "394",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 11
@@ -3555,6 +3969,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 117
+      },
+      {
+        "precinct": "395",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 69
       },
       {
         "precinct": "395",
@@ -3612,6 +4032,12 @@
       },
       {
         "precinct": "398",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 12
+      },
+      {
+        "precinct": "398",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 2
@@ -3660,6 +4086,12 @@
       },
       {
         "precinct": "400",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 58
+      },
+      {
+        "precinct": "400",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 14
@@ -3692,10 +4124,10 @@
     "source_id": "travis",
     "source_url": "https://votetravis.gov/wp-content/uploads/G26-Voter-Rosters.zip",
     "source_signature": "1d1fd419e55a45ce593a4894f046d8f626fdd7135932cf2424deecc32e88a5cd",
-    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "partial",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (17 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -3704,21 +4136,22 @@
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "46053 repeated voter(s) counted once at their earliest daily report date.",
-      "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      "Folder import: 6 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   },
   "brazos": {
     "county": "Brazos",
-    "total": 18973,
+    "total": 23057,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 18973,
+    "latest_vote_date": "2026-10-24",
+    "unique_eligible_roster_records": 23057,
     "counts": [
       {
         "precinct": "1",
@@ -3743,6 +4176,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 117
+      },
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 57
       },
       {
         "precinct": "1",
@@ -3775,6 +4214,12 @@
         "count": 170
       },
       {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 192
+      },
+      {
         "precinct": "100",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -3799,6 +4244,12 @@
         "count": 78
       },
       {
+        "precinct": "100",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 98
+      },
+      {
         "precinct": "102",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -3821,6 +4272,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 32
+      },
+      {
+        "precinct": "102",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 43
       },
       {
         "precinct": "1023",
@@ -3853,6 +4310,12 @@
         "count": 39
       },
       {
+        "precinct": "103",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 20
+      },
+      {
         "precinct": "105",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -3875,6 +4338,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 1
+      },
+      {
+        "precinct": "105",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 4
       },
       {
         "precinct": "106",
@@ -3901,6 +4370,12 @@
         "count": 8
       },
       {
+        "precinct": "106",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 12
+      },
+      {
         "precinct": "107",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -3925,6 +4400,12 @@
         "count": 20
       },
       {
+        "precinct": "107",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 10
+      },
+      {
         "precinct": "11",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -3947,6 +4428,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 70
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 61
       },
       {
         "precinct": "115",
@@ -3973,6 +4460,18 @@
         "count": 61
       },
       {
+        "precinct": "115",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 33
+      },
+      {
+        "precinct": "118",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "12",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -3995,6 +4494,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 132
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 134
       },
       {
         "precinct": "13",
@@ -4021,6 +4526,12 @@
         "count": 57
       },
       {
+        "precinct": "13",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 70
+      },
+      {
         "precinct": "14",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4043,6 +4554,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 84
+      },
+      {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 112
       },
       {
         "precinct": "15",
@@ -4069,6 +4586,12 @@
         "count": 62
       },
       {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 67
+      },
+      {
         "precinct": "16",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4091,6 +4614,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 47
+      },
+      {
+        "precinct": "16",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 55
+      },
+      {
+        "precinct": "1601",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "17",
@@ -4117,6 +4652,18 @@
         "count": 89
       },
       {
+        "precinct": "17",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 103
+      },
+      {
+        "precinct": "178",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "18",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4139,6 +4686,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 8
+      },
+      {
+        "precinct": "18",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 26
+      },
+      {
+        "precinct": "180",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "2",
@@ -4165,6 +4724,12 @@
         "count": 76
       },
       {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 64
+      },
+      {
         "precinct": "20",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4187,6 +4752,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 199
+      },
+      {
+        "precinct": "20",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 88
       },
       {
         "precinct": "207",
@@ -4237,6 +4808,18 @@
         "count": 76
       },
       {
+        "precinct": "21",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 14
+      },
+      {
+        "precinct": "2107",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "2148",
         "mode": "in_person",
         "vote_date": "2026-10-21",
@@ -4258,6 +4841,12 @@
         "precinct": "221",
         "mode": "in_person",
         "vote_date": "2026-10-21",
+        "count": 1
+      },
+      {
+        "precinct": "225",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
         "count": 1
       },
       {
@@ -4291,6 +4880,24 @@
         "count": 61
       },
       {
+        "precinct": "24",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 59
+      },
+      {
+        "precinct": "250",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
+        "precinct": "255",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "26",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4313,6 +4920,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 177
+      },
+      {
+        "precinct": "26",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 157
       },
       {
         "precinct": "27",
@@ -4339,6 +4952,12 @@
         "count": 123
       },
       {
+        "precinct": "27",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 103
+      },
+      {
         "precinct": "28",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4361,6 +4980,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 53
+      },
+      {
+        "precinct": "28",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 43
       },
       {
         "precinct": "29",
@@ -4387,6 +5012,12 @@
         "count": 45
       },
       {
+        "precinct": "29",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 27
+      },
+      {
         "precinct": "3",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4409,6 +5040,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 39
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 12
       },
       {
         "precinct": "30",
@@ -4435,6 +5072,24 @@
         "count": 73
       },
       {
+        "precinct": "30",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 87
+      },
+      {
+        "precinct": "302",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
+        "precinct": "3072",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "31",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4459,9 +5114,27 @@
         "count": 89
       },
       {
+        "precinct": "31",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 103
+      },
+      {
+        "precinct": "3138",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "3140",
         "mode": "in_person",
         "vote_date": "2026-10-19",
+        "count": 1
+      },
+      {
+        "precinct": "3156",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
         "count": 1
       },
       {
@@ -4495,6 +5168,12 @@
         "count": 26
       },
       {
+        "precinct": "32",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 31
+      },
+      {
         "precinct": "33",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4517,6 +5196,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 116
+      },
+      {
+        "precinct": "33",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 41
+      },
+      {
+        "precinct": "3391",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "34",
@@ -4543,6 +5234,12 @@
         "count": 80
       },
       {
+        "precinct": "34",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 50
+      },
+      {
         "precinct": "35",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4565,6 +5262,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 176
+      },
+      {
+        "precinct": "35",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 42
+      },
+      {
+        "precinct": "3500",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "3510",
@@ -4597,6 +5306,12 @@
         "count": 143
       },
       {
+        "precinct": "36",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 108
+      },
+      {
         "precinct": "3606",
         "mode": "in_person",
         "vote_date": "2026-10-23",
@@ -4627,6 +5342,18 @@
         "count": 15
       },
       {
+        "precinct": "37",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 13
+      },
+      {
+        "precinct": "371",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "38",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4651,6 +5378,12 @@
         "count": 27
       },
       {
+        "precinct": "38",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 29
+      },
+      {
         "precinct": "39",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4673,6 +5406,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 63
+      },
+      {
+        "precinct": "39",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 58
       },
       {
         "precinct": "3982",
@@ -4705,6 +5444,12 @@
         "count": 108
       },
       {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 122
+      },
+      {
         "precinct": "40",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4727,6 +5472,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 206
+      },
+      {
+        "precinct": "40",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 179
+      },
+      {
+        "precinct": "402",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "403",
@@ -4765,6 +5522,18 @@
         "count": 113
       },
       {
+        "precinct": "41",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 81
+      },
+      {
+        "precinct": "4205",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "43",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4787,6 +5556,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 12
+      },
+      {
+        "precinct": "43",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 16
       },
       {
         "precinct": "44",
@@ -4813,6 +5588,12 @@
         "count": 10
       },
       {
+        "precinct": "44",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 8
+      },
+      {
         "precinct": "45",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4835,6 +5616,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 6
+      },
+      {
+        "precinct": "45",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 8
+      },
+      {
+        "precinct": "4631",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "4634",
@@ -4867,6 +5660,12 @@
         "count": 10
       },
       {
+        "precinct": "47",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 15
+      },
+      {
         "precinct": "48",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4889,6 +5688,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 11
+      },
+      {
+        "precinct": "48",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 3
       },
       {
         "precinct": "4833",
@@ -4921,6 +5726,12 @@
         "count": 16
       },
       {
+        "precinct": "49",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 5
+      },
+      {
         "precinct": "5",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4943,6 +5754,18 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 77
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 52
+      },
+      {
+        "precinct": "52",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "53",
@@ -4969,6 +5792,12 @@
         "count": 1
       },
       {
+        "precinct": "53",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 4
+      },
+      {
         "precinct": "54",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -4991,6 +5820,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 38
+      },
+      {
+        "precinct": "54",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 20
       },
       {
         "precinct": "55",
@@ -5017,6 +5852,12 @@
         "count": 92
       },
       {
+        "precinct": "55",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 48
+      },
+      {
         "precinct": "56",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5039,6 +5880,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 5
+      },
+      {
+        "precinct": "56",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 15
       },
       {
         "precinct": "57",
@@ -5065,6 +5912,12 @@
         "count": 4
       },
       {
+        "precinct": "57",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 7
+      },
+      {
         "precinct": "58",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5087,6 +5940,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 39
+      },
+      {
+        "precinct": "58",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 28
       },
       {
         "precinct": "6",
@@ -5113,6 +5972,12 @@
         "count": 44
       },
       {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 24
+      },
+      {
         "precinct": "60",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5135,6 +6000,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 7
+      },
+      {
+        "precinct": "60",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "61",
@@ -5182,6 +6053,12 @@
         "precinct": "62",
         "mode": "in_person",
         "vote_date": "2026-10-23",
+        "count": 22
+      },
+      {
+        "precinct": "62",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
         "count": 22
       },
       {
@@ -5209,6 +6086,12 @@
         "count": 122
       },
       {
+        "precinct": "63",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 83
+      },
+      {
         "precinct": "64",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5233,6 +6116,12 @@
         "count": 190
       },
       {
+        "precinct": "64",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 145
+      },
+      {
         "precinct": "66",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5255,6 +6144,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 42
+      },
+      {
+        "precinct": "66",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 43
       },
       {
         "precinct": "668",
@@ -5287,6 +6182,12 @@
         "count": 206
       },
       {
+        "precinct": "69",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 170
+      },
+      {
         "precinct": "7",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5309,6 +6210,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 58
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 37
       },
       {
         "precinct": "70",
@@ -5335,6 +6242,18 @@
         "count": 95
       },
       {
+        "precinct": "70",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 73
+      },
+      {
+        "precinct": "71",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "72",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5356,6 +6275,12 @@
         "precinct": "72",
         "mode": "in_person",
         "vote_date": "2026-10-23",
+        "count": 6
+      },
+      {
+        "precinct": "72",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
         "count": 6
       },
       {
@@ -5383,6 +6308,12 @@
         "count": 133
       },
       {
+        "precinct": "73",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 96
+      },
+      {
         "precinct": "75",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5405,6 +6336,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 82
+      },
+      {
+        "precinct": "75",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 46
       },
       {
         "precinct": "76",
@@ -5431,6 +6368,12 @@
         "count": 122
       },
       {
+        "precinct": "76",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 116
+      },
+      {
         "precinct": "77",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5453,6 +6396,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 13
+      },
+      {
+        "precinct": "77",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 17
       },
       {
         "precinct": "78",
@@ -5479,6 +6428,12 @@
         "count": 16
       },
       {
+        "precinct": "78",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 6
+      },
+      {
         "precinct": "8",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5501,6 +6456,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 52
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 28
       },
       {
         "precinct": "80",
@@ -5527,6 +6488,12 @@
         "count": 162
       },
       {
+        "precinct": "80",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 172
+      },
+      {
         "precinct": "82",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5551,10 +6518,22 @@
         "count": 21
       },
       {
+        "precinct": "82",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 11
+      },
+      {
         "precinct": "83",
         "mode": "in_person",
         "vote_date": "2026-10-19",
         "count": 2
+      },
+      {
+        "precinct": "84",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "88",
@@ -5581,6 +6560,12 @@
         "count": 114
       },
       {
+        "precinct": "88",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 102
+      },
+      {
         "precinct": "9",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5605,6 +6590,12 @@
         "count": 37
       },
       {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 28
+      },
+      {
         "precinct": "94",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5614,10 +6605,10 @@
     "source_id": "brazos",
     "source_url": "https://elections.brazoscountytx.gov/roster/",
     "source_signature": "6679425cad36ad3e5c72406d2f20ab8cc58e6445c4b09c0c56fc5e22a1320511",
-    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (1 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -5626,21 +6617,22 @@
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "4564 repeated voter(s) counted once at their earliest daily report date.",
-      "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      "Folder import: 6 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   },
   "grimes": {
     "county": "Grimes",
-    "total": 2216,
+    "total": 2238,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 2216,
+    "unique_eligible_roster_records": 2238,
     "counts": [
       {
         "precinct": "1",
@@ -5664,7 +6656,7 @@
         "precinct": "1",
         "mode": "in_person",
         "vote_date": "2026-10-24",
-        "count": 1
+        "count": 7
       },
       {
         "precinct": "1",
@@ -5754,7 +6746,7 @@
         "precinct": "14",
         "mode": "in_person",
         "vote_date": "2026-10-24",
-        "count": 1
+        "count": 3
       },
       {
         "precinct": "15",
@@ -5781,6 +6773,12 @@
         "count": 22
       },
       {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 4
+      },
+      {
         "precinct": "2",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5797,6 +6795,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 30
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "3",
@@ -5821,6 +6825,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 69
+      },
+      {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "3",
@@ -5863,6 +6873,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 48
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 2
       },
       {
         "precinct": "44",
@@ -5919,6 +6935,12 @@
         "count": 60
       },
       {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 2
+      },
+      {
         "precinct": "7",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5935,6 +6957,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 24
+      },
+      {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 2
       },
       {
         "precinct": "7",
@@ -5961,6 +6989,12 @@
         "count": 28
       },
       {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "9",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -5977,15 +7011,21 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 8
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       }
     ],
     "source_id": "grimes",
     "source_url": "https://grimescountytexas.gov/index.asp?SEC=%7B9C5A9278-6517-495F-A6A0-6E7B8EAED779%7D",
     "source_signature": "b18f4ffc18406b1af2b7b49dd334025080ff84c639de0ec44bb3f1a03dd02dd2",
-    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -6333,10 +7373,10 @@
     "source_id": "burleson",
     "source_url": "https://www.burlesoncountytx.gov/page/gov.elections.earlyvoting",
     "source_signature": "e0f52c0d27c1395cd2cbb1a409803d787308d40b03f252baab2befe385b6c054",
-    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -6353,14 +7393,14 @@
   },
   "folder_bastrop": {
     "county": "Bastrop",
-    "total": 203,
-    "unknown_district": 5,
-    "provisional_assigned": 203,
-    "outside_district": 10378,
+    "total": 224,
+    "unknown_district": 6,
+    "provisional_assigned": 224,
+    "outside_district": 12262,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 10586,
+    "latest_vote_date": "2026-10-24",
+    "unique_eligible_roster_records": 12492,
     "counts": [
       {
         "precinct": "4024",
@@ -6385,15 +7425,21 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 44
+      },
+      {
+        "precinct": "4024",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 21
       }
     ],
     "source_id": "folder_bastrop",
     "source_url": "",
     "source_signature": "92c5b7a56bc375c64edf64091bcabd680996e78e3a735912b1b6af72fcba17e1",
-    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "8f84c6f33941029558602dbc155042d3256d289fe8776c4526255843a12d259b",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "partial",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -6403,8 +7449,9 @@
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "3143 repeated voter(s) counted once at their earliest daily report date.",
-      "Folder import: 6 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      "Folder import: 7 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   },
@@ -6994,8 +8041,8 @@
     "source_url": "",
     "source_signature": "3a86571c1868ac4d64092879709fab06ef00bc15c7e48b6d2b8dd35d1f7b72d5",
     "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
     "changed_at": "2026-10-25T00:55:22.491727+00:00",
     "status": "ok",
     "ingestion_notes": [
@@ -7012,14 +8059,14 @@
   },
   "folder_lee": {
     "county": "Lee",
-    "total": 1636,
+    "total": 1965,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 1636,
+    "latest_vote_date": "2026-10-24",
+    "unique_eligible_roster_records": 1965,
     "counts": [
       {
         "precinct": "101",
@@ -7041,9 +8088,21 @@
       },
       {
         "precinct": "101",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 60
+      },
+      {
+        "precinct": "101",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 21
+      },
+      {
+        "precinct": "101",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "102",
@@ -7062,6 +8121,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 13
+      },
+      {
+        "precinct": "102",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 8
       },
       {
         "precinct": "102",
@@ -7089,9 +8154,21 @@
       },
       {
         "precinct": "103",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 3
+      },
+      {
+        "precinct": "103",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 5
+      },
+      {
+        "precinct": "103",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "201",
@@ -7110,6 +8187,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 23
+      },
+      {
+        "precinct": "201",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 8
       },
       {
         "precinct": "201",
@@ -7137,9 +8220,21 @@
       },
       {
         "precinct": "202",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 61
+      },
+      {
+        "precinct": "202",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 24
+      },
+      {
+        "precinct": "202",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "203",
@@ -7158,6 +8253,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 16
+      },
+      {
+        "precinct": "203",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 15
       },
       {
         "precinct": "203",
@@ -7184,6 +8285,12 @@
         "count": 4
       },
       {
+        "precinct": "301",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 3
+      },
+      {
         "precinct": "302",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -7200,6 +8307,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 61
+      },
+      {
+        "precinct": "302",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 25
       },
       {
         "precinct": "302",
@@ -7233,9 +8346,21 @@
       },
       {
         "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 41
+      },
+      {
+        "precinct": "303",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 19
+      },
+      {
+        "precinct": "303",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 3
       },
       {
         "precinct": "304",
@@ -7257,9 +8382,21 @@
       },
       {
         "precinct": "304",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 11
+      },
+      {
+        "precinct": "304",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 6
+      },
+      {
+        "precinct": "304",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "401",
@@ -7287,9 +8424,21 @@
       },
       {
         "precinct": "401",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 20
+      },
+      {
+        "precinct": "401",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 10
+      },
+      {
+        "precinct": "401",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 3
       },
       {
         "precinct": "402",
@@ -7307,6 +8456,12 @@
         "precinct": "402",
         "mode": "in_person",
         "vote_date": "2026-10-23",
+        "count": 7
+      },
+      {
+        "precinct": "402",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
         "count": 7
       },
       {
@@ -7335,6 +8490,12 @@
       },
       {
         "precinct": "403",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 9
+      },
+      {
+        "precinct": "403",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 8
@@ -7359,9 +8520,21 @@
       },
       {
         "precinct": "404",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 25
+      },
+      {
+        "precinct": "404",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 7
+      },
+      {
+        "precinct": "404",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "405",
@@ -7389,6 +8562,12 @@
       },
       {
         "precinct": "405",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 22
+      },
+      {
+        "precinct": "405",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 7
@@ -7397,10 +8576,10 @@
     "source_id": "folder_lee",
     "source_url": "",
     "source_signature": "7dbec08d35cdb2838f035484539fd29584c99d80a6fbc977e482ba27868eee71",
-    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -7409,21 +8588,22 @@
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "577 repeated voter(s) counted once at their earliest daily report date.",
-      "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      "Folder import: 6 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   },
   "folder_leon": {
     "county": "Leon",
-    "total": 1748,
+    "total": 1924,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 1748,
+    "unique_eligible_roster_records": 1924,
     "counts": [
       {
         "precinct": "1",
@@ -7448,6 +8628,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 65
+      },
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 25
       },
       {
         "precinct": "1",
@@ -7493,6 +8679,12 @@
       },
       {
         "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 19
+      },
+      {
+        "precinct": "10",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 1
@@ -7528,6 +8720,12 @@
         "count": 26
       },
       {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 12
+      },
+      {
         "precinct": "12",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -7550,6 +8748,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 27
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 10
       },
       {
         "precinct": "12",
@@ -7583,6 +8787,12 @@
       },
       {
         "precinct": "13",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 19
+      },
+      {
+        "precinct": "13",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 2
@@ -7612,6 +8822,12 @@
         "count": 19
       },
       {
+        "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 3
+      },
+      {
         "precinct": "2",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -7634,6 +8850,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 11
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 7
       },
       {
         "precinct": "3",
@@ -7660,6 +8882,12 @@
         "count": 24
       },
       {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 11
+      },
+      {
         "precinct": "4",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -7684,6 +8912,12 @@
         "count": 23
       },
       {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 9
+      },
+      {
         "precinct": "5",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -7706,6 +8940,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 19
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 14
       },
       {
         "precinct": "5",
@@ -7742,6 +8982,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 29
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 5
       },
       {
         "precinct": "6",
@@ -7781,6 +9027,12 @@
       },
       {
         "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 8
+      },
+      {
+        "precinct": "7",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 3
@@ -7808,6 +9060,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 40
+      },
+      {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 24
       },
       {
         "precinct": "8",
@@ -7841,6 +9099,12 @@
       },
       {
         "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 10
+      },
+      {
+        "precinct": "9",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 1
@@ -7849,10 +9113,10 @@
     "source_id": "folder_leon",
     "source_url": "",
     "source_signature": "f5dfb1e501e007e4d34dde90d40f7e18f938fd998fe8987ceb1ec8fe387ca9fd",
-    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -7869,14 +9133,14 @@
   },
   "folder_madison": {
     "county": "Madison",
-    "total": 1090,
+    "total": 1209,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 1090,
+    "latest_vote_date": "2026-10-24",
+    "unique_eligible_roster_records": 1209,
     "counts": [
       {
         "precinct": "101",
@@ -7901,6 +9165,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 53
+      },
+      {
+        "precinct": "101",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 25
       },
       {
         "precinct": "101",
@@ -7933,6 +9203,12 @@
         "count": 72
       },
       {
+        "precinct": "202",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 30
+      },
+      {
         "precinct": "303",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -7955,6 +9231,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 82
+      },
+      {
+        "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 29
       },
       {
         "precinct": "303",
@@ -7985,15 +9267,21 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 55
+      },
+      {
+        "precinct": "404",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 35
       }
     ],
     "source_id": "folder_madison",
     "source_url": "",
     "source_signature": "88d2574e3a9c4cd7439f47c151b0e66b76df0f2bf91f3255d99d8fb068e7e684",
-    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -8002,21 +9290,22 @@
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "329 repeated voter(s) counted once at their earliest daily report date.",
-      "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      "Folder import: 6 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   },
   "folder_polk": {
     "county": "Polk",
-    "total": 5199,
+    "total": 5200,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 5199,
+    "unique_eligible_roster_records": 5200,
     "counts": [
       {
         "precinct": "1",
@@ -8662,6 +9951,12 @@
       },
       {
         "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
+        "precinct": "6",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 2
@@ -8772,10 +10067,10 @@
     "source_id": "folder_polk",
     "source_url": "",
     "source_signature": "51d770eb70783cc35a5984cec8a92259edf1b046857b6d85195e2965137dcc26",
-    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -8792,14 +10087,14 @@
   },
   "folder_san-jacinto": {
     "county": "San Jacinto",
-    "total": 2716,
+    "total": 3142,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 2716,
+    "unique_eligible_roster_records": 3142,
     "counts": [
       {
         "precinct": "",
@@ -8830,6 +10125,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 145
+      },
+      {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 86
       },
       {
         "precinct": "1",
@@ -8869,6 +10170,12 @@
       },
       {
         "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 20
+      },
+      {
+        "precinct": "10",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 2
@@ -8896,6 +10203,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 22
+      },
+      {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 20
       },
       {
         "precinct": "11",
@@ -8935,6 +10248,12 @@
       },
       {
         "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 80
+      },
+      {
+        "precinct": "2",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 2
@@ -8943,7 +10262,7 @@
         "precinct": "2",
         "mode": "mail",
         "vote_date": "2026-10-24",
-        "count": 1
+        "count": 3
       },
       {
         "precinct": "3",
@@ -8970,6 +10289,18 @@
         "count": 37
       },
       {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 31
+      },
+      {
+        "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "4",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -8994,6 +10325,12 @@
         "count": 17
       },
       {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 10
+      },
+      {
         "precinct": "5",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9016,6 +10353,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 63
+      },
+      {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 51
       },
       {
         "precinct": "5",
@@ -9049,6 +10392,12 @@
       },
       {
         "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 59
+      },
+      {
+        "precinct": "6",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 6
@@ -9079,6 +10428,12 @@
       },
       {
         "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 37
+      },
+      {
+        "precinct": "7",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 3
@@ -9087,7 +10442,7 @@
         "precinct": "7",
         "mode": "mail",
         "vote_date": "2026-10-24",
-        "count": 4
+        "count": 5
       },
       {
         "precinct": "8",
@@ -9115,6 +10470,12 @@
       },
       {
         "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 17
+      },
+      {
+        "precinct": "8",
         "mode": "mail",
         "vote_date": "2026-10-23",
         "count": 2
@@ -9123,7 +10484,7 @@
         "precinct": "8",
         "mode": "mail",
         "vote_date": "2026-10-24",
-        "count": 2
+        "count": 4
       },
       {
         "precinct": "9",
@@ -9148,15 +10509,27 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 23
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 8
+      },
+      {
+        "precinct": "9",
+        "mode": "mail",
+        "vote_date": "2026-10-24",
+        "count": 1
       }
     ],
     "source_id": "folder_san-jacinto",
     "source_url": "",
     "source_signature": "c0aa41b0b1cb1b3bbe8f59c5c21b6241548f700dedc78a89d6f0436032064fc9",
-    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -9173,14 +10546,14 @@
   },
   "folder_trinity": {
     "county": "Trinity",
-    "total": 1746,
+    "total": 1987,
     "unknown_district": 0,
     "provisional_assigned": 0,
     "outside_district": 0,
     "excluded_period": 0,
     "undated": 0,
-    "latest_vote_date": "2026-10-23",
-    "unique_eligible_roster_records": 1746,
+    "latest_vote_date": "2026-10-24",
+    "unique_eligible_roster_records": 1987,
     "counts": [
       {
         "precinct": "1",
@@ -9207,6 +10580,12 @@
         "count": 20
       },
       {
+        "precinct": "1",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 11
+      },
+      {
         "precinct": "10",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9229,6 +10608,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 13
+      },
+      {
+        "precinct": "10",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 7
       },
       {
         "precinct": "11",
@@ -9255,6 +10640,12 @@
         "count": 46
       },
       {
+        "precinct": "11",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 48
+      },
+      {
         "precinct": "12",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9277,6 +10668,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 3
+      },
+      {
+        "precinct": "12",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 7
       },
       {
         "precinct": "14",
@@ -9304,6 +10701,12 @@
       },
       {
         "precinct": "14",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 13
+      },
+      {
+        "precinct": "14",
         "mode": "mail",
         "vote_date": "2026-10-19",
         "count": 1
@@ -9339,6 +10742,12 @@
         "count": 6
       },
       {
+        "precinct": "15",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 2
+      },
+      {
         "precinct": "16",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9361,6 +10770,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 13
+      },
+      {
+        "precinct": "16",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 16
       },
       {
         "precinct": "17",
@@ -9387,6 +10802,12 @@
         "count": 8
       },
       {
+        "precinct": "17",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 15
+      },
+      {
         "precinct": "18",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9409,6 +10830,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 2
+      },
+      {
+        "precinct": "18",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
       },
       {
         "precinct": "19",
@@ -9435,6 +10862,12 @@
         "count": 58
       },
       {
+        "precinct": "19",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 33
+      },
+      {
         "precinct": "2",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9457,6 +10890,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 35
+      },
+      {
+        "precinct": "2",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 15
       },
       {
         "precinct": "20",
@@ -9483,6 +10922,12 @@
         "count": 3
       },
       {
+        "precinct": "20",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "21",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9505,6 +10950,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 13
+      },
+      {
+        "precinct": "21",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 4
       },
       {
         "precinct": "3",
@@ -9531,6 +10982,18 @@
         "count": 18
       },
       {
+        "precinct": "3",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 12
+      },
+      {
+        "precinct": "3038",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 1
+      },
+      {
         "precinct": "4",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9553,6 +11016,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 13
+      },
+      {
+        "precinct": "4",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 5
       },
       {
         "precinct": "5",
@@ -9579,6 +11048,12 @@
         "count": 12
       },
       {
+        "precinct": "5",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 9
+      },
+      {
         "precinct": "6",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9601,6 +11076,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 8
+      },
+      {
+        "precinct": "6",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 6
       },
       {
         "precinct": "7",
@@ -9627,6 +11108,12 @@
         "count": 14
       },
       {
+        "precinct": "7",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 2
+      },
+      {
         "precinct": "8",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9651,6 +11138,12 @@
         "count": 13
       },
       {
+        "precinct": "8",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 17
+      },
+      {
         "precinct": "9",
         "mode": "in_person",
         "vote_date": "2026-10-19",
@@ -9673,15 +11166,21 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 21
+      },
+      {
+        "precinct": "9",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 16
       }
     ],
     "source_id": "folder_trinity",
     "source_url": "",
     "source_signature": "e063a83a634d89203bf09122bef7f17897ca9f4cdabedf44730150851db9b8cf",
-    "fingerprint": "26b11d8275b49be2099f1847e2eabf1d77cec4dc430ab8a01d30453ca14cd409",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "ok",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
@@ -9690,21 +11189,22 @@
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
+      "SOS statewide roster: county read from COUNTY; dates are report/observation dates, not verified individual vote dates. Repeated observations are deduplicated by state voter ID. MAIL-IN is reported mail voting participation, not a ballot application.",
       "584 repeated voter(s) counted once at their earliest daily report date.",
-      "Folder import: 5 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
+      "Folder import: 6 selected file(s); latest cumulative/archive snapshots replace older snapshots and earlier daily files."
     ],
     "error": null
   },
   "folder_walker": {
     "county": "Walker",
-    "total": 4470,
-    "unknown_district": 4,
-    "provisional_assigned": 4470,
-    "outside_district": 1766,
+    "total": 5145,
+    "unknown_district": 5,
+    "provisional_assigned": 5145,
+    "outside_district": 2115,
     "excluded_period": 0,
     "undated": 0,
     "latest_vote_date": "2026-10-24",
-    "unique_eligible_roster_records": 6240,
+    "unique_eligible_roster_records": 7265,
     "counts": [
       {
         "precinct": "101",
@@ -9729,6 +11229,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 28
+      },
+      {
+        "precinct": "101",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 18
       },
       {
         "precinct": "101",
@@ -9762,6 +11268,12 @@
       },
       {
         "precinct": "102",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 119
+      },
+      {
+        "precinct": "102",
         "mode": "mail",
         "vote_date": "2026-10-24",
         "count": 2
@@ -9789,6 +11301,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 66
+      },
+      {
+        "precinct": "103",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 65
       },
       {
         "precinct": "103",
@@ -9822,6 +11340,12 @@
       },
       {
         "precinct": "104",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 66
+      },
+      {
+        "precinct": "104",
         "mode": "mail",
         "vote_date": "2026-10-24",
         "count": 2
@@ -9852,6 +11376,12 @@
       },
       {
         "precinct": "201",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 36
+      },
+      {
+        "precinct": "201",
         "mode": "mail",
         "vote_date": "2026-10-24",
         "count": 1
@@ -9879,6 +11409,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 168
+      },
+      {
+        "precinct": "203",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 98
       },
       {
         "precinct": "203",
@@ -9918,6 +11454,12 @@
       },
       {
         "precinct": "204",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 25
+      },
+      {
+        "precinct": "204",
         "mode": "mail",
         "vote_date": "2026-10-24",
         "count": 3
@@ -9945,6 +11487,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 162
+      },
+      {
+        "precinct": "205",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 80
       },
       {
         "precinct": "205",
@@ -9978,6 +11526,12 @@
       },
       {
         "precinct": "206",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 45
+      },
+      {
+        "precinct": "206",
         "mode": "mail",
         "vote_date": "2026-10-24",
         "count": 3
@@ -10005,6 +11559,12 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 24
+      },
+      {
+        "precinct": "303",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 26
       },
       {
         "precinct": "303",
@@ -10038,6 +11598,12 @@
       },
       {
         "precinct": "304",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 94
+      },
+      {
+        "precinct": "304",
         "mode": "mail",
         "vote_date": "2026-10-24",
         "count": 8
@@ -10065,15 +11631,21 @@
         "mode": "in_person",
         "vote_date": "2026-10-23",
         "count": 3
+      },
+      {
+        "precinct": "406",
+        "mode": "in_person",
+        "vote_date": "2026-10-24",
+        "count": 3
       }
     ],
     "source_id": "folder_walker",
     "source_url": "",
     "source_signature": "12e77ead00161571c1bbef834e48c68b516c8a8e4a0124e0cafb91178e8829c2",
-    "fingerprint": "97aa53613aa1e48046f3b1c1dea21fd22ea4c101f05bb9c13b37161a9dfd7caa",
-    "fetched_at": "2026-10-25T03:30:02.352663+00:00",
-    "checked_at": "2026-10-25T03:30:02.352663+00:00",
-    "changed_at": "2026-10-25T00:55:22.491727+00:00",
+    "fingerprint": "f87de38e751e0a2fd7c5e31dac617a087d18b349be56bedcd4db51c2b56d48ac",
+    "fetched_at": "2026-10-25T23:38:44.145233+00:00",
+    "checked_at": "2026-10-25T23:38:44.145233+00:00",
+    "changed_at": "2026-10-25T23:38:44.145233+00:00",
     "status": "partial",
     "ingestion_notes": [
       "SOS statewide-first mode: county-specific rosters are ignored for this county (0 file(s)). Counties without statewide records retain their county-file fallback. Score files remain separate.",
